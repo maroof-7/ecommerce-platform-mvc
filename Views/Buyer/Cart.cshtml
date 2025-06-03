@@ -1,0 +1,129 @@
+﻿@{
+  ViewData["Title"] = "Cart";
+}
+
+@model DummyProject.Models.ViewModel.HybridViewModel;
+<link rel="stylesheet" href="~/css/cart.css" asp-append-version="true" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<main class="hero-container">
+  <div class="hero-content">
+    <h1 class="hero-title">Hey Dear Happy To See You Here! <span class="wave">👋</span></h1>
+    <p class="hero-subtitle">We're thrilled to have you here. Your trust and support mean the world to us.</p>
+    <p class="hero-text">Here's what you can do today:</p>
+    <ul class="hero-features">
+      <li><i class="fas fa-shopping-bag"></i> Explore our latest collection of high-quality products.</li>
+      <li><i class="fas fa-fire"></i> Discover exclusive deals and discounts just for you.</li>
+      <li><i class="fas fa-truck"></i> Enjoy fast and reliable shipping on all orders.</li>
+      <li><i class="fas fa-comments"></i> Reach out to our support team for any assistance you need.</li>
+    </ul>
+    <p class="hero-cta-text">Remember, every purchase you make brings you one step closer to finding your perfect match.
+      Happy shopping!</p>
+  </div>
+</main>
+
+<div class="container">
+  <div class="row mb-5">
+    <form class="col-md-12" method="post">
+      <div class="cart-table-container">
+        @if (Model?.CartProducts != null && Model.CartProducts.Any())
+        {
+          <table id="my-table" class="cart-table">
+            <thead>
+              <tr>
+                <th>Image</th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              @foreach (var cartProduct in Model.CartProducts)
+              {
+                <tr>
+                  <td class="product-thumbnail">
+                    <img src="@cartProduct?.Product?.ProductPicURl" alt="@cartProduct?.Product?.ProductTitle"
+                      class="img-fluid product-image">
+                  </td>
+                  <td class="product-name">
+                    <h2>@cartProduct?.Product?.ProductTitle</h2>
+                  </td>
+                  <td class="product-price">$ @cartProduct?.Product?.Price</td>
+                  <td>
+                    <div class="quantity-container">
+                      <button class="btn btn-outline-primary decrease" type="button"><i class="fas fa-minus"></i></button>
+                      <input type="text" class="quantity-amount" value="@cartProduct?.Quantity">
+                      <button class="btn btn-outline-primary increase" type="button"><i class="fas fa-plus"></i></button>
+                    </div>
+                  </td>
+                  <td class="product-total">$ @(cartProduct?.Quantity * cartProduct?.Product?.Price)</td>
+                  <td class="product-actions">
+                    <button class="btn btn-danger btn-sm remove-btn">
+                      <i class="fas fa-trash-alt"></i> Remove
+                    </button>
+                  </td>
+                </tr>
+              }
+            </tbody>
+          </table>
+        }
+        else
+        {
+          <div class="empty-cart">
+            <i class="fas fa-shopping-cart fa-3x"></i>
+            <p>@(ViewBag.cartEmpty ?? "Your cart is empty.")</p>
+            <a class="btn btn-primary" asp-controller="Home" asp-action="Index">
+              <i class="fas fa-arrow-left"></i> Continue Shopping
+            </a>
+          </div>
+        }
+      </div>
+    </form>
+  </div>
+
+  <div class="row cart-footer">
+    <div class="col-md-6">
+      <div class="coupon-section">
+        <h3><i class="fas fa-tag"></i> Coupon Code</h3>
+        <p>Enter your coupon code if you have one.</p>
+        <div class="coupon-input-group">
+          <input type="text" class="form-control" id="coupon" placeholder="Coupon Code">
+          <button class="btn btn-primary">
+            <i class="fas fa-check"></i> Apply
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="cart-totals">
+        <div class="totals-header">
+          <h3><i class="fas fa-receipt"></i> Cart Totals</h3>
+        </div>
+
+        <div class="totals-row">
+          <span>Subtotal</span>
+          <strong>$ @(Model?.Cart?.CartValue ?? 0)</strong>
+        </div>
+
+        <div class="totals-row">
+          <span>Discount</span>
+          <strong>$ 0</strong>
+        </div>
+
+        <div class="totals-row grand-total">
+          <span>Total</span>
+          <strong>$ @(Model?.Cart?.CartValue ?? 0)</strong>
+        </div>
+
+        <a class="btn btn-primary btn-lg checkout-btn" asp-controller="Buyer" asp-action="CheckOut"
+          asp-route-CartId="@Model?.Cart?.CartId">
+          <i class="fas fa-credit-card"></i> Proceed To Checkout
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

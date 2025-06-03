@@ -1,0 +1,116 @@
+﻿@model DummyProject.Models.ViewModel.HybridViewModel
+
+<link rel="stylesheet" href="~/css/Myproducts.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<main class="hero-container">
+    <div class="hero-content">
+        <h1 class="hero-title">Your Listing</h1>
+        <p class="hero-subtitle">Stay on Top of Your Listings</p>
+        <ul class="hero-features">
+            <li>We're thrilled to have you here.</li>
+            <li>Your trust and support mean the world to us.</li>
+            <li>We're committed to providing you with the best products and service.</li>
+            <li>You're more than a customer – you're family!</li>
+            <li>Happy shopping from our family to yours!</li>
+        </ul>
+        <p class="hero-cta-text">Keep up the great work – we're here to support you every step of the way!</p>
+    </div>
+</main>
+
+<div class="container">
+    <!-- Navigation Links -->
+    <div class="product-nav mb-4">
+        <a class="btn btn-primary" asp-controller="Admin" asp-action="MyProducts">Active Products</a>
+        <a class="btn btn-warning" asp-controller="Admin" asp-action="MyArchive">Archived Products</a>
+        <a class="btn btn-danger" asp-controller="Admin" asp-action="DeletedProducts">Deleted Products</a>
+        <a class="btn btn-success" asp-controller="Admin" asp-action="FeaturedProducts">Featured Products</a>
+    </div>
+
+    <div class="table-responsive ">
+        <table id="my-table" class="table">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Product Title</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>SubCategory</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Hash Tags</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Products != null && Model.Products.Any())
+                {
+                    foreach (var product in Model.Products)
+                    {
+                        <tr>
+                            <td class="product-image">
+                                <img src="@(product.ProductPicURl ?? "/images/fallback-image.png")" 
+                                     alt="@product.ProductTitle"
+                                     class="img-thumbnail">
+                            </td>
+                            <td>@product.ProductTitle</td>
+                            <td class="product-description">@product.Description</td>
+                            <td>@product.Category</td>
+                            <td>@product.SubCategory</td>
+                            <td class="product-price">@product.Price.ToString("C")</td>
+                            <td>@product.Qty</td>
+                            <td class="product-tags">@product.HashTags</td>
+                            <td class="product-actions">
+                                <!-- Edit Button -->
+                                <a class="btn btn-primary btn-sm action-btn" 
+                                   href="/seller/edit/@product.ProductId">
+                                   <i class="fas fa-edit"></i> Edit
+                                </a>
+
+                                <!-- Archive/Unarchive Buttons -->
+                                @if (!product.IsArchived && !product.IsDeleted)
+                                {
+                                    <form asp-controller="Admin" asp-action="ArchiveProduct" method="post" class="d-inline">
+                                        <input type="hidden" name="id" value="@product.ProductId" />
+                                        <button type="submit" class="btn btn-warning btn-sm action-btn">
+                                            <i class="fas fa-archive"></i> Archive
+                                        </button>
+                                    </form>
+                                }
+
+                                <!-- Featured/Unfeatured Buttons -->
+                                @if (!product.IsFeatured && !product.IsDeleted)
+                                {
+                                    <form asp-controller="Admin" asp-action="MarkAsFeatured" method="post" class="d-inline">
+                                        <input type="hidden" name="id" value="@product.ProductId" />
+                                        <button type="submit" class="btn btn-success btn-sm action-btn">
+                                            <i class="fas fa-star"></i> Feature
+                                        </button>
+                                    </form>
+                                }
+                                else if (product.IsFeatured && !product.IsDeleted)
+                                {
+                                    <form asp-controller="Admin" asp-action="UnmarkAsFeatured" method="post" class="d-inline">
+                                        <input type="hidden" name="id" value="@product.ProductId" />
+                                        <button type="submit" class="btn btn-info btn-sm action-btn">
+                                            <i class="fas fa-star-half-alt"></i> Unfeature
+                                        </button>
+                                    </form>
+                                }
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="9" class="text-center no-products">
+                            <i class="fas fa-box-open fa-2x"></i>
+                            <p>No products found. Add your first product to get started!</p>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,239 @@
+:root {
+    --primary: #3a86ff;
+    --primary-hover: #2667cc;
+    --text: #f0f0f0;
+    --text-secondary: #aaaaaa;
+    --bg: #000000;
+    --bg-secondary: #1a1a1a;
+    --bg-tertiary: #2f2a2a;
+    --border: #444444;
+    --glow: rgba(255, 255, 255, 0.2);
+    --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Seller Greeting Section */
+.seller-greeting {
+    width: 100%;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("/bg.jpg") center/cover no-repeat;
+    padding: 4rem 4.5rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 20px var(--glow);
+    margin-bottom: 2rem;
+}
+
+.seller-greeting::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--primary), transparent);
+    opacity: 0.3;
+}
+
+.seller-greeting h1 {
+    color: var(--text-secondary);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.seller-greeting h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: var(--primary);
+    border-radius: 3px;
+}
+
+.seller-greeting .lead {
+    font-size: 1.25rem;
+    color: var(--text);
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.seller-greeting ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+
+.seller-greeting ul li {
+    font-size: 1rem;
+    color: var(--text);
+    margin-bottom: 0.8rem;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.seller-greeting ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.seller-greeting p {
+    font-size: 1rem;
+    color: var(--primary);
+    margin-top: 1.5rem;
+}
+
+/* Form Container */
+.container {
+    background-color: var(--bg);
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px var(--glow);
+    max-width: 600px;
+    width: 90%;
+    margin: 2rem auto;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+h2 {
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: var(--primary);
+}
+
+/* Form Elements */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="url"] {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: var(--bg-secondary);
+    color: var(--text);
+    transition: var(--transition);
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="url"]:focus {
+    border-color: var(--primary);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(58, 134, 255, 0.2);
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-top: 1rem;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(58, 134, 255, 0.3);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .seller-greeting {
+        padding: 3rem 2rem;
+    }
+
+    .seller-greeting h1 {
+        font-size: 2rem;
+    }
+
+    .seller-greeting .lead {
+        font-size: 1.1rem;
+    }
+
+    .container {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .seller-greeting {
+        padding: 2rem 1.5rem;
+    }
+
+    .seller-greeting h1 {
+        font-size: 1.8rem;
+    }
+
+    .seller-greeting ul li {
+        font-size: 0.9rem;
+        padding-left: 1.5rem;
+    }
+
+    .container {
+        padding: 1.5rem;
+        width: 95%;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="url"] {
+        padding: 0.7rem;
+        font-size: 0.9rem;
+    }
+
+    button[type="submit"] {
+        padding: 0.7rem;
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,106 @@
+﻿@model DummyProject.Models.ViewModel.HybridViewModel
+
+@{
+    ViewData["Title"] = "Featured Products";
+}
+
+<link rel="stylesheet" href="~/css/Myproducts.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/featuredproducts.css" asp-append-version="true" />
+
+
+<main class="Customer-greeting">
+    <h1>Your Listing</h1>
+    <p>Stay on Top of Your Listings</p>
+    <ul>
+        <li>We're thrilled to have you here.</li>
+        <li>Your trust and support mean the world to us.</li>
+        <li>We're committed to providing you with the best products and service.</li>
+        <li>You're more than a customer – you're family!</li>
+        <li>Happy shopping from our family to yours!</li>
+    </ul>
+    <p>Keep up the great work – we're here to support you every step of the way!</p>
+</main>
+
+<div class="container">
+    <!-- Navigation Links for Active, Archived, Deleted, and Featured Products -->
+    <div class="nav-buttons">
+        <a class="btn btn-primary" asp-controller="Admin" asp-action="MyProducts">Active Products</a>
+        <a class="btn btn-warning" asp-controller="Admin" asp-action="MyArchive">Archived Products</a>
+        <a class="btn btn-danger" asp-controller="Admin" asp-action="DeletedProducts">Deleted Products</a>
+        <a class="btn btn-success" asp-controller="Admin" asp-action="FeaturedProducts">Featured Products</a>
+    </div>
+
+    <!-- Featured Products Table -->
+    <div class="table-responsive">
+        <h2 class="text-center mb-4" style="color: var(--primary);"></h2>
+        <table id="my-table" class="table-dark">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Product Title</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>SubCategory</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Hash Tags</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Products != null && Model.Products.Any())
+                {
+                    foreach (var product in Model.Products)
+                    {
+                        <tr>
+                            <td class="product-image">
+                                <img src="@(product.ProductPicURl ?? "/images/fallback-image.png")" alt="@product.ProductTitle"
+                                    class="img-fluid">
+                            </td>
+                            <td>@product.ProductTitle</td>
+                            <td class="product-description">@product.Description</td>
+                            <td>@product.Category</td>
+                            <td>@product.SubCategory</td>
+                            <td class="product-price">@product.Price.ToString("C")</td>
+                            <td>@product.Qty</td>
+                            <td class="product-tags">@product.HashTags</td>
+                            <td class="product-actions">
+                                @if (product.IsFeatured)
+                                {
+                                    <form asp-action="UnmarkAsFeatured" method="post" class="d-inline">
+                                        <input type="hidden" name="id" value="@product.ProductId" />
+                                        <button type="submit" class="btn btn-warning btn-sm">
+                                            <i class="fas fa-star-half-alt"></i> Unfeature
+                                        </button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <form asp-action="MarkAsFeatured" method="post" class="d-inline">
+                                        <input type="hidden" name="id" value="@product.ProductId" />
+                                        <button type="submit" class="btn btn-success btn-sm">
+                                            <i class="fas fa-star"></i> Feature
+                                        </button>
+                                    </form>
+                                }
+                                <a asp-action="Details" asp-controller="Product" asp-route-id="@product.ProductId"
+                                    class="btn btn-primary btn-sm">
+                                    <i class="fas fa-eye"></i> Details
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="9" class="no-products">
+                            <i class="fas fa-box-open"></i>
+                            <p>No featured products available</p>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "Shop";
+}
+
+@model DummyProject.Models.ViewModel.HybridViewModel
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+<!-- Font Awesome Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!-- Custom Dark Theme CSS -->
+<link rel="stylesheet" href="~/css/shop.css" asp-append-version="true" />
+
+
+<main class="customer-greeting">
+    <!-- admin Section -->
+    <h1>Welcome to Maroof7 Zenith👋</h1>
+    <p class="lead">Shop the best Quality products, great prices, and fast shipping—all in one place..</p>
+    <p>Here's what you can do today:</p>
+    <ul>
+        <li>Fresh picks just for you. Shop the latest before they’re gone!</li>
+        <li>Customer favorites you’ll love. See what’s trending now.</li>
+        <li>Save big on select items. Shop now before they’re gone!</li>
+        <li>Your perfect purchase is just a click away. Happy shopping!</li>
+    </ul>
+    <p>Remember, every small step you take contributes to big achievements. Keep up the great work!</p>
+</main>
+<div class="hero">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-5">
+                <div class="intro-excerpt">
+                    <!-- Add any introductory content here -->
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <!-- Add any additional content here -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="untree_co-section product-section before-footer-section">
+    <div class="container">
+        <div class="row">
+            @foreach (var product in Model.Products)
+            {
+                <div class="col-12 col-md-4 col-lg-3 mb-5">
+                    <a class="product-item" asp-controller="Product" asp-action="Details" asp-route-id="@product.ProductId">
+                        <img src="@product.ProductPicURl" class="img-fluid product-thumbnail">
+                        <h3 class="product-title">@product.ProductTitle</h3>
+
+                        @if (product.IsArchived)
+                        {
+                            <p class="product-unavailable">Product Unavailable</p>
+                        }
+
+                        <strong class="product-price">$ @product.Price</strong>
+
+                        <span class="icon-cross">
+                            @* <img src="" class="img-fluid"> *@
+                        </span>
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</div>

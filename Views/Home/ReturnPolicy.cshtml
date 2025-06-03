@@ -1,0 +1,30 @@
+﻿<link rel="stylesheet" href="~/css/footer.css" asp-append-version="true" />
+
+@{
+    ViewData["Title"] = "Return Policy";
+    Layout = "_Layout"; <!-- Use your project's layout -->
+}
+
+<div class="container mt-5">
+    <h1>Return Policy</h1>
+    <div class="card mt-4">
+        <div class="card-body">
+            <h3>Our Hassle-Free Return Policy</h3>
+            <p>We want you to be completely satisfied with your purchase. If you're not happy, we'll make it right.</p>
+            
+            <h4 class="mt-4">30-Day Return Window</h4>
+            <p>You have 30 days from the date of delivery to return most items for a full refund.</p>
+            
+            <h4 class="mt-4">Conditions</h4>
+            <ul>
+                <li>Items must be in original condition with all tags attached</li>
+                <li>Proof of purchase is required</li>
+                <li>Some items may be final sale (clearly marked)</li>
+            </ul>
+            
+            <div class="alert alert-info mt-4">
+                <strong>Need to start a return?</strong> Visit our <a asp-action="TrackReturn">Return Center</a> to begin the process.
+            </div>
+        </div>
+    </div>
+</div>

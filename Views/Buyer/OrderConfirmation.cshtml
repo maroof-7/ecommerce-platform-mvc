@@ -1,0 +1,74 @@
+﻿@* @model DummyProject.Models.ViewModel.HybridViewModel
+
+@{
+    ViewData["Title"] = "Order Confirmation";
+}
+
+<link rel="stylesheet" href="~/css/checkout.css" asp-append-version="true" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<div class="container confirmation-container">
+    <div class="confirmation-card">
+        <div class="confirmation-header">
+            <i class="fas fa-check-circle text-success"></i>
+            <h1>Order Confirmed!</h1>
+            <p>Thank you for your purchase. Your order has been received and is being processed.</p>
+        </div>
+
+        <div class="confirmation-details">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3><i class="fas fa-info-circle"></i> Order Information</h3>
+                    <p><strong>Order Number:</strong> #@Model.Order?.OrderId.ToString().Substring(0, 8).ToUpper()</p>
+                    <p><strong>Order Date:</strong> @Model.Order?.OrderDate.ToString("f")</p>
+                    <p><strong>Status:</strong> <span class="badge bg-info">@Model.Order?.Status</span></p>
+                    <p><strong>Total Amount:</strong> $@Model.Order?.OrderTotal</p>
+                </div>
+                <div class="col-md-6">
+                    <h3><i class="fas fa-user"></i> Customer Information</h3>
+                    <p><strong>Name:</strong> @Model.User?.FullName</p>
+                    <p><strong>Email:</strong> @Model.User?.Email</p>
+                    <p><strong>Phone:</strong> @Model.User?.PhoneNumber</p>
+                </div>
+            </div>
+
+            <div class="order-items mt-4">
+                <h3><i class="fas fa-boxes"></i> Order Items</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.Order?.OrderProducts != null)
+                        {
+                            @foreach (var item in Model.Order.OrderProducts)
+                            {
+                                <tr>
+                                    <td>@item.Product?.ProductTitle</td>
+                                    <td>@item.Quantity</td>
+                                    <td>$@item.Price</td>
+                                    <td>$@(item.Quantity* item.Price)</td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="confirmation-actions mt-4">
+                <a asp-controller="Buyer" asp-action="Dashboard" class="btn btn-primary">
+                    <i class="fas fa-home"></i> Back to Dashboard
+                </a>
+                <a asp-controller="Buyer" asp-action="MyOrders" class="btn btn-outline-secondary">
+                    <i class="fas fa-list"></i> View All Orders
+                </a>
+            </div>
+        </div>
+    </div>
+</div> *@

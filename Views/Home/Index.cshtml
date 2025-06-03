@@ -1,0 +1,93 @@
+﻿@model DummyProject.Models.ViewModel.HybridViewModel
+
+<link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+
+<main class="hero-container">
+    <!-- Hero Section -->
+    <p class="txt">"Step into a World of Style and Elegance–Where Every Click Brings You Closer to Perfection. Explore,
+        Discover, and Elevate Your Shopping Experience."</p>
+</main>
+
+<div class="container">
+    <!-- Product Categories -->
+    <section class="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-grid">
+            <!-- Electronics Card -->
+            <a href="/home/Electronics" class="category-card">
+                <img src="~/Electronics.jpg" alt="Electronics">
+                <h3>Electronics</h3>
+                <p>Explore the latest gadgets and devices.</p>
+            </a>
+
+            <!-- Fashion Card -->
+            <a href="/home/Fashion" class="category-card">
+                <img src="~/fashion.jpg" alt="Fashion">
+                <h3>Fashion</h3>
+                <p>Discover trendy clothing and accessories.</p>
+            </a>
+
+            <!-- Home & Decor Card -->
+            <a href="/home/HomeDecor" class="category-card">
+                <img src="~/furniture.jpg" alt="Home & Decor">
+                <h3>Home & Decor</h3>
+                <p>Upgrade your living space with stylish decor.</p>
+            </a>
+
+            <!-- Sports & Fitness Card -->
+            <a href="/home/SportsFitness" class="category-card">
+                <img src="~/sports.jpg" alt="Sports & Fitness">
+                <h3>Sports & Fitness</h3>
+                <p>Stay active with top-quality sports gear.</p>
+            </a>
+        </div>
+    </section>
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            @if (Model.FeaturedProducts != null && Model.FeaturedProducts.Any())
+            {
+                @foreach (var product in Model.FeaturedProducts)
+                {
+                    <a asp-controller="product" asp-action="Details" asp-route-id="@product.ProductId" class="product-card">
+                        <img src="@product.ProductPicURl" alt="@product.ProductTitle">
+                        <h3 class="product-title">@product.ProductTitle</h3>
+                        @* <p>@product.Description</p> *@
+                        <p class="price">@product.Price.ToString("C")</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        @* <button class="btn">Add to Cart</button> *@
+                    </a>
+                }
+            }
+            else
+            {
+                <p>No featured products available.</p>
+            }
+        </div>
+    </section>
+
+    <!-- Latest Products -->
+    <section class="latest-products">
+        <h2>Latest Products</h2>
+        <div class="product-grid">
+            @if (Model.LatestProducts != null && Model.LatestProducts.Any())
+            {
+                @foreach (var product in Model.LatestProducts)
+                {
+                    <a asp-controller="product" asp-action="Details" asp-route-id="@product.ProductId" class="product-card">
+                        <img src="@product.ProductPicURl" alt="@product.ProductTitle">
+                        <h3 class="product-title">@product.ProductTitle</h3>
+                        <p class="price">@product.Price.ToString("C")</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        @* <button class="btn">Add to Cart</button> *@
+                    </a>
+                }
+            }
+            else
+            {
+                <p>No latest products available.</p>
+            }
+        </div>
+    </section>
+</div>

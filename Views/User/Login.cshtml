@@ -1,0 +1,72 @@
+﻿@model DummyProject.Models.LoginModel
+
+<link rel="stylesheet" href="~/css/Login.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<main class="login-hero">
+    <!-- Hero Section -->
+    <p class="login-hero-text">"Welcome Back to Your Personal Shopping Haven–Sign In to Continue Your Journey of
+        Discovery and Exclusive Offers."</p>
+</main>
+
+<div class="login-container">
+    <h2 class="login-title">Login</h2>
+
+    @if (ViewData["ErrorMessage"] != null)
+    {
+        <p class="login-message login-error">@ViewData["ErrorMessage"]</p>
+    }
+    @if (ViewData["SuccessMessage"] != null)
+    {
+        <p class="login-message login-success">@ViewData["SuccessMessage"]</p>
+    }
+
+    <form method="post" asp-action="Login" class="login-form">
+        <div class="login-field">
+            <label for="email" class="login-label">
+                <i class="fas fa-envelope"></i> Email Address
+            </label>
+            <input type="email" id="email" name="Email" class="login-input" placeholder="Enter your email" required>
+        </div>
+
+        <div class="login-field">
+            <label for="password" class="login-label">
+                <i class="fas fa-lock"></i> Password
+            </label>
+            <input type="password" id="password" name="Password" class="login-input" placeholder="Enter your password"
+                required>
+            <div class="login-pw-toggle">
+                <i class="far fa-eye" id="togglePassword"></i>
+            </div>
+        </div>
+
+        <div class="login-options">
+            <div class="login-remember">
+                <input type="checkbox" id="remember" name="RememberMe">
+                <label for="remember">Remember me</label>
+            </div>
+            <a href="/forgot-password" class="login-forgot">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="login-submit-btn">
+            <i class="fas fa-sign-in-alt"></i> Sign In
+        </button>
+    </form>
+
+    <p class="login-register-text">
+        Don't have an account? <a href="Register" class="login-register-link">Register here</a>
+    </p>
+</div>
+
+<script>
+    document.getElementById('togglePassword').addEventListener('click', function () {
+        const password = document.getElementById('password');
+        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+        password.setAttribute('type', type);
+        this.classList.toggle('fa-eye-slash');
+    });
+</script>

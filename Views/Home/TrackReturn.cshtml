@@ -1,0 +1,50 @@
+﻿<link rel="stylesheet" href="~/css/footer.css" asp-append-version="true" />
+
+@{
+    ViewData["Title"] = "Track or Request a Return";
+    Layout = "_Layout";
+}
+
+<div class="container mt-5">
+    <h1>Track or Request a Return</h1>
+    
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4>Request a Return</h4>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="orderNumber">Order Number</label>
+                            <input type="text" class="form-control" id="orderNumber" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Start Return</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h4>Track a Return</h4>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="returnNumber">Return Authorization Number</label>
+                            <input type="text" class="form-control" id="returnNumber" required>
+                        </div>
+                        <button type="submit" class="btn btn-success">Track Return</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

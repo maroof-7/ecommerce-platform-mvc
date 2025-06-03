@@ -1,0 +1,100 @@
+﻿@* @page
+@model DummyProject.Models.ViewModel.AnalyticsModel
+@{
+    ViewData["Title"] = "Analytics";
+}
+
+<h2 class="text-center text-primary">📊 Analytics Dashboard</h2>
+
+<!-- Summary Statistics -->
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card text-white bg-primary mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Total Products</h5>
+                <p class="card-text display-4">@Model.SalesData.TotalProducts</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-success mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Total Orders</h5>
+                <p class="card-text display-4">@Model.SalesData.TotalOrders</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Total Revenue</h5>
+                <p class="card-text display-4">$@Model.SalesData.TotalRevenue</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product Category Stats -->
+<div class="card mt-4">
+    <div class="card-header bg-dark text-white">📦 Products by Category</div>
+    <div class="card-body">
+        <table class="table table-bordered table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Category</th>
+                    <th>Total Products</th>
+                    <th>Total Stock</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var category in Model.SalesData.ProductStats)
+                {
+                    <tr>
+                        <td>@category.Category</td>
+                        <td>@category.TotalProducts</td>
+                        <td>@category.TotalStock</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Sales Chart -->
+<div class="card mt-4">
+    <div class="card-header bg-dark text-white">📈 Monthly Sales & Revenue</div>
+    <div class="card-body">
+        <canvas id="salesChart"></canvas>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var salesData = @Json.Serialize(Model.SalesData.SalesData);
+
+        var labels = salesData.map(d => d.date);
+        var orderCounts = salesData.map(d => d.ordersCount);
+        var revenueData = salesData.map(d => d.revenue);
+
+        var ctx = document.getElementById('salesChart').getContext('2d');
+        var salesChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: 'Orders',
+                        backgroundColor: 'blue',
+                        data: orderCounts
+                    },
+                    {
+                        label: 'Revenue ($)',
+                        backgroundColor: 'green',
+                        data: revenueData
+                    }
+                ]
+            }
+        });
+    </script>
+} *@

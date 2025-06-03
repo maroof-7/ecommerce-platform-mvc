@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - DummyProject</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/js/site.js" asp-append-version="true" />
+
+    @* <link rel="stylesheet" href="~/DummyProject.styles.css" asp-append-version="true" /> *@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/logo.jpg" alt="Logo">
+                    <span>Maroof7 Zenith</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+
+
+
+                        <li class="nav-item">
+                            <form method="post" asp-controller="Home" asp-action="Search" class="input-group">
+                                <input type="text" class="form-control" placeholder="Search..." name="query"
+                                    aria-label="Search"
+                                    style="background-color: #111; border-color: #333; color: #fff;">
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Shop">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="User" asp-action="Login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="User" asp-action="Register">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Buyer" asp-action="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Admin" asp-action="AdminDashboard">
+                                <i class="fa-solid fa-user-tie"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="Home/ReturnPolicy">Return Policy</a></li>
+                        <li><a href="Home/TrackReturn">Track/Request a Return</a></li>
+                        <li><a href="Home/ManageSubscription">Manage Catalog Subscription</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Our Company</h3>
+                    <ul>
+                        <li><a href="Home/AboutUs">About Us</a></li>
+                        <li><a href="Home/SuperStore">Our SuperStore</a></li>
+                        <li><a href="Home/Careers">Career Opportunities</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Explore More</h3>
+                    <ul>
+                        <li><a href="Home/FederalMarketplace">Federal Marketplace</a></li>
+                        <li><a href="Home/StudentAdvantage">Student Advantage</a></li>
+                        <li><a href="Home/PhotographyPodcast">Photography Podcast</a></li>
+                    </ul>
+                </div>
+                <div class="newsletter-card">
+                    <div class="newsletter-header">
+                        <h3><i class="fas fa-envelope"></i> Stay Updated</h3>
+                        <p class="newsletter-subtitle">Join our community and never miss an update</p>
+                    </div>
+
+                    <form id="newsletter-form" class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" id="newsletter-email" name="email" placeholder="Your email address"
+                                required aria-label="Email address" class="form-input">
+                            <button type="submit" class="btn-subscribe">
+                                <span class="btn-text">Subscribe</span>
+                                <i class="fas fa-paper-plane btn-icon"></i>
+                            </button>
+                        </div>
+                    </form>
+
+                    <div id="subscription-message" class="subscription-message">
+                        <i class="fas fa-check-circle success-icon"></i>
+                        <i class="fas fa-exclamation-circle error-icon"></i>
+                        <span class="message-text"></span>
+                    </div>
+
+                    <div class="privacy-note">
+                        <i class="fas fa-lock"></i>
+                        <span>We respect your privacy. Unsubscribe anytime.</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <div class="icons">
+                    <a href="https://www.facebook.com/share/14ym71ZnUc/" target="_blank" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://twitter.com/maroof__7/" target="_blank" aria-label="Twitter">
+                        <i class="fa-brands fa-x-twitter"></i> </a>
+                    <a href="https://instagram.com/maroof__7/" target="_blank" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/maroof-vii-98505426b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="copyright">
+                    <p>©-2025 Maroof7 Zenith</p>
+                    <p>
+                        <a href="#">Terms of Use</a> |
+                        <a href="#">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

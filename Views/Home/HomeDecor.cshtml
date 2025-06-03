@@ -1,0 +1,26 @@
+﻿@model DummyProject.Models.ViewModel.HybridViewModel
+<link rel="stylesheet" href="~/css/homeproducts.css" asp-append-version="true" />
+
+@{
+    ViewData["Title"] = "HomeDecor";
+}
+
+<h2>HomeDecor</h2>
+<div class="product-grid">
+    @if (Model.Products != null && Model.Products.Any())
+    {
+        @foreach (var product in Model.Products)
+        {
+            <a asp-controller="product" asp-action="details" asp-route-id="@product.ProductId" class="product-card">
+                <img src="@product.ProductPicURl" alt="@product.ProductTitle">
+                <h3 class="product-title">@product.ProductTitle</h3>
+                <p class="price">@product.Price.ToString("C")</p>
+                @* <button class="btn">Add to Cart</button> *@
+            </a>
+        }
+    }
+    else
+    {
+        <p>No products available in this category.</p>
+    }
+</div>

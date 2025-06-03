@@ -1,0 +1,327 @@
+/* General Styles */
+:root {
+    --primary: #3a86ff;
+    --primary-hover: #2667cc;
+    --danger: #ff4d4d;
+    --danger-hover: #cc3a3a;
+    --warning: #ffc107;
+    --warning-hover: #e6ac00;
+    --success: #28a745;
+    --success-hover: #218838;
+    --info: #17a2b8;
+    --info-hover: #138496;
+    --text: #f0f0f0;
+    --text-secondary: #aaaaaa;
+    --bg: #000000;
+    --bg-secondary: #1a1a1a;
+    --bg-tertiary: #2f2a2a;
+    --border: #444444;
+    --glow: rgba(255, 255, 255, 0.2);
+    --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Customer Greeting Section */
+.Customer-greeting {
+    background-color: var(--bg-secondary);
+    padding: 3rem;
+    border-radius: 12px;
+    margin: 2rem auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 20px var(--glow);
+    border: 1px solid var(--border);
+}
+
+.Customer-greeting h1 {
+    color: var(--primary);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.Customer-greeting p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.Customer-greeting ul {
+    list-style-type: none;
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.Customer-greeting ul li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 0.8rem;
+    color: var(--text);
+}
+
+.Customer-greeting ul li::before {
+    content: "•";
+    color: var(--primary);
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -0.3rem;
+}
+
+/* Container and Navigation */
+.container {
+    background-color: var(--bg-secondary);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px var(--glow);
+    margin: 2rem auto;
+    max-width: 1400px;
+    border: 1px solid var(--border);
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.nav-buttons .btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(58, 134, 255, 0.3);
+}
+
+.btn-warning {
+    background-color: var(--warning);
+    color: #212529;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: var(--warning-hover);
+    transform: translateY(-2px);
+}
+
+.btn-danger {
+    background-color: var(--danger);
+    color: white;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: var(--danger-hover);
+    transform: translateY(-2px);
+}
+
+.btn-success {
+    background-color: var(--success);
+    color: white;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: var(--success-hover);
+    transform: translateY(-2px);
+}
+
+/* Table Styles */
+.table-responsive {
+    overflow-x: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px var(--glow);
+}
+
+.table-dark {
+    background-color: var(--bg-tertiary);
+    color: var(--text);
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.table-dark thead th {
+    background-color: var(--bg-tertiary);
+    color: var(--primary);
+    padding: 1.2rem;
+    text-align: left;
+    border-bottom: 2px solid var(--primary);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.table-dark tbody tr {
+    border-bottom: 1px solid var(--border);
+    transition: var(--transition);
+}
+
+.table-dark tbody tr:hover {
+    background-color: rgba(58, 134, 255, 0.05);
+}
+
+.table-dark td {
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+/* Table Cell Specific Styles */
+.product-image img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    transition: var(--transition);
+}
+
+.table-dark tbody tr:hover .product-image img {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px var(--glow);
+}
+
+.product-description {
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-price {
+    color: var(--success);
+    font-weight: 600;
+}
+
+.product-tags {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.product-actions {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.action-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.85rem;
+    border-radius: 6px;
+    transition: var(--transition);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.action-btn i {
+    font-size: 0.8rem;
+}
+
+.btn-sm {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+}
+
+/* No Products Message */
+.no-products {
+    padding: 3rem;
+    color: var(--text-secondary);
+    text-align: center;
+}
+
+.no-products i {
+    margin-bottom: 1rem;
+    color: var(--text-secondary);
+    font-size: 2rem;
+}
+
+.no-products p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+    .container {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .Customer-greeting {
+        padding: 2rem;
+    }
+
+    .table-dark th,
+    .table-dark td {
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .Customer-greeting {
+        padding: 1.5rem;
+        text-align: center;
+    }
+
+    .Customer-greeting ul li {
+        text-align: left;
+    }
+
+    .nav-buttons {
+        flex-direction: column;
+    }
+
+    .product-actions {
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+
+    .action-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .Customer-greeting {
+        padding: 1rem;
+    }
+
+    .Customer-greeting h1 {
+        font-size: 2rem;
+    }
+
+    .table-dark th,
+    .table-dark td {
+        padding: 0.6rem;
+        font-size: 0.85rem;
+    }
+
+    .product-image img {
+        max-width: 60px;
+    }
+}

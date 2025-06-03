@@ -1,0 +1,298 @@
+:root {
+    --primary: #3a86ff;
+    --primary-hover: #2667cc;
+    --text: #f0f0f0;
+    --text-secondary: #aaaaaa;
+    --bg: #000000;
+    --bg-secondary: #1a1a1a;
+    --border: #444444;
+    --error: #ff6b6b;
+    --success: #6bff6b;
+    --glow: rgba(255, 255, 255, 0.2);
+    --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Customer Greeting Section */
+.customer-greeting {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("/bg.jpg") center/cover no-repeat;
+    padding: 4rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px var(--glow);
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.customer-greeting::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--primary), transparent);
+    opacity: 0.3;
+}
+
+.intro-excerpt {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.customer-greeting h1 {
+    color: var(--text-secondary);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.customer-greeting h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: var(--primary);
+    border-radius: 3px;
+}
+
+.customer-greeting .lead {
+    font-size: 1.25rem;
+    color: var(--text);
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.customer-greeting ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+
+.customer-greeting ul li {
+    font-size: 1rem;
+    color: var(--text);
+    margin-bottom: 0.8rem;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.customer-greeting ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.customer-greeting p {
+    font-size: 1rem;
+    color: var(--primary);
+    margin-top: 1.5rem;
+}
+
+/* Hero Section */
+.hero {
+    background-color: var(--bg);
+    padding: 4rem 0;
+    position: relative;
+}
+
+.hero h1 {
+    color: var(--text);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.img-fluid {
+    border-radius: 12px;
+    box-shadow: 0 4px 20px var(--glow);
+    transition: var(--transition);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.img-fluid:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3);
+    border-color: var(--primary);
+}
+
+/* Product Details Section */
+.product-details-section {
+    padding: 5rem 0;
+    background-color: var(--bg);
+}
+
+.product-details-section .product-thumbnail {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px var(--glow);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.product-details-section .product-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 1.5rem;
+}
+
+.product-details-section .product-status {
+    font-size: 1.2rem;
+    color: var(--text);
+    margin-bottom: 1.5rem;
+}
+
+.product-details-section .product-status.text-danger {
+    color: var(--error);
+}
+
+.product-details-section .product-description {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.product-details-section .product-price {
+    font-size: 1.8rem;
+    color: var(--success);
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.product-details-section .product-actions .btn {
+    margin-right: 1rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: var(--transition);
+    font-weight: 600;
+}
+
+.product-details-section .product-actions .btn-primary {
+    background-color: var(--primary);
+    border: none;
+}
+
+.product-details-section .product-actions .btn-primary:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(58, 134, 255, 0.3);
+}
+
+.product-details-section .product-actions .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.product-details-section .product-actions .btn-secondary:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+/* Recommendations Section */
+.recommendations-section {
+    padding: 4rem 0;
+    background-color: var(--bg);
+    box-shadow: 0 4px 20px var(--glow);
+}
+
+.recommendations-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.recommendations-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: var(--primary);
+    border-radius: 3px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .customer-greeting {
+        padding: 3rem;
+    }
+
+    .product-details-section {
+        padding: 4rem 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .customer-greeting {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .customer-greeting h1::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .product-details-section .product-title {
+        font-size: 1.8rem;
+    }
+
+    .product-details-section .product-price {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .customer-greeting {
+        padding: 1.5rem;
+    }
+
+    .customer-greeting h1 {
+        font-size: 1.8rem;
+    }
+
+    .customer-greeting .lead {
+        font-size: 1.1rem;
+    }
+
+    .hero {
+        padding: 3rem 0;
+    }
+
+    .product-details-section .product-actions .btn {
+        margin-right: 0.5rem;
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .intro-excerpt {
+        padding: 1.5rem;
+    }
+}

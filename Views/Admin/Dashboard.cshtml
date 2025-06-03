@@ -1,0 +1,42 @@
+﻿@model List<DummyProject.Models.DomainModel.Product> 
+@using DummyProject.Models.DomainModel 
+<link rel="stylesheet" href="~/css/dashboard.css" asp-append-version="true" />
+
+<h1>Welcome Back, Admin!</h1>
+<p>Total Products: @ViewData["TotalProducts"]</p>
+<p>Total Orders: @ViewData["TotalOrders"]</p>
+<p>Revenue: @ViewData["Revenue"]</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product Title</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Subcategory</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Seller</th>
+            <th>Date Created</th>
+            <th>Product Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.ProductTitle</td>
+                <td>@product.Description</td>
+                <td>@product.Category</td>
+                <td>@product.SubCategory</td>
+                <td>@product.Qty</td>
+                <td>@product.Price</td>
+                <td>@product.SellerId</td> <!-- Replace with product.Seller?.UserName if you have a Seller navigation property -->
+                <td>@product.DateCreated.ToString("yyyy-MM-dd")</td>
+                <td><img src="@product.ProductPicURl" alt="Product Image" width="50" /></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="CreateProduct" class="btn btn-primary">Create Product</a>

@@ -1,0 +1,66 @@
+﻿<link rel="stylesheet" href="~/css/footer.css" asp-append-version="true" />
+
+@{
+    ViewData["Title"] = "Manage Catalog Subscription";
+    Layout = "_Layout";
+}
+
+<div class="container mt-5">
+    <h1>Manage Your Catalog Subscriptions</h1>
+    
+    <div class="card mt-4">
+        <div class="card-body">
+            <h3>Current Subscriptions</h3>
+            
+            <div class="table-responsive mt-3">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Catalog</th>
+                            <th>Frequency</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Seasonal Home Collection</td>
+                            <td>Quarterly</td>
+                            <td><span class="badge badge-success">Active</span></td>
+                            <td>
+                                <button class="btn btn-sm btn-outline-primary">Edit</button>
+                                <button class="btn btn-sm btn-outline-danger">Unsubscribe</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Electronics Specials</td>
+                            <td>Monthly</td>
+                            <td><span class="badge badge-success">Active</span></td>
+                            <td>
+                                <button class="btn btn-sm btn-outline-primary">Edit</button>
+                                <button class="btn btn-sm btn-outline-danger">Unsubscribe</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="mt-4">
+                <h4>Subscribe to New Catalogs</h4>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="fashionCatalog">
+                    <label class="form-check-label" for="fashionCatalog">
+                        Fashion Trends (Monthly)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="outdoorCatalog">
+                    <label class="form-check-label" for="outdoorCatalog">
+                        Outdoor Living (Seasonal)
+                    </label>
+                </div>
+                <button class="btn btn-primary mt-3">Subscribe</button>
+            </div>
+        </div>
+    </div>
+</div>

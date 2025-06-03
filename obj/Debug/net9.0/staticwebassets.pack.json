@@ -1,0 +1,393 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DummyProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DummyProject.vbfs02i8hp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\20221004_010654_767_j2a9nz.jpg",
+      "PackagePath": "staticwebassets\\20221004_010654_767_j2a9nz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\Bluetooth speaker.jpg",
+      "PackagePath": "staticwebassets\\Bluetooth speaker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\Electronics.jpg",
+      "PackagePath": "staticwebassets\\Electronics.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\Headphone.jpg",
+      "PackagePath": "staticwebassets\\Headphone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\bg.jpg",
+      "PackagePath": "staticwebassets\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\DeletedProducts.css",
+      "PackagePath": "staticwebassets\\css\\DeletedProducts.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\FeaturedProducts.css",
+      "PackagePath": "staticwebassets\\css\\FeaturedProducts.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\MyArchive.css",
+      "PackagePath": "staticwebassets\\css\\MyArchive.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Myproducts.css",
+      "PackagePath": "staticwebassets\\css\\Myproducts.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Register.css",
+      "PackagePath": "staticwebassets\\css\\Register.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\cart.css",
+      "PackagePath": "staticwebassets\\css\\cart.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\createproduct.css",
+      "PackagePath": "staticwebassets\\css\\createproduct.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\details.css",
+      "PackagePath": "staticwebassets\\css\\details.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\footer.css",
+      "PackagePath": "staticwebassets\\css\\footer.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\homeproducts.css",
+      "PackagePath": "staticwebassets\\css\\homeproducts.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\privacy.css",
+      "PackagePath": "staticwebassets\\css\\privacy.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\settings.css",
+      "PackagePath": "staticwebassets\\css\\settings.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\shop.css",
+      "PackagePath": "staticwebassets\\css\\shop.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\userlist.css",
+      "PackagePath": "staticwebassets\\css\\userlist.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\fashion.jpg",
+      "PackagePath": "staticwebassets\\fashion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\furniture.jpg",
+      "PackagePath": "staticwebassets\\furniture.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\gaming laptop.jpg",
+      "PackagePath": "staticwebassets\\gaming laptop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\logo.jpg",
+      "PackagePath": "staticwebassets\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\sports.jpg",
+      "PackagePath": "staticwebassets\\sports.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.DummyProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.DummyProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.DummyProject.props",
+      "PackagePath": "build\\DummyProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.DummyProject.props",
+      "PackagePath": "buildMultiTargeting\\DummyProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.DummyProject.props",
+      "PackagePath": "buildTransitive\\DummyProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

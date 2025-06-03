@@ -1,0 +1,192 @@
+/* General Styling */
+body {
+    background-color: black;
+    color: #E0E0E0;
+    /* Light gray text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading Styling */
+h2 {
+    color: #007BFF;
+    /* Blue color for headings */
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    /* Center align heading */
+}
+
+/* Product Grid Styling */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* Consistent card width */
+    gap: 20px;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+}
+
+/* Product Card Styling */
+.product-card {
+    background-color: black;
+    /* Dark background for product cards */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    /* width: 25%; */
+    /* Ensure all cards have the same width */
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #007BFF;
+    /* Blue border on hover */
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    /* Fixed height for uniformity */
+    object-fit: cover;
+    /* Ensures the image covers the area without distortion */
+    border-radius: 10px 10px 0 0;
+    /* Rounded corners only at the top */
+}
+
+.product-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #E0E0E0;
+    /* Light gray text color */
+    margin: 15px 0 10px;
+    padding: 0 15px;
+}
+
+.product-unavailable {
+    font-size: 1rem;
+    color: #dc3545;
+    /* Red color for unavailable products */
+    margin: 0 0 10px;
+    padding: 0 15px;
+}
+
+
+.price {
+    color: solid green;
+}
+
+/* Button Styling */
+.btn {
+    background-color: #007BFF;
+    /* Blue button */
+    color: #FFFFFF;
+    /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
+
+/* No Products Message */
+.product-grid p {
+    color: #E0E0E0;
+    /* Light gray text color */
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 20px;
+        /* Smaller font size for tablets */
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        /* Adjust card width for tablets */
+    }
+
+    .product-card img {
+        height: 150px;
+        /* Smaller image height for tablets */
+    }
+
+    .product-title {
+        font-size: 1rem;
+        /* Smaller font size for tablets */
+    }
+
+    .product-unavailable {
+        font-size: 0.9rem;
+        /* Smaller font size for tablets */
+    }
+
+    .price {
+        font-size: 1.1rem;
+        /* Smaller font size for tablets */
+    }
+
+    .btn {
+        padding: 8px 15px;
+        /* Smaller button size for tablets */
+        font-size: 12px;
+        /* Smaller font size for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 18px;
+        /* Smaller font size for mobile */
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        /* Adjust card width for mobile */
+    }
+
+    .product-card img {
+        height: 120px;
+        /* Smaller image height for mobile */
+    }
+
+    .product-title {
+        font-size: 0.9rem;
+        /* Smaller font size for mobile */
+    }
+
+    .product-unavailable {
+        font-size: 0.8rem;
+        /* Smaller font size for mobile */
+    }
+
+    .price {
+        font-size: 1rem;
+        /* Smaller font size for mobile */
+    }
+
+    .btn {
+        padding: 5px 10px;
+        /* Smaller button size for mobile */
+        font-size: 10px;
+        /* Smaller font size for mobile */
+    }
+}

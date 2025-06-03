@@ -1,0 +1,101 @@
+﻿@model DummyProject.Models.RegisterModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "_Layout";
+}
+
+<link rel="stylesheet" href="~/css/Register.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+<main class="register-hero">
+    <p class="register-hero-text">"Join Our Community of Trendsetters–Create Your Account Today and Unlock a World of
+        Exclusive Benefits and Personalized Shopping Experiences."</p>
+</main>
+
+<div class="register-container">
+    <h2 class="register-title">Create a New Account</h2>
+
+    @if (ViewData["ErrorMessage"] != null)
+    {
+        <p class="register-message register-error">@ViewData["ErrorMessage"]</p>
+    }
+    @if (ViewData["SuccessMessage"] != null)
+    {
+        <p class="register-message register-success">@ViewData["SuccessMessage"]</p>
+    }
+
+    <form asp-action="Register" method="post" class="register-form">
+        <input type="hidden" asp-for="ReturnUrl" />
+        <div asp-validation-summary="All" class="register-validation-summary"></div>
+
+        <div class="register-form-group">
+            <label asp-for="Email" class="register-label">
+                <i class="fas fa-envelope"></i> Email Address
+            </label>
+            <input asp-for="Email" class="register-input" placeholder="Enter your email" />
+            <span asp-validation-for="Email" class="register-error"></span>
+        </div>
+
+        <div class="register-form-group">
+            <label asp-for="Password" class="register-label">
+                <i class="fas fa-lock"></i> Password
+            </label>
+            <input asp-for="Password" type="password" class="register-input" placeholder="Create a password" />
+            <i class="far fa-eye register-pw-toggle" id="togglePassword"></i>
+            <span asp-validation-for="Password" class="register-error"></span>
+        </div>
+
+        <div class="register-form-group">
+            <label asp-for="ConfirmPassword" class="register-label">
+                <i class="fas fa-lock"></i> Confirm Password
+            </label>
+            <input asp-for="ConfirmPassword" type="password" class="register-input"
+                placeholder="Confirm your password" />
+            <span asp-validation-for="ConfirmPassword" class="register-error"></span>
+        </div>
+
+        <div class="register-form-group">
+            <label asp-for="FirstName" class="register-label">
+                <i class="fas fa-user"></i> First Name
+            </label>
+            <input asp-for="FirstName" class="register-input" placeholder="Your first name" />
+            <span asp-validation-for="FirstName" class="register-error"></span>
+        </div>
+
+        <div class="register-form-group">
+            <label asp-for="LastName" class="register-label">
+                <i class="fas fa-user"></i> Last Name
+            </label>
+            <input asp-for="LastName" class="register-input" placeholder="Your last name" />
+            <span asp-validation-for="LastName" class="register-error"></span>
+        </div>
+
+        <div class="register-form-group">
+            <label asp-for="PhoneNumber" class="register-label">
+                <i class="fas fa-phone"></i> Phone Number
+            </label>
+            <input asp-for="PhoneNumber" class="register-input" placeholder="Your phone number" />
+            <span asp-validation-for="PhoneNumber" class="register-error"></span>
+        </div>
+
+        <button type="submit" class="register-submit-btn">
+            <i class="fas fa-user-plus"></i> Register
+        </button>
+    </form>
+
+    <p class="register-login-text">
+        Already have an account? <a href="Login" class="register-login-link">Login here</a>
+    </p>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.getElementById('togglePassword').addEventListener('click', function () {
+            const password = document.getElementById('Password');
+            const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+            password.setAttribute('type', type);
+            this.classList.toggle('fa-eye-slash');
+        });
+    </script>
+}

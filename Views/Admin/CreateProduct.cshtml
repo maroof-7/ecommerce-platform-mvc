@@ -1,0 +1,64 @@
+﻿@model DummyProject.Models.DomainModel.Product
+
+<link rel="stylesheet" href="~/css/createproduct.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+@{
+    ViewData["Title"] = "Create Product";
+}
+
+<main class="seller-greeting">
+    <h1>Welcome, Seller!👋</h1>
+    <p class="lead">We’re thrilled to have you join– <strong>Maroof7 Zenith</strong> your gateway to reaching thousands
+        of eager customers! 🎉</p>
+    <p>Start Selling Today:</p>
+    <ul>
+        <li>✅ Easy Setup: Create and list your products in just a few simple steps.</li>
+        <li>✅ Reach More Buyers: Tap into our growing community of shoppers looking for unique and high-quality
+            products.</li>
+        <li>✅ Grow Your Business: Enjoy powerful tools and insights to help you succeed.</li>
+        <li>🚀 Explore new features to enhance the shopping experience.</li>
+    </ul>
+    <p>We’re here to support you every step of the way. Welcome to the [Your E-commerce Website Name] family – let’s
+        grow together! 🚀</p>
+</main>
+
+<div class="container">
+    <h2>Create Product</h2>
+    <form asp-action="CreateProduct" method="post">
+        <div>
+            <label asp-for="ProductTitle"></label>
+            <input asp-for="ProductTitle" type="text" required />
+        </div>
+        <div>
+            <label asp-for="Description"></label>
+            <input asp-for="Description" type="text" required />
+        </div>
+        <div>
+            <label asp-for="ProductPicURl"></label>
+            <input asp-for="ProductPicURl" type="text" required />
+        </div>
+        <div>
+            <label asp-for="Qty"></label>
+            <input asp-for="Qty" type="number" required />
+        </div>
+        <div>
+            <label asp-for="Category"></label>
+            <input asp-for="Category" type="text" required />
+        </div>
+        <div>
+            <label asp-for="SubCategory"></label>
+            <input asp-for="SubCategory" type="text" required />
+        </div>
+        <div>
+            <label asp-for="Price"></label>
+            <input asp-for="Price" type="number" required />
+        </div>
+        <div>
+            <label asp-for="HashTags"></label>
+            <input asp-for="HashTags" type="text" required />
+        </div>
+        <button type="submit">Create</button>
+    </form>
+</div>

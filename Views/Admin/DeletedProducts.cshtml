@@ -1,0 +1,94 @@
+﻿﻿@{
+    ViewData["Title"] = "Deleted Products";
+}
+
+
+<link rel="stylesheet" href="~/css/Myproducts.css" asp-append-version="true" />
+
+
+
+<main class="Customer-greeting">
+    <!-- Admin Section -->
+    <h1>Your Listing</h1>
+    <p>Stay on Top of Your Listings</p>
+    <ul>
+        <li>We're thrilled to have you here.</li>
+        <li>Your trust and support mean the world to us.</li>
+        <li>We’re committed to providing you with the best products and service.</li>
+        <li>You’re more than a customer – you’re family!</li>
+        <li>Happy [shopping] from our family to yours!</li>
+    </ul>
+    <p>Keep up the great work – we’re here to support you every step of the way!</p>
+</main>
+
+<div class="container">
+    <!-- Navigation Links for Active, Archived, and Deleted Products -->
+    <div class="mb-3">
+        <a class="btn btn-primary" asp-controller="Admin" asp-action="MyProducts">Active Products</a>
+        <a class="btn btn-warning" asp-controller="Admin" asp-action="MyArchive">Archived Products</a>
+        <a class="btn btn-danger" asp-controller="Admin" asp-action="DeletedProducts">Deleted Products</a>
+        <a class="btn btn-success" asp-controller="Admin" asp-action="FeaturedProducts">Featured Products</a>
+
+    </div>
+
+
+    <div class="table-responsive">
+        <table id="my-table" class="table-dark table-bordered table-striped">
+
+
+
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Product Title</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>SubCategory</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Hash tags</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                @foreach (var product in Model.Products)
+                {
+                    <tr>
+                        <td>
+                            <!-- Display product image with a fallback if URL is missing -->
+                            <img src="@(product.ProductPicURl ?? "/images/fallback-image.png")" alt="@product.ProductTitle"
+                                class="img-fluid" style="max-width: 100px; height: auto;">
+                        </td>
+                        <td>@product.ProductTitle</td>
+                        <td>@product.Description</td>
+                        <td>@product.Category</td>
+                        <td>@product.SubCategory</td>
+                        <td>@product.Price $</td>
+                        <td>@product.Qty</td>
+                        <td>@product.HashTags</td>
+                        <td>
+
+                            <a asp-action="RestoreFromRecycle" asp-controller="Admin" asp-route-id="@product.ProductId"
+                                class="btn btn-primary btn-sm" style="padding: 5px 20px;"> Restore</a>
+
+                        </td>
+
+                    </tr>
+                }
+
+
+
+            </tbody>
+
+
+
+        </table>
+
+
+
+
+
+
+    </div>

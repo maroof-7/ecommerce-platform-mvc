@@ -1,0 +1,78 @@
+﻿@model DummyProject.Models.ViewModel.HybridViewModel
+
+
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+
+<!-- External Styles -->
+<link rel="stylesheet" href="~/css/checkout.css" asp-append-version="true" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<main class="checkout-container">
+    <div class="checkout-header text-center">
+        <h1>Secure Checkout <i class="fas fa-lock"></i></h1>
+        <p>Review your details before completing the order.</p>
+    </div>
+</main>
+
+<div class="container checkout-content">
+    <form method="post" asp-action="ProcessOrder">
+        <div class="row">
+            <!-- Billing Details -->
+            <div class="col-md-6">
+                <h3><i class="fas fa-user"></i> Billing Details</h3>
+
+                <div class="form-group mb-3">
+                    <label for="name">Full Name</label>
+                    <input type="text" class="form-control" id="name" name="FullName" asp-for="User.FullName" required>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email" name="Email" asp-for="User.Email" required>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="address">Shipping Address</label>
+                    <textarea class="form-control" id="address" name="Address" asp-for="User.Address" rows="3"
+                        required></textarea>
+                </div>
+            </div>
+
+            <!-- Order Summary -->
+            <div class="col-md-6">
+                <h3><i class="fas fa-shopping-cart"></i> Order Summary</h3>
+                <ul class="order-items list-unstyled">
+                    @if (Model?.CartProducts != null && Model.CartProducts.Any())
+                    {
+                            @foreach (var cartProduct in Model.CartProducts)
+                            {
+                                    <li class="d-flex justify-content-between">
+                                        <span>@cartProduct?.Product?.ProductTitle</span>
+                                        <span>$@(cartProduct?.Product?.Price * cartProduct?.Quantity ?? 0)</span>
+                                    </li>
+                            }
+                    }
+                    else
+                    {
+                            <li class="text-muted">Your cart is empty.</li>
+                    }
+                </ul>
+
+                <hr>
+
+                <div class="totals-row grand-total d-flex justify-content-between">
+                    <span><strong>Total</strong></span>
+                    <strong>$@(Model?.Cart?.CartValue ?? 0)</strong>
+                </div>
+
+                <button type="submit" class="btn btn-success btn-lg w-100 mt-3" aria-label="Complete Purchase">
+                    <i class="fas fa-credit-card"></i> Complete Purchase
+                </button>
+            </div>
+        </div>
+    </form>
+</div>

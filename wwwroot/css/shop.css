@@ -1,0 +1,244 @@
+:root {
+    --primary: #3a86ff;
+    --primary-hover: #2667cc;
+    --text: #f0f0f0;
+    --text-secondary: #aaaaaa;
+    --bg: #000000;
+    --bg-secondary: #1a1a1a;
+    --border: #444444;
+    --error: #ff6b6b;
+    --success: #6bff6b;
+    --glow: rgba(255, 255, 255, 0.2);
+    --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Customer Greeting Section */
+.customer-greeting {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("/bg.jpg") center/cover no-repeat;
+    padding: 4rem 4.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px var(--glow);
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.customer-greeting::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--primary), transparent);
+    opacity: 0.3;
+}
+
+.customer-greeting h1 {
+    color: var(--text-secondary);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+}
+
+.customer-greeting h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: var(--primary);
+    border-radius: 3px;
+}
+
+.customer-greeting .lead {
+    font-size: 1.25rem;
+    color: var(--text);
+    margin-bottom: 2rem;
+    max-width: 800px;
+}
+
+.customer-greeting ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+
+.customer-greeting ul li {
+    font-size: 1rem;
+    color: var(--text);
+    margin-bottom: 0.8rem;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.customer-greeting ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.customer-greeting p {
+    font-size: 1rem;
+    color: var(--primary);
+    margin-top: 1.5rem;
+}
+
+/* Product Section */
+.untree_co-section {
+    padding: 5rem 0;
+}
+
+.product-section .row {
+    margin: -0.75rem;
+}
+
+.product-section .product-item {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px var(--glow);
+    transition: var(--transition);
+    background-color: var(--bg);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    margin: 0.75rem;
+}
+
+.product-section .product-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3);
+    border-color: var(--primary);
+}
+
+.product-section .product-thumbnail {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.product-section .product-item:hover .product-thumbnail {
+    transform: scale(1.03);
+}
+
+.product-section .product-body {
+    padding: 1.5rem;
+}
+
+.product-section .product-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text);
+    margin: 0 0 0.5rem;
+}
+
+.product-section .product-unavailable {
+    font-size: 0.9rem;
+    color: var(--error);
+    margin: 0 0 0.5rem;
+}
+
+.product-section .product-price {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--success);
+    margin: 0.5rem 0 0;
+    display: block;
+}
+
+.product-section .icon-cross {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: var(--bg);
+}
+
+.product-section .icon-cross img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    opacity: 0.7;
+    transition: var(--transition);
+}
+
+.product-section .product-item:hover .icon-cross img {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .customer-greeting {
+        padding: 3rem;
+    }
+
+    .customer-greeting h1 {
+        font-size: 2rem;
+    }
+
+    .customer-greeting .lead {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .customer-greeting {
+        padding: 2rem 1.5rem;
+        text-align: center;
+    }
+
+    .customer-greeting h1::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .product-section .product-thumbnail {
+        height: 180px;
+    }
+}
+
+@media (max-width: 576px) {
+    .customer-greeting h1 {
+        font-size: 1.8rem;
+    }
+
+    .customer-greeting .lead {
+        font-size: 1rem;
+    }
+
+    .customer-greeting ul li {
+        font-size: 0.9rem;
+        padding-left: 1.5rem;
+    }
+
+    .product-section .product-body {
+        padding: 1rem;
+    }
+
+    .product-section .product-title {
+        font-size: 1.1rem;
+    }
+
+    .product-section .product-price {
+        font-size: 1.1rem;
+    }
+}

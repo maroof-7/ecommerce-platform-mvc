@@ -1,0 +1,36 @@
+﻿@model DummyProject.Models.DomainModel.Order
+
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<h2>Order Summary</h2>
+<div>
+    <p><strong>Order ID:</strong> @Model.OrderId</p>
+    <p><strong>Date:</strong> @Model.OrderDate.ToString("dd MMM yyyy")</p>
+    <p><strong>Status:</strong> @Model.Status</p>
+    <p><strong>Total Amount:</strong> $@Model.OrderTotal</p>
+</div>
+
+<h3>Ordered Products</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OrderProducts)
+        {
+            <tr>
+                <td>@item.Product.ProductTitle</td> <!-- Fixed Name issue -->
+                <td>@item.Quantity</td>
+                <td>$@item.Price</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-controller="Buyer" asp-action="MyOrders" class="btn btn-primary">Back to Orders</a>
