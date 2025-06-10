@@ -504,3 +504,4 @@ C:\Users\ms177\OneDrive\Desktop\dotnet 2025\DummyProject\obj\Debug\net9.0\refint
 C:\Users\ms177\OneDrive\Desktop\dotnet 2025\DummyProject\obj\Debug\net9.0\DummyProject.pdb
 C:\Users\ms177\OneDrive\Desktop\dotnet 2025\DummyProject\obj\Debug\net9.0\DummyProject.genruntimeconfig.cache
 C:\Users\ms177\OneDrive\Desktop\dotnet 2025\DummyProject\obj\Debug\net9.0\ref\DummyProject.dll
+C:\Users\ms177\OneDrive\Desktop\dotnet 2025\DummyProject\obj\Debug\net9.0\DummyProject.sourcelink.json
