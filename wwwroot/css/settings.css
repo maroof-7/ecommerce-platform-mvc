@@ -1,181 +1,187 @@
-/* General Styling */
+:root {
+    --primary: #3a86ff;
+    --primary-hover: #2667cc;
+    --text: #f0f0f0;
+    --text-secondary: #aaaaaa;
+    --bg: #000000;
+    --bg-secondary: #1a1a1a;
+    --border: #444444;
+    --glow: rgba(255, 255, 255, 0.2);
+    --transition: all 0.3s ease-in-out;
+}
+
 body {
-    background-color: black;
-    color: #E0E0E0;
-    /* Light gray text color */
-    font-family: Arial, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Sidebar Styling */
-.sidebar {
-    background-color: black;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+/* Greeting Section */
+.seller-greeting {
+    width: 100%;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("/bg.jpg") center/cover no-repeat;
+    padding: 4rem 4.5rem;
+    box-shadow: 0 4px 20px var(--glow);
+    margin-bottom: 2rem;
+    position: relative;
 }
 
-.sidebar h2 {
-    color: #007BFF;
-    text-align: center;
-    padding-bottom: 30px;
+.seller-greeting h1 {
+    color: var(--text-secondary);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    position: relative;
 }
 
-.sidebar ul {
+.seller-greeting h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: var(--primary);
+    border-radius: 3px;
+}
+
+.seller-greeting .lead {
+    font-size: 1.25rem;
+    color: var(--text);
+    margin-bottom: 2rem;
+}
+
+.seller-greeting ul {
     list-style: none;
-    padding-left: 0;
+    padding: 0;
 }
 
-.sidebar ul li {
-    margin: 15px 0;
-    padding-bottom: 30px;
+.seller-greeting ul li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 0.8rem;
+    color: var(--text);
 }
 
-.sidebar ul li a {
-    color: #E0E0E0;
-    text-decoration: none;
-}
-
-.sidebar ul li a:hover {
-    color: #007BFF;
-}
-
-.sidebar ul li a.active {
-    color: #007BFF;
+.seller-greeting ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--primary);
     font-weight: bold;
 }
 
-/* Settings Content Styling */
-.settings-heading {
-    color: #007BFF;
-    font-size: 2.5rem;
+.seller-greeting p {
+    font-size: 1rem;
+    color: var(--primary);
+    margin-top: 1.5rem;
+}
+
+/* Settings Container */
+.container {
+    background-color: var(--bg);
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px var(--glow);
+    max-width: 600px;
+    margin: 2rem auto;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+h2 {
+    color: var(--primary);
+    font-size: 1.8rem;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary);
 }
 
-/* Card Styling */
-.card {
-    background-color: #1A1A1A;
-    /* Dark background for the card */
-    border-radius: 10px;
-    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
-    margin-bottom: 20px;
-}
-
-.card-header {
-    background-color: #2f2a2a;
-    border-bottom: 1px solid #444;
-    padding: 15px;
-}
-
-.card-header h3 {
-    color: #E0E0E0;
-    font-size: 1.5rem;
-    margin: 0;
-}
-
-.card-body {
-    padding: 20px;
+h3 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
 }
 
 /* Form Styling */
 .form-label {
-    color: #E0E0E0;
+    color: var(--text);
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+    display: block;
 }
 
-.form-control {
-    background-color: #2f2a2a;
-    color: #E0E0E0;
-    border: 1px solid #444;
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    background-color: var(--bg-secondary);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: var(--transition);
 }
 
-.form-control:focus {
-    background-color: #2f2a2a;
-    color: #E0E0E0;
-    border-color: #007BFF;
-    box-shadow: none;
+input:focus,
+select:focus {
+    border-color: var(--primary);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(58, 134, 255, 0.2);
+}
+
+.form-check {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .form-check-input {
-    background-color: #2f2a2a;
-    border: 1px solid #444;
+    margin-right: 0.5rem;
+    accent-color: var(--primary);
 }
 
-.form-check-input:checked {
-    background-color: #007BFF;
-    border-color: #007BFF;
-}
-
-.form-check-label {
-    color: #E0E0E0;
-}
-
-.btn-primary {
-    background-color: #007BFF;
+.btn-submit {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: var(--primary);
+    color: white;
     border: none;
-    padding: 10px 20px;
+    border-radius: 6px;
     font-size: 1rem;
-    transition: background-color 0.3s ease;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-top: 1rem;
 }
 
-.btn-primary:hover {
-    background-color: #0056b3;
+.btn-submit:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(58, 134, 255, 0.3);
 }
 
-/* Media Queries for Responsiveness */
+/* Responsive */
 @media (max-width: 768px) {
-    .sidebar {
-        padding: 15px;
+    .seller-greeting {
+        padding: 3rem 2rem;
     }
 
-    .sidebar h2 {
+    .container {
+        padding: 2rem;
+        width: 90%;
+    }
+
+    h2 {
         font-size: 1.5rem;
-    }
-
-    .sidebar ul li {
-        margin: 10px 0;
-        padding-bottom: 20px;
-    }
-
-    .settings-heading {
-        font-size: 2rem;
-    }
-
-    .card-header h3 {
-        font-size: 1.25rem;
-    }
-
-    .btn-primary {
-        padding: 8px 15px;
-        font-size: 0.9rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .sidebar {
-        padding: 10px;
-    }
-
-    .sidebar h2 {
-        font-size: 1.25rem;
-    }
-
-    .sidebar ul li {
-        margin: 5px 0;
-        padding-bottom: 15px;
-    }
-
-    .settings-heading {
-        font-size: 1.75rem;
-    }
-
-    .card-header h3 {
-        font-size: 1rem;
-    }
-
-    .btn-primary {
-        padding: 5px 10px;
-        font-size: 0.8rem;
     }
 }

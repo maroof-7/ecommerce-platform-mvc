@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "Payment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var razorpayOrderId = ViewData["OrderId"]?.ToString();
+    var orderValue = ViewData["OrderValue"]?.ToString();
+    var userEmail = ViewData["UserEmail"]?.ToString() ?? "";
+    var userName = ViewData["UserName"]?.ToString() ?? "";
+}
+
+<link rel="stylesheet" href="~/css/payment.css" />
+
+<div class="payment-page-container">
+    <div class="payment-info-card">
+        <h2>Complete Your Payment</h2>
+        <p>Order ID: <span id="orderId">@razorpayOrderId</span></p>
+        <p>Amount: <span id="orderValue">@orderValue</span> INR</p>
+        <button id="payBtn" class="pay-now-btn">Pay Now</button>
+    </div>
+</div>
+
+<!-- Razorpay Checkout Script -->
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+<script>
+    const razorpayOrderId = "@razorpayOrderId";
+    const orderValue = "@orderValue";
+
+    document.getElementById('payBtn').onclick = async function (e) {
+        console.log("pay button clicked");
+
+        const response = await fetch("/paymentApi/create/paymentIntent", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                amount: orderValue,
+                currency: "INR",
+                orderId: razorpayOrderId
+            })
+        });
+
+        if (!response.ok) {
+            alert("Some Error, Payment Failed");
+            return;
+        }
+
+        const data = await response.json();
+
+        var options = {
+            "key": "rzp_test_RgG9AwfnysizZu", // Your test key
+            "amount": data.amount,
+            "currency": data.currency,
+            "name": "Your Shop Name",
+            "description": "Order Payment",
+            "order_id": data.orderId,
+            "handler": function (response) {
+                window.location.href = "/Order/OrderSuccess";
+            },
+            "prefill": {
+                "name": "@userName",
+                "email": "@userEmail"
+            },
+            "theme": {
+                "color": "#3a86ff"
+            }
+        };
+
+        var rzp = new Razorpay(options);
+        rzp.open();
+    };
+</script>

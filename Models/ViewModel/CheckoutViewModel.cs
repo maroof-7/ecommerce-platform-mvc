@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
+using DummyProject.Models.DomainModel;
 
 namespace DummyProject.ViewModels
 {
@@ -32,10 +33,11 @@ namespace DummyProject.ViewModels
         [Display(Name = "Phone Number")]
         public string PhoneNumber { get; set; }
 
-        [Required(ErrorMessage = "Shipping address is required.")]
-        [StringLength(200, ErrorMessage = "Shipping address cannot exceed 200 characters.")]
-        [Display(Name = "Shipping Address")]
-        public string ShippingAddress { get; set; }
+        // Address selection support
+        public Guid? SelectedAddressId { get; set; }
+
+        // Use List<Address> for index access in the view
+        public List<Address> ShippingAddresses { get; set; } = new List<Address>();
 
         [Display(Name = "Applied Coupon")]
         public string? AppliedCouponCode { get; set; }
@@ -120,7 +122,7 @@ namespace DummyProject.ViewModels
 
         [Required]
         [Display(Name = "Product Name")]
-        public string ProductName { get; set; }
+        public required string ProductName { get; set; }
 
         [Required]
         [Range(1, int.MaxValue, ErrorMessage = "Quantity must be at least 1.")]
@@ -134,36 +136,30 @@ namespace DummyProject.ViewModels
         [Display(Name = "Total")]
         [DataType(DataType.Currency)]
         public decimal LineTotal => Quantity * Price;
+
+        [Display(Name = "Product Image")]
+        public string? ImageUrl { get; set; }
     }
     public class AppliedCouponInfo
     {
-        public string Code { get; set; }
+        public string? Code { get; set; }
         public decimal DiscountValue { get; set; }
-        public string DiscountType { get; set; } // "Percentage" or "Fixed"
+        public string? DiscountType { get; set; } // "Percentage" or "Fixed"
     }
 
     public class AppliedCouponViewModel
     {
-        public string Code { get; set; }
+        public string? Code { get; set; }
         public decimal DiscountAmount { get; set; }
         public DateTime AppliedDate { get; set; }
     }
 
     public enum PaymentMethod
     {
-        [Display(Name = "Credit Card")]
-        CreditCard,
 
-        [Display(Name = "PayPal")]
-        PayPal,
 
-        [Display(Name = "Cash on Delivery")]
         CashOnDelivery,
+        RazorPay,
 
-        [Display(Name = "Bank Transfer")]
-        BankTransfer,
-
-        [Display(Name = "Digital Wallet")]
-        DigitalWallet
     }
 }

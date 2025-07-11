@@ -28,6 +28,8 @@ namespace DummyProject.Models.DomainModel
         public string? FirstName { get; set; }
         public string? PhoneNumber { get; set; }
         public string? LastName { get; set; }
+
+        
     }
     
 }

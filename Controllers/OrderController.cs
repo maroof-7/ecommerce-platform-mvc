@@ -3,12 +3,12 @@ using DummyProject.Data;
 using DummyProject.Models.DomainModel;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Linq;
 using System.Threading.Tasks;
-using DummyProject.Models.JunctionModels;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DummyProject.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class OrderController : Controller
     {
         private readonly SqlDbContext _context;
@@ -18,30 +18,50 @@ namespace DummyProject.Controllers
             _context = context;
         }
 
-        // GET: Orders (List of Orders for a User)
-        public async Task<IActionResult> Index()
+        // GET: Orders (Admin sees all orders)
+        [HttpGet]
+        public async Task<IActionResult> MyOrders()
         {
-            var token = Request.Cookies["AuthToken"];
-            if (string.IsNullOrEmpty(token))
-            {
-                return RedirectToAction("Login", "User");
-            }
-
-            var userId = Guid.Parse(token); // Replace with actual ID retrieval logic
-
             var orders = await _context.Orders
-                .Where(o => o.BuyerId == userId)
-                .ToListAsync(); // Removed .Include(o => o.Buyer) as Buyer navigation is missing
+                .Include(o => o.Buyer) // Make sure 'Buyer' is the navigation property to User
+                .OrderByDescending(o => o.DateCreated)
+                .ToListAsync();
 
             return View(orders);
         }
 
+        [HttpPost]
+        public async Task<IActionResult> DispatchOrder(Guid orderId)
+        {
+            var order = await _context.Orders.FindAsync(orderId);
+            if (order != null && order.Status != "Cancelled")
+            {
+                order.Status = "Dispatched";
+                await _context.SaveChangesAsync();
+            }
+            return RedirectToAction("MyOrders");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CancelOrder(Guid orderId)
+        {
+            var order = await _context.Orders.FindAsync(orderId);
+            if (order != null && order.Status != "Dispatched")
+            {
+                order.Status = "Cancelled";
+                await _context.SaveChangesAsync();
+            }
+            return RedirectToAction("MyOrders");
+        }
+
         // GET: Order Details
+        [HttpGet]
         public async Task<IActionResult> Details(Guid id)
         {
             var order = await _context.Orders
-                .Include(o => o.OrderProducts) // Include ordered products
+                .Include(o => o.OrderProducts)
                 .ThenInclude(op => op.Product)
+                .Include(o => o.Buyer)
                 .FirstOrDefaultAsync(o => o.OrderId == id);
 
             if (order == null)
@@ -50,51 +70,6 @@ namespace DummyProject.Controllers
             }
 
             return View(order);
-        }
-
-        // POST: Place Order (From Cart)
-        [HttpPost]
-        public async Task<IActionResult> PlaceOrder()
-        {
-            var token = Request.Cookies["AuthToken"];
-            if (string.IsNullOrEmpty(token))
-            {
-                return RedirectToAction("Login", "User");
-            }
-
-            var userId = Guid.Parse(token); // Replace with actual ID retrieval logic
-
-            var cart = await _context.Carts
-                .Include(c => c.CartProducts)
-                .ThenInclude(cp => cp.Product)
-                .FirstOrDefaultAsync(c => c.BuyerId == userId);
-
-            if (cart == null || !cart.CartProducts.Any())
-            {
-                return BadRequest("Your cart is empty.");
-            }
-
-            // Create new order
-            var order = new Order
-            {
-                BuyerId = userId,
-                TotalAmount = cart.CartProducts.Sum(cp => cp.Product.Price * cp.Quantity),
-                Status = "Pending",
-                OrderProducts = cart.CartProducts.Select(cp => new OrderProduct
-                {
-                    ProductId = cp.ProductId,
-                    Quantity = cp.Quantity,
-                    Price = cp.Product.Price
-                }).ToList()
-            };
-
-            _context.Orders.Add(order);
-
-            // Remove items from cart after placing the order
-            _context.CartProducts.RemoveRange(cart.CartProducts);
-            await _context.SaveChangesAsync();
-
-            return RedirectToAction("Index");
         }
 
         // POST: Update Order Status
@@ -107,10 +82,24 @@ namespace DummyProject.Controllers
                 return NotFound();
             }
 
-            order.Status = status; // Changed from OrderStatus to Status
+            order.Status = status;
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index");
+            return RedirectToAction("MyOrders");
+        }
+
+        [AllowAnonymous]
+        public IActionResult OrderSuccess()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
+        public IActionResult Payment(Guid OrderId, int OrderValue)
+        {
+            ViewData["OrderId"] = OrderId;
+            ViewData["OrderValue"] = OrderValue;
+            return View();
         }
     }
 }

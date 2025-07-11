@@ -18,6 +18,7 @@ namespace DummyProject.Models.DomainModel
 
         [Required(ErrorMessage = "Product image URL is required.")]
         [Url(ErrorMessage = "Invalid URL format.")]
+        [Display(Name = "Product Image")]
         public required string ProductPicURl { get; set; }
 
         [Required(ErrorMessage = "Quantity is required.")]
@@ -54,5 +55,9 @@ namespace DummyProject.Models.DomainModel
         public DateTime DateCreated { get; set; } = DateTime.UtcNow;
         public DateTime? DateModified { get; set; } = DateTime.UtcNow;
         public bool IsArchived { get; internal set; }
+        public int StockQuantity { get; set; }
+
+        [NotMapped]
+        public string? ImageUrl => ProductPicURl;
     }
 }

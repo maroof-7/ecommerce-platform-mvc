@@ -14,8 +14,7 @@
             <a asp-controller="product" asp-action="details" asp-route-id="@product.ProductId" class="product-card">
                 <img src="@product.ProductPicURl" alt="@product.ProductTitle">
                 <h3 class="product-title">@product.ProductTitle</h3>
-                <p class="price">@product.Price.ToString("C")</p>
-                @* <button class="btn">Add to Cart</button> *@
+                <p class="price">@product.Price.ToString("C", new System.Globalization.CultureInfo("en-IN"))</p>
             </a>
         }
     }

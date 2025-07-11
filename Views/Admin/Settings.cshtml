@@ -1,106 +1,78 @@
 ﻿@{
     ViewData["Title"] = "Settings";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
-<html lang="en">
+<link rel="stylesheet" href="~/css/settings.css" asp-append-version="true" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-<head>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- Font Awesome Icons -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <!-- Custom Settings CSS -->
-    <link rel="stylesheet" href="~/css/settings.css" asp-append-version="true" />
-</head>
+<main class="seller-greeting">
+    <h1>Welcome Back! ⚙️</h1>
+    <p class="lead">Customize your experience and stay in control of your <strong>Maroof7 Zenith</strong> profile. 👑
+    </p>
+    <p>Adjust settings as per your needs:</p>
+    <ul>
+        <li>✅ Manage your account and preferences effortlessly.</li>
+        <li>✅ Stay updated with tailored notifications.</li>
+        <li>✅ Switch between different visual themes.</li>
+        <li>🚀 New features coming soon to enhance control.</li>
+    </ul>
+    <p>Your control panel, your rules – welcome to your settings hub! 🔧</p>
+</main>
 
-<body>
-    <!-- Main Content -->
-    <div class="container-fluid">
-        <div class="row">
-            <!-- Sidebar -->
-            <div class="col-md-3 sidebar">
-                <h2>Dashboard</h2>
-                <ul>
-                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="/admin/createproduct"><i class="fas fa-box"></i> Create Products</a></li>
-                    <li><a href="/admin/Myproducts"><i class="fas fa-list"></i> Products List</a></li>
-                    <li><a href="/admin/Users"><i class="fas fa-user"></i> Users</a></li>
-                    <li><a href="/admin/analytics"><i class="fas fa-chart-line"></i> Analytics</a></li>
-                    <li><a href="/admin/settings" class="active"><i class="fas fa-cog"></i> Settings</a></li>
-                </ul>
+<div class="container">
+    <h2>Settings Panel</h2>
+
+    <!-- Account Settings -->
+    <div class="settings-section">
+        <h3><i class="fas fa-user-cog"></i> Account Settings</h3>
+        <form>
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="username" value="Admin123" readonly>
             </div>
-
-            <!-- Settings Content -->
-            <div class="col-md-9">
-                <h1 class="settings-heading">Settings</h1>
-
-                <!-- Account Settings -->
-                <div class="card mb-4">
-                    <div class="card-header">
-                        <h3><i class="fas fa-user-cog"></i> Account Settings</h3>
-                    </div>
-                    <div class="card-body">
-                        <form>
-                            <div class="mb-3">
-                                <label for="username" class="form-label">Username</label>
-                                <input type="text" class="form-control" id="username" value="Admin123" readonly>
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" value="admin@maroof7zenith.com">
-                            </div>
-                            <div class="mb-3">
-                                <label for="password" class="form-label">Change Password</label>
-                                <input type="password" class="form-control" id="password" placeholder="Enter new password">
-                            </div>
-                            <button type="submit" class="btn btn-primary">Save Changes</button>
-                        </form>
-                    </div>
-                </div>
-
-                <!-- Notification Settings -->
-                <div class="card mb-4">
-                    <div class="card-header">
-                        <h3><i class="fas fa-bell"></i> Notification Settings</h3>
-                    </div>
-                    <div class="card-body">
-                        <form>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="emailNotifications" checked>
-                                <label class="form-check-label" for="emailNotifications">Email Notifications</label>
-                            </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="smsNotifications">
-                                <label class="form-check-label" for="smsNotifications">SMS Notifications</label>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Save Changes</button>
-                        </form>
-                    </div>
-                </div>
-
-                <!-- Theme Settings -->
-                <div class="card mb-4">
-                    <div class="card-header">
-                        <h3><i class="fas fa-palette"></i> Theme Settings</h3>
-                    </div>
-                    <div class="card-body">
-                        <form>
-                            <div class="mb-3">
-                                <label for="theme" class="form-label">Select Theme</label>
-                                <select class="form-select" id="theme">
-                                    <option value="dark" selected>Dark Theme</option>
-                                    <option value="light">Light Theme</option>
-                                    <option value="blue">Blue Theme</option>
-                                </select>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Apply Theme</button>
-                        </form>
-                    </div>
-                </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" value="admin@maroof7zenith.com">
             </div>
-        </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Change Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter new password">
+            </div>
+            <button type="submit" class="btn-submit">Save Changes</button>
+        </form>
     </div>
-</body>
 
-</html>
+    <!-- Notification Settings -->
+    <div class="settings-section">
+        <h3><i class="fas fa-bell"></i> Notification Settings</h3>
+        <form>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="emailNotifications" checked>
+                <label class="form-check-label" for="emailNotifications">Email Notifications</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="smsNotifications">
+                <label class="form-check-label" for="smsNotifications">SMS Notifications</label>
+            </div>
+            <button type="submit" class="btn-submit">Save Changes</button>
+        </form>
+    </div>
+
+    <!-- Theme Settings -->
+    <div class="settings-section">
+        <h3><i class="fas fa-palette"></i> Theme Settings</h3>
+        <form>
+            <div class="mb-3">
+                <label for="theme" class="form-label">Select Theme</label>
+                <select class="form-control" id="theme">
+                    <option value="dark" selected>Dark Theme</option>
+                    <option value="light">Light Theme</option>
+                    <option value="blue">Blue Theme</option>
+                </select>
+            </div>
+            <button type="submit" class="btn-submit">Apply Theme</button>
+        </form>
+    </div>
+</div>

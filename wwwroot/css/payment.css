@@ -1,0 +1,72 @@
+:root {
+    --primary: #3a86ff;
+    --primary-hover: #2667cc;
+    --danger: #ff4d4d;
+    --danger-hover: #cc3a3a;
+    --success: #28a745;
+    --success-hover: #218838;
+    --warning: #ffc107;
+    --warning-hover: #e0a800;
+    --text: #f0f0f0;
+    --text-secondary: #aaaaaa;
+    --bg: #000000;
+    --bg-secondary: #1a1a1a;
+    --bg-tertiary: #2f2a2a;
+    --border: #444444;
+    --glow: rgba(255, 255, 255, 0.2);
+    --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.payment-page-container {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg, #000);
+}
+
+.payment-info-card {
+    background-color: #000000;
+    border-radius: 1.25rem;
+    box-shadow: 0 8px 32px var(--glow), 0 1.5px 6px var(--border);
+    padding: 2.5rem 2.5rem 2rem 2.5rem;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    color: var(--text, #f0f0f0);
+    border: 2px solid var(--border, #444);
+}
+
+.payment-info-card:hover,
+.payment-info-card:focus-within {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px var(--glow), 0 1.5px 6px var(--border);
+    border-color: var(--primary-hover);
+    z-index: 2;
+    transition: var(--transition);
+}
+
+
+.pay-now-btn {
+    margin-top: 1.5rem;
+    padding: 0.7rem 2.2rem;
+    background: var(--primary, #3a86ff);
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    box-shadow: 0 2px 8px var(--glow, rgba(255, 255, 255, 0.1));
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.2s, border 0.3s;
+}
+
+.pay-now-btn:hover,
+.pay-now-btn:focus {
+    background: var(--primary-hover, #2667cc);
+    box-shadow: 0 4px 16px var(--primary-hover, #2667cc), 0 2px 8px var(--glow, rgba(255, 255, 255, 0.1));
+    transform: translateY(-2px) scale(1.04);
+    outline: none;
+    border: 2px solid var(--primary-hover, #2667cc);
+}

@@ -1,278 +1,137 @@
-﻿@{
+﻿@model DummyProject.Models.ViewModel.AdminDashboardStatsViewModel
+@{
     ViewData["Title"] = "Dashboard";
 }
 
-<!DOCTYPE html>
-<html lang="en">
+<link rel="stylesheet" href="~/css/admin.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- Font Awesome Icons -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <!-- Chart.js -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- Custom Dark Theme CSS -->
-    <link rel="stylesheet" href="~/css/admin.css" asp-append-version="true" />
-</head>
-
-<body>
-    <!-- Hero Section -->
-    <div class="hero-container">
-        <div class="hero-content">
-            <h1 class="hero-title">Welcome Back, Admin! <span class="wave">👋</span></h1>
-            <p class="hero-subtitle">We're thrilled to have you here. Your efforts are driving the success of
-                <strong>Maroof7 Zenith</strong>.</p>
-            <p class="hero-text">Here's what you can do today:</p>
-
-            <ul class="hero-features">
-                <li><i class="fas fa-chart-line"></i> Monitor sales and analytics to track performance</li>
-                <li><i class="fas fa-boxes"></i> Manage products, inventory, and orders efficiently</li>
-                <li><i class="fas fa-users"></i> Engage with customers and resolve queries promptly</li>
-                <li><i class="fas fa-rocket"></i> Explore new features to enhance the shopping experience</li>
+<div class="container-fluid admin-container">
+    <div class="row g-0">
+        <!-- Sidebar -->
+        <div class="col-md-3 sidebar">
+            <div class="sidebar-header">
+                <h2><i class="fas fa-sliders-h"></i> Dashboard</h2>
+            </div>
+            <ul class="sidebar-menu">
+                <li><a href="/admin/admindashboard" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="/admin/createproduct"><i class="fas fa-plus-circle"></i> Create Products</a></li>
+                <li><a href="/admin/productlist"><i class="fas fa-list-ul"></i> Products List</a></li>
+                <li><a href="/admin/orderlist"><i class="fas fa-clipboard-list"></i> Orders List</a></li>
+                <li><a href="/admin/UserList"><i class="fas fa-user-friends"></i> Users List</a></li>
+                <li><a href="/admin/settings"><i class="fas fa-cogs"></i> Settings</a></li>
             </ul>
-
-            <p class="hero-cta-text">Remember, every small step you take contributes to big achievements!</p>
-        </div>
-    </div>
-
-    <!-- Main Content -->
-    <div class="container-fluid admin-container">
-        <div class="row g-0">
-            <!-- Sidebar -->
-            <div class="col-md-3 sidebar">
-                <div class="sidebar-header">
-                    <h2><i class="fas fa-sliders-h"></i> Dashboard</h2>
+            <div class="sidebar-footer">
+                <div class="user-profile">
+                    <img src="~/logo.jpg" alt="Admin" class="profile-img">
+                    <div class="profile-info">
+                        <span class="username">Admin User</span>
+                    </div>
                 </div>
-                <ul class="sidebar-menu">
-                    <li><a href="/admin/admindashboard" class="active"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="/admin/createproduct"><i class="fas fa-plus-circle"></i> Create Products</a></li>
-                    <li><a href="/admin/Myproducts"><i class="fas fa-list-ul"></i> Products List</a></li>
-                    <li><a href="/admin/Users"><i class="fas fa-user-friends"></i> Users</a></li>
-                    <li><a href="/admin/analytics"><i class="fas fa-chart-pie"></i> Analytics</a></li>
-                    <li><a href="/admin/settings"><i class="fas fa-cogs"></i> Settings</a></li>
-                </ul>
-                <div class="sidebar-footer">
-                    <div class="user-profile">
-                        <img src="https://via.placeholder.com/40" alt="Admin" class="profile-img">
-                        <div class="profile-info">
-                            <span class="username">Admin User</span>
-                            <span class="role">Super Admin</span>
+            </div>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="col-md-9 main-content">
+            <!-- Stats Cards -->
+            <div class="row stats-row">
+                <div class="col-md-3">
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background-color: rgba(58, 134, 255, 0.2);">
+                            <i class="fas fa-shopping-cart" style="color: var(--primary);"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3 id="total-orders">@Model.TotalOrders</h3>
+                            <p>Total Orders</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background-color: rgba(40, 167, 69, 0.2);">
+                            <i class="fas fa-dollar-sign" style="color: var(--success);"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3 id="total-revenue">&#8377; @Model.TotalRevenue.ToString("N2")</h3>
+                            <p>Total Revenue</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background-color: rgba(255, 193, 7, 0.2);">
+                            <i class="fas fa-users" style="color: #ffc107;"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3 id="total-customers">@Model.TotalCustomers</h3>
+                            <p>Customers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background-color: rgba(220, 53, 69, 0.2);">
+                            <i class="fas fa-box-open" style="color: #dc3545;"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3 id="low-stock">@Model.LowStockProducts</h3>
+                            <p>Low Stock</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Main Content Area -->
-            <div class="col-md-9 main-content">
-                <!-- Stats Cards -->
-                <div class="row stats-row">
-                    <div class="col-md-3">
-                        <div class="stat-card">
-                            <div class="stat-icon" style="background-color: rgba(58, 134, 255, 0.2);">
-                                <i class="fas fa-shopping-cart" style="color: var(--primary);"></i>
-                            </div>
-                            <div class="stat-info">
-                                <h3 id="total-orders">Loading...</h3>
-                                <p>Total Orders</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="stat-card">
-                            <div class="stat-icon" style="background-color: rgba(40, 167, 69, 0.2);">
-                                <i class="fas fa-dollar-sign" style="color: var(--success);"></i>
-                            </div>
-                            <div class="stat-info">
-                                <h3 id="total-revenue">Loading...</h3>
-                                <p>Total Revenue</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="stat-card">
-                            <div class="stat-icon" style="background-color: rgba(255, 193, 7, 0.2);">
-                                <i class="fas fa-users" style="color: #ffc107;"></i>
-                            </div>
-                            <div class="stat-info">
-                                <h3 id="total-customers">Loading...</h3>
-                                <p>Customers</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="stat-card">
-                            <div class="stat-icon" style="background-color: rgba(220, 53, 69, 0.2);">
-                                <i class="fas fa-box-open" style="color: #dc3545;"></i>
-                            </div>
-                            <div class="stat-info">
-                                <h3 id="low-stock">Loading...</h3>
-                                <p>Low Stock</p>
-                            </div>
-                        </div>
+            <!-- Chart Section: No gap, aligned with stats cards -->
+            <div class="chart-card">
+                <div class="card-header">
+                    <h3><i class="fas fa-chart-line"></i> Sales Overview</h3>
+                    <div class="time-filter">
+                        <button class="btn-time active" data-period="week">Week</button>
+                        <button class="btn-time" data-period="month">Month</button>
+                        <button class="btn-time" data-period="year">Year</button>
                     </div>
                 </div>
-            </div>
-            
-                <!-- Chart Section -->
-                <div class="chart-card">
-                    <div class="card-header">
-                        <h3><i class="fas fa-chart-line"></i> Sales Overview</h3>
-                        <div class="time-filter">
-                            <button class="btn-time active">Week</button>
-                            <button class="btn-time">Month</button>
-                            <button class="btn-time">Year</button>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <canvas id="salesChart"></canvas>
-                    </div>
-                </div>
-
-                <!-- Recent Orders Table -->
-                <div class="recent-orders">
-                    <div class="card-header">
-                        <h3><i class="fas fa-clock"></i> Recent Orders</h3>
-                        <a href="#" class="view-all">View All</a>
-                    </div>
-                    <div class="table-responsive">
-                        <table class="orders-table">
-                            <thead>
-                                <tr>
-                                    <th>Order ID</th>
-                                    <th>Customer</th>
-                                    <th>Date</th>
-                                    <th>Amount</th>
-                                    <th>Status</th>
-                                    <th>Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>#ORD-7589</td>
-                                    <td>John Smith</td>
-                                    <td>Today, 10:30 AM</td>
-                                    <td>$245.99</td>
-                                    <td><span class="status delivered">Delivered</span></td>
-                                    <td><button class="btn-view">View</button></td>
-                                </tr>
-                                <tr>
-                                    <td>#ORD-7588</td>
-                                    <td>Sarah Johnson</td>
-                                    <td>Today, 9:15 AM</td>
-                                    <td>$189.50</td>
-                                    <td><span class="status shipped">Shipped</span></td>
-                                    <td><button class="btn-view">View</button></td>
-                                </tr>
-                                <tr>
-                                    <td>#ORD-7587</td>
-                                    <td>Michael Brown</td>
-                                    <td>Yesterday, 4:45 PM</td>
-                                    <td>$320.00</td>
-                                    <td><span class="status processing">Processing</span></td>
-                                    <td><button class="btn-view">View</button></td>
-                                </tr>
-                                <tr>
-                                    <td>#ORD-7586</td>
-                                    <td>Emily Davis</td>
-                                    <td>Yesterday, 2:20 PM</td>
-                                    <td>$175.25</td>
-                                    <td><span class="status pending">Pending</span></td>
-                                    <td><button class="btn-view">View</button></td>
-                                </tr>
-                                <tr>
-                                    <td>#ORD-7585</td>
-                                    <td>Robert Wilson</td>
-                                    <td>Yesterday, 11:10 AM</td>
-                                    <td>$420.75</td>
-                                    <td><span class="status cancelled">Cancelled</span></td>
-                                    <td><button class="btn-view">View</button></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                <div class="card-body" style="height:350px;">
+                    <canvas id="salesChart"></canvas>
                 </div>
             </div>
         </div>
-    </div> 
-
-
-
-
-    @* <!-- Chart Section -->
-<div class="chart-card">
-    <div class="card-header">
-        <h3><i class="fas fa-chart-line"></i> Sales Overview</h3>
-        <div class="time-filter">
-            <button class="btn-time active" data-period="week">Week</button>
-            <button class="btn-time" data-period="month">Month</button>
-            <button class="btn-time" data-period="year">Year</button>
-        </div>
-    </div>
-    <div class="card-body">
-        <canvas id="salesChart"></canvas>
     </div>
 </div>
 
-<!-- Recent Orders Table -->
-<div class="recent-orders">
-    <div class="card-header">
-        <h3><i class="fas fa-clock"></i> Recent Orders</h3>
-        <a href="/admin/orders" class="view-all">View All</a>
-    </div>
-    <div class="table-responsive">
-        <table class="orders-table">
-            <thead>
-                <tr>
-                    <th>Order ID</th>
-                    <th>Customer</th>
-                    <th>Date</th>
-                    <th>Amount</th>
-                    <th>Status</th>
-                    <th>Action</th>
-                </tr>
-            </thead>
-            <tbody id="recent-orders-body">
-                <!-- Dynamic content will be inserted here -->
-                <tr>
-                    <td colspan="6" class="text-center py-4">Loading orders...</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div> *@
-
-
-
-
-
-@* 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-    // Chart initialization
-    let salesChart;
-    const ctx = document.getElementById('salesChart').getContext('2d');
-    
-    // Function to initialize/update chart
-    function initChart(data) {
-        if (salesChart) {
-            salesChart.destroy();
-        }
-        
-        salesChart = new Chart(ctx, {
+    let chart;
+    let currentPeriod = "week";
+
+    async function fetchSalesData(period) {
+        // Replace with your actual endpoint and logic
+        const res = await fetch(`/admin/getsalesdata?period=${period}`);
+        return await res.json();
+    }
+
+    function updateChart(chart, labels, data) {
+        chart.data.labels = labels;
+        chart.data.datasets[0].data = data;
+        chart.update();
+    }
+
+    document.addEventListener("DOMContentLoaded", async function () {
+        const ctx = document.getElementById('salesChart').getContext('2d');
+        // Initial fetch
+        const initialData = await fetchSalesData(currentPeriod);
+
+        chart = new Chart(ctx, {
             type: 'line',
             data: {
-                labels: data.labels,
+                labels: initialData.labels,
                 datasets: [{
                     label: 'Sales',
-                    data: data.values,
-                    borderColor: 'var(--primary)',
+                    data: initialData.data,
+                    borderColor: 'rgba(58, 134, 255, 1)',
                     backgroundColor: 'rgba(58, 134, 255, 0.1)',
                     borderWidth: 2,
-                    pointBackgroundColor: 'var(--primary)',
+                    pointBackgroundColor: 'rgba(58, 134, 255, 1)',
                     pointBorderColor: '#FFFFFF',
                     pointRadius: 5,
                     pointHoverRadius: 7,
@@ -317,190 +176,15 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
         });
-    }
 
-    // Function to fetch chart data
-    async function fetchChartData(period = 'week') {
-        try {
-            const response = await fetch(`/api/dashboard/sales?period=${period}`);
-            const data = await response.json();
-            initChart(data);
-        } catch (error) {
-            console.error("Error fetching chart data:", error);
-            // Fallback to empty chart
-            initChart({
-                labels: [],
-                values: []
+        document.querySelectorAll('.btn-time').forEach(btn => {
+            btn.addEventListener('click', async function () {
+                document.querySelectorAll('.btn-time').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                currentPeriod = this.getAttribute('data-period');
+                const salesData = await fetchSalesData(currentPeriod);
+                updateChart(chart, salesData.labels, salesData.data);
             });
-        }
-    }
-
-    // Time filter buttons event listeners
-    document.querySelectorAll('.btn-time').forEach(btn => {
-        btn.addEventListener('click', function() {
-            document.querySelectorAll('.btn-time').forEach(b => b.classList.remove('active'));
-            this.classList.add('active');
-            fetchChartData(this.dataset.period);
         });
     });
-
-    // Function to fetch recent orders
-    async function fetchRecentOrders() {
-        try {
-            const response = await fetch('/api/dashboard/recent-orders');
-            const orders = await response.json();
-            updateOrdersTable(orders);
-        } catch (error) {
-            console.error("Error fetching recent orders:", error);
-            document.getElementById('recent-orders-body').innerHTML = `
-                <tr>
-                    <td colspan="6" class="text-center py-4 text-danger">
-                        Failed to load orders. Please try again later.
-                    </td>
-                </tr>
-            `;
-        }
-    }
-
-    // Function to update orders table
-    function updateOrdersTable(orders) {
-        const tbody = document.getElementById('recent-orders-body');
-        
-        if (orders.length === 0) {
-            tbody.innerHTML = `
-                <tr>
-                    <td colspan="6" class="text-center py-4">No recent orders found</td>
-                </tr>
-            `;
-            return;
-        }
-
-        tbody.innerHTML = orders.map(order => `
-            <tr>
-                <td>#${order.id}</td>
-                <td>${order.customerName}</td>
-                <td>${formatDate(order.date)}</td>
-                <td>$${order.amount.toFixed(2)}</td>
-                <td><span class="status ${order.status.toLowerCase()}">${order.status}</span></td>
-                <td>
-                    <button class="btn-view" data-order-id="${order.id}">
-                        View
-                    </button>
-                </td>
-            </tr>
-        `).join('');
-
-        // Add event listeners to view buttons
-        document.querySelectorAll('.btn-view').forEach(btn => {
-            btn.addEventListener('click', function() {
-                const orderId = this.dataset.orderId;
-                window.location.href = `/admin/orders/${orderId}`;
-            });
-        });
-    }
-
-    // Helper function to format date
-    function formatDate(dateString) {
-        const date = new Date(dateString);
-        const options = { 
-            weekday: 'short', 
-            year: 'numeric', 
-            month: 'short', 
-            day: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit'
-        };
-        return date.toLocaleDateString('en-US', options);
-    }
-
-    // Initial load
-    fetchChartData();
-    fetchRecentOrders();
-
-    // Refresh data every 30 seconds
-    setInterval(fetchRecentOrders, 30000);
-});
-</script> *@
-
-
-
-
-
-
-
-
-
-
-    <!-- JavaScript to Render Chart with Static Data -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // Static data for the chart
-            const salesData = {
-                labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], // Months
-                data: [120, 200, 150, 300, 250, 400, 350, 500, 450, 600, 550, 700] // Sales data
-            };
-
-            // Get the chart canvas
-            var ctx = document.getElementById('salesChart').getContext('2d');
-
-            // Create the chart
-            var chart = new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: salesData.labels, // Static labels
-                    datasets: [{
-                        label: 'Sales',
-                        data: salesData.data, // Static data
-                        borderColor: 'var(--primary)',
-                        backgroundColor: 'rgba(58, 134, 255, 0.1)',
-                        borderWidth: 2,
-                        pointBackgroundColor: 'var(--primary)',
-                        pointBorderColor: '#FFFFFF',
-                        pointRadius: 5,
-                        pointHoverRadius: 7,
-                        fill: true,
-                        tension: 0.4
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: {
-                            labels: {
-                                color: 'var(--text)'
-                            }
-                        },
-                        tooltip: {
-                            backgroundColor: 'var(--bg-tertiary)',
-                            titleColor: 'var(--text)',
-                            bodyColor: 'var(--text-secondary)',
-                            borderColor: 'var(--primary)',
-                            borderWidth: 1
-                        }
-                    },
-                    scales: {
-                        x: {
-                            grid: {
-                                color: 'var(--border)'
-                            },
-                            ticks: {
-                                color: 'var(--text-secondary)'
-                            }
-                        },
-                        y: {
-                            grid: {
-                                color: 'var(--border)'
-                            },
-                            ticks: {
-                                color: 'var(--text-secondary)'
-                            }
-                        }
-                    }
-                }
-            });
-        });
-    </script>
-</body>
-
-</html>
+</script>

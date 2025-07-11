@@ -3,30 +3,14 @@
 }
 
 
-<link rel="stylesheet" href="~/css/Myproducts.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/ProductList.css" asp-append-version="true" />
 <link rel="stylesheet" href="~/css/MyArchive.css" asp-append-version="true" />
 
-
-
-
-<main class="Customer-greeting">
-    <!-- Admin Section -->
-    <h1>Your Listing</h1>
-    <p>Stay on Top of Your Listings</p>
-    <ul>
-        <li>We're thrilled to have you here.</li>
-        <li>Your trust and support mean the world to us.</li>
-        <li>We’re committed to providing you with the best products and service.</li>
-        <li>You’re more than a customer – you’re family!</li>
-        <li>Happy [shopping] from our family to yours!</li>
-    </ul>
-    <p>Keep up the great work – we’re here to support you every step of the way!</p>
-</main>
 
 <div class="container">
     <!-- Navigation Links for Active, Archived, and Deleted Products -->
     <div class="mb-3">
-        <a class="btn btn-primary" asp-controller="Admin" asp-action="MyProducts">Active Products</a>
+        <a class="btn btn-primary" asp-controller="Admin" asp-action="ProductList">Active Products</a>
         <a class="btn btn-warning" asp-controller="Admin" asp-action="MyArchive">Archived Products</a>
         <a class="btn btn-danger" asp-controller="Admin" asp-action="DeletedProducts">Deleted Products</a>
         <a class="btn btn-success" asp-controller="Admin" asp-action="FeaturedProducts">Featured Products</a>

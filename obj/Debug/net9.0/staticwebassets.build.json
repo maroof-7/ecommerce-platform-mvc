@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AnMZZww8gWLD/WECpnGryMB+XiasnLJVD8aR8MLlinQ=",
+  "Hash": "HtY7+dk9Nhn6dVs89+kBQKcmXWUj5iEbnWiIz8ZYHRU=",
   "Source": "DummyProject",
   "BasePath": "_content/DummyProject",
   "Mode": "Default",
@@ -59,12 +59,12 @@
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Register.css"
     },
     {
-      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\0cv30t2btp-lcm3ermzzz.gz",
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\0cv30t2btp-8th2917hpg.gz",
       "SourceId": "DummyProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DummyProject",
-      "RelativePath": "css/userlist#[.{fingerprint=lcm3ermzzz}]?.css.gz",
+      "RelativePath": "css/userlist#[.{fingerprint=8th2917hpg}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -73,8 +73,8 @@
       "RelatedAsset": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\userlist.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "g24ke9ycbq",
-      "Integrity": "aPxsNoA3+pOHmhl/puRpg1oc3vzIOh9C3eKy2JFNs+U=",
+      "Fingerprint": "zdctnv03t3",
+      "Integrity": "9/afKGy6KJIbBobszyK1TpMTLFhz6t5AfFylRvXPp7g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\userlist.css"
@@ -101,12 +101,12 @@
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\1j5mbkui7q-co168i0rgi.gz",
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\1j5mbkui7q-7drht0u0ld.gz",
       "SourceId": "DummyProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DummyProject",
-      "RelativePath": "css/FeaturedProducts#[.{fingerprint=co168i0rgi}]?.css.gz",
+      "RelativePath": "css/FeaturedProducts#[.{fingerprint=7drht0u0ld}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -115,8 +115,8 @@
       "RelatedAsset": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\FeaturedProducts.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "udcstpgq5w",
-      "Integrity": "ThESmnGt7qa7WCI2IZfi9iA8CmamACKIKWMAn0qbkUw=",
+      "Fingerprint": "me9xbc5mf6",
+      "Integrity": "3hgNeFTHmUx/IsMus4l2K2B44Q02K9G3m1vcDrs+AvE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\FeaturedProducts.css"
@@ -332,48 +332,6 @@
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\4zhkvzlxbh-3swth7l7jf.gz",
-      "SourceId": "DummyProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/DummyProject",
-      "RelativePath": "css/Myproducts#[.{fingerprint=3swth7l7jf}]?.css.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Myproducts.css",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "4nz7v59tl3",
-      "Integrity": "0MyESqXDMJaZr5f+jnlXCcNirQ9wCNbph3pPKt9nKLM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Myproducts.css"
-    },
-    {
-      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\62zdaefeq0-vbfs02i8hp.gz",
-      "SourceId": "DummyProject",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/DummyProject",
-      "RelativePath": "DummyProject#[.{fingerprint=vbfs02i8hp}]?.styles.css.gz",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\scopedcss\\bundle\\DummyProject.styles.css",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "euk8wi6j5g",
-      "Integrity": "huOn1eVxYZV37mzAoHqrthUm/s2V7R9NIkSMKIIZv6k=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\scopedcss\\bundle\\DummyProject.styles.css"
-    },
-    {
       "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\67pz11sqbo-tdbxkamptv.gz",
       "SourceId": "DummyProject",
       "SourceType": "Discovered",
@@ -395,12 +353,12 @@
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\6eg2n6z9v2-j6c6e3ocpc.gz",
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\6eg2n6z9v2-aillw9muup.gz",
       "SourceId": "DummyProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DummyProject",
-      "RelativePath": "js/site#[.{fingerprint=j6c6e3ocpc}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=aillw9muup}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -409,8 +367,8 @@
       "RelatedAsset": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "mflgzkkn38",
-      "Integrity": "fly2X4X76NHe/vDKzfkkUJ/aeh82zRVS3HgAOoBYtc8=",
+      "Fingerprint": "wtb7ezi5dt",
+      "Integrity": "XC7Yc0p8+7v0T7J5yf3oUyVzEdMghzPp6TrnLGC5IYA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\js\\site.js"
@@ -584,6 +542,27 @@
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ajq9vtj25o-s3i4jcxdw6.gz",
+      "SourceId": "DummyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DummyProject",
+      "RelativePath": "css/Myorders#[.{fingerprint=s3i4jcxdw6}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Myorders.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "h3i63w3jza",
+      "Integrity": "4wszH1dby67eoRlrQ7WnzxE2Ke8IaRXtaKbEeF7ucrg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Myorders.css"
+    },
+    {
       "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\amqrcn28uc-06098lyss8.gz",
       "SourceId": "DummyProject",
       "SourceType": "Discovered",
@@ -731,27 +710,6 @@
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ejfmn1a121-vbfs02i8hp.gz",
-      "SourceId": "DummyProject",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/DummyProject",
-      "RelativePath": "DummyProject#[.{fingerprint=vbfs02i8hp}]!.bundle.scp.css.gz",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DummyProject.bundle.scp.css",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "euk8wi6j5g",
-      "Integrity": "huOn1eVxYZV37mzAoHqrthUm/s2V7R9NIkSMKIIZv6k=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DummyProject.bundle.scp.css"
-    },
-    {
       "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ezlgpw9oej-v0zj4ognzu.gz",
       "SourceId": "DummyProject",
       "SourceType": "Discovered",
@@ -773,12 +731,12 @@
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\fr9sya6fxa-vr0ywn67vr.gz",
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\fr9sya6fxa-dayn2fp37g.gz",
       "SourceId": "DummyProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DummyProject",
-      "RelativePath": "css/MyArchive#[.{fingerprint=vr0ywn67vr}]?.css.gz",
+      "RelativePath": "css/MyArchive#[.{fingerprint=dayn2fp37g}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -787,8 +745,8 @@
       "RelatedAsset": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\MyArchive.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wtg9j3jckz",
-      "Integrity": "dMzWrUdcmLd112CPctDGN/FLH0AtIXGKDLgq735Ah6k=",
+      "Fingerprint": "ujqi5whlzq",
+      "Integrity": "FrR3MYc+LleuugmDOQDPGlUWI+fCw8jKzayxu3AU0Lg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\MyArchive.css"
@@ -836,6 +794,27 @@
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\huie89466o-678fi3fcmv.gz",
+      "SourceId": "DummyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DummyProject",
+      "RelativePath": "css/checkout#[.{fingerprint=678fi3fcmv}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\checkout.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "pbhoymdey9",
+      "Integrity": "tTfkfnvNU5NHOlcXTRdGYEfXzP+nFMxWV7RBt/JaM3s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\checkout.css"
+    },
+    {
       "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\i3lbbe7f60-356vix0kms.gz",
       "SourceId": "DummyProject",
       "SourceType": "Discovered",
@@ -855,6 +834,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ivq1c8jlem-pt8pgvjagm.gz",
+      "SourceId": "DummyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DummyProject",
+      "RelativePath": "css/productlist#[.{fingerprint=pt8pgvjagm}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\productlist.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wl1sva8y31",
+      "Integrity": "JN6M1S/RM08NzyOx15ULQRZH2nRGYAmTnE738rLHgzc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\productlist.css"
     },
     {
       "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\j40rnpf65h-t55wrys2j0.gz",
@@ -1046,12 +1046,12 @@
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\mv31aimvep-qb77bzzy92.gz",
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\mv31aimvep-vr5wqv0r81.gz",
       "SourceId": "DummyProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DummyProject",
-      "RelativePath": "css/settings#[.{fingerprint=qb77bzzy92}]?.css.gz",
+      "RelativePath": "css/settings#[.{fingerprint=vr5wqv0r81}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1060,8 +1060,8 @@
       "RelatedAsset": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\settings.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ke7ajl781i",
-      "Integrity": "BOXNzo46lX38ou8ESFQOdLX++jp5G7twnjHjY28y+/E=",
+      "Fingerprint": "xm89eihd1e",
+      "Integrity": "B8ZQ6fyDWwey4AfJTXyu67uF9C74+6QuN5hPXD5v17M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\settings.css"
@@ -1128,6 +1128,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\om9ljvtwaa-2d6yfy2s2d.gz",
+      "SourceId": "DummyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DummyProject",
+      "RelativePath": "css/orderlist#[.{fingerprint=2d6yfy2s2d}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\orderlist.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wzlzkbg7vi",
+      "Integrity": "5EVV7OqBxlbn4LSfcdY4hRZn0hBUPMIy2Mqbs4c7HUg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\orderlist.css"
     },
     {
       "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\pye3jafu05-notf2xhcfb.gz",
@@ -1235,12 +1256,12 @@
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\qt7xnrsijb-56johkiuh2.gz",
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\qt7xnrsijb-h2bgbebsim.gz",
       "SourceId": "DummyProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DummyProject",
-      "RelativePath": "css/admin#[.{fingerprint=56johkiuh2}]?.css.gz",
+      "RelativePath": "css/admin#[.{fingerprint=h2bgbebsim}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1249,8 +1270,8 @@
       "RelatedAsset": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\admin.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "nkh3ncdxf7",
-      "Integrity": "t7Lkq2TmtEUBEV/uIwawmjb4ndubXwY0DxBCXIEIJt8=",
+      "Fingerprint": "dl2udu5fva",
+      "Integrity": "XyL29oalKfSy17zVZL8pWN28N30seIxZ9hp5gVeMhkw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\admin.css"
@@ -1487,6 +1508,27 @@
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ur9wbcclrj-mp0a7qw815.gz",
+      "SourceId": "DummyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DummyProject",
+      "RelativePath": "css/payment#[.{fingerprint=mp0a7qw815}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\payment.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5r4tlgx2hr",
+      "Integrity": "rz3sCIcOWYiK0Hye5VBtgA3COHBIXe/Vh3uOLkIZlbA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\payment.css"
+    },
+    {
       "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\vbublbfy6o-aexeepp0ev.gz",
       "SourceId": "DummyProject",
       "SourceType": "Discovered",
@@ -1569,6 +1611,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\wklabpw7xm-r7ursk8g4e.gz",
+      "SourceId": "DummyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DummyProject",
+      "RelativePath": "css/ordersuccess#[.{fingerprint=r7ursk8g4e}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\ordersuccess.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "qodw5o3w8t",
+      "Integrity": "tj3o6KmIfV2JfQ2rpzGTdXFc0hfOCvAMx6TpRofQRp0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\ordersuccess.css"
     },
     {
       "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\wu8nhdyz8p-9x123cfavj.gz",
@@ -1739,48 +1802,6 @@
       "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\scopedcss\\bundle\\DummyProject.styles.css",
-      "SourceId": "DummyProject",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/DummyProject",
-      "RelativePath": "DummyProject#[.{fingerprint}]?.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "vbfs02i8hp",
-      "Integrity": "ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\scopedcss\\bundle\\DummyProject.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DummyProject.bundle.scp.css",
-      "SourceId": "DummyProject",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/DummyProject",
-      "RelativePath": "DummyProject#[.{fingerprint}]!.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "vbfs02i8hp",
-      "Integrity": "ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DummyProject.bundle.scp.css"
-    },
-    {
       "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\20221004_010654_767_j2a9nz.jpg",
       "SourceId": "DummyProject",
       "SourceType": "Discovered",
@@ -1844,6 +1865,27 @@
       "OriginalItemSpec": "wwwroot\\Bluetooth speaker.jpg"
     },
     {
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\.gitignore",
+      "SourceId": "DummyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\",
+      "BasePath": "_content/DummyProject",
+      "RelativePath": "css/#[.{fingerprint}]?.gitignore",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mjwuwycxn1",
+      "Integrity": "vhd22UHcoHrNojgYzeWHok3H3t5ZjUVWO5Hn0ETrI2g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\.gitignore"
+    },
+    {
       "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\admin.css",
       "SourceId": "DummyProject",
       "SourceType": "Discovered",
@@ -1858,8 +1900,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "56johkiuh2",
-      "Integrity": "DZjt69EIIFZHk1VJUPW8PvGJFRYCBnje2wcmpIVWAHo=",
+      "Fingerprint": "h2bgbebsim",
+      "Integrity": "CS/ZzkymN9NKQJ59ZLF/M5a0azDHalQnAwx/JACbvrs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\admin.css"
@@ -1884,6 +1926,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\cart.css"
+    },
+    {
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\checkout.css",
+      "SourceId": "DummyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\",
+      "BasePath": "_content/DummyProject",
+      "RelativePath": "css/checkout#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "678fi3fcmv",
+      "Integrity": "vvroMmEUxqaaiwUXhUAQUM2TndekKdU3ZK1SR8vZY3M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\checkout.css"
     },
     {
       "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\createproduct.css",
@@ -1984,8 +2047,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "co168i0rgi",
-      "Integrity": "BGL2i+FUMD3yqLb2FTdsn3tZFYiqA2RbMlsYfRQu+hA=",
+      "Fingerprint": "7drht0u0ld",
+      "Integrity": "NT4frOlu0ACOjTq2/s9aI+F7OvsrTDdgocEVPZI9KLY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\FeaturedProducts.css"
@@ -2089,19 +2152,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vr0ywn67vr",
-      "Integrity": "azQaijqIIp8O+grazubA3nLjo1zlMsE9CnfFIYLclqE=",
+      "Fingerprint": "dayn2fp37g",
+      "Integrity": "VTteuwkjtIIgDIs7jWn01z8A1IEnsOHV8LGIYB0y/pg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\MyArchive.css"
     },
     {
-      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Myproducts.css",
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Myorders.css",
       "SourceId": "DummyProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\",
       "BasePath": "_content/DummyProject",
-      "RelativePath": "css/Myproducts#[.{fingerprint}]?.css",
+      "RelativePath": "css/Myorders#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2110,11 +2173,74 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3swth7l7jf",
-      "Integrity": "M4givso8HYlDt/Th2/dxmQp80QhtPtxfR2lFKmtHLWI=",
+      "Fingerprint": "s3i4jcxdw6",
+      "Integrity": "WNjjBgWfZRvUPNjKkxbBfitR7iR67P74TzcrQ4LS0DQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Myproducts.css"
+      "OriginalItemSpec": "wwwroot\\css\\Myorders.css"
+    },
+    {
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\orderlist.css",
+      "SourceId": "DummyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\",
+      "BasePath": "_content/DummyProject",
+      "RelativePath": "css/orderlist#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2d6yfy2s2d",
+      "Integrity": "tqs1UU/RjPNTOexupenIZk/a3ZgU7v6EiWPTw8N4GKE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\orderlist.css"
+    },
+    {
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\ordersuccess.css",
+      "SourceId": "DummyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\",
+      "BasePath": "_content/DummyProject",
+      "RelativePath": "css/ordersuccess#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r7ursk8g4e",
+      "Integrity": "t72e3p9ZXj9/5whioIXb1HHaWrYV0dZzVLn/qy2uUYc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\ordersuccess.css"
+    },
+    {
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\payment.css",
+      "SourceId": "DummyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\",
+      "BasePath": "_content/DummyProject",
+      "RelativePath": "css/payment#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mp0a7qw815",
+      "Integrity": "GjEIgay1nhcRXe7zFQ0J3rOnIPfF4XEz094vfOGmShQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\payment.css"
     },
     {
       "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\privacy.css",
@@ -2136,6 +2262,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\privacy.css"
+    },
+    {
+      "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\productlist.css",
+      "SourceId": "DummyProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\",
+      "BasePath": "_content/DummyProject",
+      "RelativePath": "css/productlist#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pt8pgvjagm",
+      "Integrity": "E2sl4UqhT3rZOuSqUlfbQhgw68vZM9Aw/pq7MnQEuJQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\productlist.css"
     },
     {
       "Identity": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Register.css",
@@ -2173,8 +2320,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qb77bzzy92",
-      "Integrity": "1ifYXfyTulFqryCb/PRf4c7OQuPOelCnU+d0ClcsBQ0=",
+      "Fingerprint": "vr5wqv0r81",
+      "Integrity": "xSSIVP34ow/1EHpRq80O28JvlV91xkbbcNsEHeI6wV0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\settings.css"
@@ -2236,8 +2383,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lcm3ermzzz",
-      "Integrity": "5c3VKvNuFSAMeDautBHCyH5xv9d1pMbjvQfmoUO3B0Q=",
+      "Fingerprint": "8th2917hpg",
+      "Integrity": "rMMH8VXwRfUyWi41YztjHa1KMi3eZKy5nI5HweOg54Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\userlist.css"
@@ -2383,8 +2530,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "j6c6e3ocpc",
-      "Integrity": "1UL33szY0+f65T5bR9UDKXAiMCP7t2H+FArdu7ycvxA=",
+      "Fingerprint": "aillw9muup",
+      "Integrity": "3tsDKNJLm+qTwLXU/hRmvm0PdkCqcYc4YDN2go/s1FA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -3940,13 +4087,95 @@
       ]
     },
     {
-      "Route": "css/admin.56johkiuh2.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\qt7xnrsijb-56johkiuh2.gz",
+      "Route": "css/.gitignore",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\.gitignore",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vhd22UHcoHrNojgYzeWHok3H3t5ZjUVWO5Hn0ETrI2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 04:31:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vhd22UHcoHrNojgYzeWHok3H3t5ZjUVWO5Hn0ETrI2g="
+        }
+      ]
+    },
+    {
+      "Route": "css/.mjwuwycxn1.gitignore",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\.gitignore",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vhd22UHcoHrNojgYzeWHok3H3t5ZjUVWO5Hn0ETrI2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 04:31:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mjwuwycxn1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/.gitignore"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vhd22UHcoHrNojgYzeWHok3H3t5ZjUVWO5Hn0ETrI2g="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\qt7xnrsijb-h2bgbebsim.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000422654269"
+          "Quality": "0.000729927007"
         }
       ],
       "ResponseHeaders": [
@@ -3956,19 +4185,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2365"
+          "Value": "1369"
         },
         {
           "Name": "ETag",
-          "Value": "\"t7Lkq2TmtEUBEV/uIwawmjb4ndubXwY0DxBCXIEIJt8=\""
+          "Value": "\"XyL29oalKfSy17zVZL8pWN28N30seIxZ9hp5gVeMhkw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 23:44:32 GMT"
+          "Value": "Thu, 10 Jul 2025 05:31:01 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -3984,26 +4213,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DZjt69EIIFZHk1VJUPW8PvGJFRYCBnje2wcmpIVWAHo=\""
+          "Value": "W/\"CS/ZzkymN9NKQJ59ZLF/M5a0azDHalQnAwx/JACbvrs=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "56johkiuh2"
-        },
-        {
-          "Name": "label",
-          "Value": "css/admin.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-DZjt69EIIFZHk1VJUPW8PvGJFRYCBnje2wcmpIVWAHo="
+          "Value": "sha256-CS/ZzkymN9NKQJ59ZLF/M5a0azDHalQnAwx/JACbvrs="
         }
       ]
     },
     {
-      "Route": "css/admin.56johkiuh2.css",
+      "Route": "css/admin.css",
       "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\admin.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4013,7 +4234,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10866"
+          "Value": "5769"
         },
         {
           "Name": "Content-Type",
@@ -4021,11 +4242,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DZjt69EIIFZHk1VJUPW8PvGJFRYCBnje2wcmpIVWAHo=\""
+          "Value": "\"CS/ZzkymN9NKQJ59ZLF/M5a0azDHalQnAwx/JACbvrs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 23:44:32 GMT"
+          "Value": "Thu, 10 Jul 2025 05:31:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CS/ZzkymN9NKQJ59ZLF/M5a0azDHalQnAwx/JACbvrs="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\qt7xnrsijb-h2bgbebsim.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XyL29oalKfSy17zVZL8pWN28N30seIxZ9hp5gVeMhkw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Jul 2025 05:31:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XyL29oalKfSy17zVZL8pWN28N30seIxZ9hp5gVeMhkw="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.h2bgbebsim.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\qt7xnrsijb-h2bgbebsim.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000729927007"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1369"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XyL29oalKfSy17zVZL8pWN28N30seIxZ9hp5gVeMhkw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Jul 2025 05:31:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CS/ZzkymN9NKQJ59ZLF/M5a0azDHalQnAwx/JACbvrs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h2bgbebsim"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CS/ZzkymN9NKQJ59ZLF/M5a0azDHalQnAwx/JACbvrs="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.h2bgbebsim.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\admin.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CS/ZzkymN9NKQJ59ZLF/M5a0azDHalQnAwx/JACbvrs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Jul 2025 05:31:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4035,7 +4401,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "56johkiuh2"
+          "Value": "h2bgbebsim"
         },
         {
           "Name": "label",
@@ -4043,13 +4409,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DZjt69EIIFZHk1VJUPW8PvGJFRYCBnje2wcmpIVWAHo="
+          "Value": "sha256-CS/ZzkymN9NKQJ59ZLF/M5a0azDHalQnAwx/JACbvrs="
         }
       ]
     },
     {
-      "Route": "css/admin.56johkiuh2.css.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\qt7xnrsijb-56johkiuh2.gz",
+      "Route": "css/admin.h2bgbebsim.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\qt7xnrsijb-h2bgbebsim.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4058,7 +4424,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2365"
+          "Value": "1369"
         },
         {
           "Name": "Content-Type",
@@ -4066,11 +4432,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"t7Lkq2TmtEUBEV/uIwawmjb4ndubXwY0DxBCXIEIJt8=\""
+          "Value": "\"XyL29oalKfSy17zVZL8pWN28N30seIxZ9hp5gVeMhkw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 23:44:32 GMT"
+          "Value": "Thu, 10 Jul 2025 05:31:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4088,7 +4454,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "56johkiuh2"
+          "Value": "h2bgbebsim"
         },
         {
           "Name": "label",
@@ -4096,144 +4462,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-t7Lkq2TmtEUBEV/uIwawmjb4ndubXwY0DxBCXIEIJt8="
-        }
-      ]
-    },
-    {
-      "Route": "css/admin.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\qt7xnrsijb-56johkiuh2.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000422654269"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2365"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"t7Lkq2TmtEUBEV/uIwawmjb4ndubXwY0DxBCXIEIJt8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 23:44:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"DZjt69EIIFZHk1VJUPW8PvGJFRYCBnje2wcmpIVWAHo=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-DZjt69EIIFZHk1VJUPW8PvGJFRYCBnje2wcmpIVWAHo="
-        }
-      ]
-    },
-    {
-      "Route": "css/admin.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\admin.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10866"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DZjt69EIIFZHk1VJUPW8PvGJFRYCBnje2wcmpIVWAHo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 23:44:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-DZjt69EIIFZHk1VJUPW8PvGJFRYCBnje2wcmpIVWAHo="
-        }
-      ]
-    },
-    {
-      "Route": "css/admin.css.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\qt7xnrsijb-56johkiuh2.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2365"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"t7Lkq2TmtEUBEV/uIwawmjb4ndubXwY0DxBCXIEIJt8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 23:44:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-t7Lkq2TmtEUBEV/uIwawmjb4ndubXwY0DxBCXIEIJt8="
+          "Value": "sha256-XyL29oalKfSy17zVZL8pWN28N30seIxZ9hp5gVeMhkw="
         }
       ]
     },
@@ -4532,6 +4761,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-mrpw0ce3lcMrXVuix7V1uXIlOVWsz0h+8TBLuik1GpA="
+        }
+      ]
+    },
+    {
+      "Route": "css/checkout.678fi3fcmv.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\huie89466o-678fi3fcmv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000839630563"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1190"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tTfkfnvNU5NHOlcXTRdGYEfXzP+nFMxWV7RBt/JaM3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 05:01:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vvroMmEUxqaaiwUXhUAQUM2TndekKdU3ZK1SR8vZY3M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "678fi3fcmv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/checkout.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vvroMmEUxqaaiwUXhUAQUM2TndekKdU3ZK1SR8vZY3M="
+        }
+      ]
+    },
+    {
+      "Route": "css/checkout.678fi3fcmv.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\checkout.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4736"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vvroMmEUxqaaiwUXhUAQUM2TndekKdU3ZK1SR8vZY3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 05:01:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "678fi3fcmv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/checkout.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vvroMmEUxqaaiwUXhUAQUM2TndekKdU3ZK1SR8vZY3M="
+        }
+      ]
+    },
+    {
+      "Route": "css/checkout.678fi3fcmv.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\huie89466o-678fi3fcmv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1190"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tTfkfnvNU5NHOlcXTRdGYEfXzP+nFMxWV7RBt/JaM3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 05:01:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "678fi3fcmv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/checkout.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tTfkfnvNU5NHOlcXTRdGYEfXzP+nFMxWV7RBt/JaM3s="
+        }
+      ]
+    },
+    {
+      "Route": "css/checkout.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\huie89466o-678fi3fcmv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000839630563"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1190"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tTfkfnvNU5NHOlcXTRdGYEfXzP+nFMxWV7RBt/JaM3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 05:01:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vvroMmEUxqaaiwUXhUAQUM2TndekKdU3ZK1SR8vZY3M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vvroMmEUxqaaiwUXhUAQUM2TndekKdU3ZK1SR8vZY3M="
+        }
+      ]
+    },
+    {
+      "Route": "css/checkout.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\checkout.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4736"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vvroMmEUxqaaiwUXhUAQUM2TndekKdU3ZK1SR8vZY3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 05:01:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vvroMmEUxqaaiwUXhUAQUM2TndekKdU3ZK1SR8vZY3M="
+        }
+      ]
+    },
+    {
+      "Route": "css/checkout.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\huie89466o-678fi3fcmv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1190"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tTfkfnvNU5NHOlcXTRdGYEfXzP+nFMxWV7RBt/JaM3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 05:01:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tTfkfnvNU5NHOlcXTRdGYEfXzP+nFMxWV7RBt/JaM3s="
         }
       ]
     },
@@ -5728,13 +6255,13 @@
       ]
     },
     {
-      "Route": "css/FeaturedProducts.co168i0rgi.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\1j5mbkui7q-co168i0rgi.gz",
+      "Route": "css/FeaturedProducts.7drht0u0ld.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\1j5mbkui7q-7drht0u0ld.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000634517766"
+          "Quality": "0.000705716302"
         }
       ],
       "ResponseHeaders": [
@@ -5744,15 +6271,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1575"
+          "Value": "1416"
         },
         {
           "Name": "ETag",
-          "Value": "\"ThESmnGt7qa7WCI2IZfi9iA8CmamACKIKWMAn0qbkUw=\""
+          "Value": "\"3hgNeFTHmUx/IsMus4l2K2B44Q02K9G3m1vcDrs+AvE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 05:03:43 GMT"
+          "Value": "Thu, 03 Jul 2025 06:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5772,13 +6299,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"BGL2i+FUMD3yqLb2FTdsn3tZFYiqA2RbMlsYfRQu+hA=\""
+          "Value": "W/\"NT4frOlu0ACOjTq2/s9aI+F7OvsrTDdgocEVPZI9KLY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "co168i0rgi"
+          "Value": "7drht0u0ld"
         },
         {
           "Name": "label",
@@ -5786,12 +6313,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BGL2i+FUMD3yqLb2FTdsn3tZFYiqA2RbMlsYfRQu+hA="
+          "Value": "sha256-NT4frOlu0ACOjTq2/s9aI+F7OvsrTDdgocEVPZI9KLY="
         }
       ]
     },
     {
-      "Route": "css/FeaturedProducts.co168i0rgi.css",
+      "Route": "css/FeaturedProducts.7drht0u0ld.css",
       "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\FeaturedProducts.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5801,7 +6328,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6368"
+          "Value": "5440"
         },
         {
           "Name": "Content-Type",
@@ -5809,11 +6336,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BGL2i+FUMD3yqLb2FTdsn3tZFYiqA2RbMlsYfRQu+hA=\""
+          "Value": "\"NT4frOlu0ACOjTq2/s9aI+F7OvsrTDdgocEVPZI9KLY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 05:03:43 GMT"
+          "Value": "Thu, 03 Jul 2025 06:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5823,7 +6350,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "co168i0rgi"
+          "Value": "7drht0u0ld"
         },
         {
           "Name": "label",
@@ -5831,13 +6358,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BGL2i+FUMD3yqLb2FTdsn3tZFYiqA2RbMlsYfRQu+hA="
+          "Value": "sha256-NT4frOlu0ACOjTq2/s9aI+F7OvsrTDdgocEVPZI9KLY="
         }
       ]
     },
     {
-      "Route": "css/FeaturedProducts.co168i0rgi.css.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\1j5mbkui7q-co168i0rgi.gz",
+      "Route": "css/FeaturedProducts.7drht0u0ld.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\1j5mbkui7q-7drht0u0ld.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5846,7 +6373,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1575"
+          "Value": "1416"
         },
         {
           "Name": "Content-Type",
@@ -5854,11 +6381,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ThESmnGt7qa7WCI2IZfi9iA8CmamACKIKWMAn0qbkUw=\""
+          "Value": "\"3hgNeFTHmUx/IsMus4l2K2B44Q02K9G3m1vcDrs+AvE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 05:03:43 GMT"
+          "Value": "Thu, 03 Jul 2025 06:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5876,7 +6403,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "co168i0rgi"
+          "Value": "7drht0u0ld"
         },
         {
           "Name": "label",
@@ -5884,18 +6411,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ThESmnGt7qa7WCI2IZfi9iA8CmamACKIKWMAn0qbkUw="
+          "Value": "sha256-3hgNeFTHmUx/IsMus4l2K2B44Q02K9G3m1vcDrs+AvE="
         }
       ]
     },
     {
       "Route": "css/FeaturedProducts.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\1j5mbkui7q-co168i0rgi.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\1j5mbkui7q-7drht0u0ld.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000634517766"
+          "Quality": "0.000705716302"
         }
       ],
       "ResponseHeaders": [
@@ -5905,15 +6432,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1575"
+          "Value": "1416"
         },
         {
           "Name": "ETag",
-          "Value": "\"ThESmnGt7qa7WCI2IZfi9iA8CmamACKIKWMAn0qbkUw=\""
+          "Value": "\"3hgNeFTHmUx/IsMus4l2K2B44Q02K9G3m1vcDrs+AvE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 05:03:43 GMT"
+          "Value": "Thu, 03 Jul 2025 06:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5933,13 +6460,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"BGL2i+FUMD3yqLb2FTdsn3tZFYiqA2RbMlsYfRQu+hA=\""
+          "Value": "W/\"NT4frOlu0ACOjTq2/s9aI+F7OvsrTDdgocEVPZI9KLY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BGL2i+FUMD3yqLb2FTdsn3tZFYiqA2RbMlsYfRQu+hA="
+          "Value": "sha256-NT4frOlu0ACOjTq2/s9aI+F7OvsrTDdgocEVPZI9KLY="
         }
       ]
     },
@@ -5954,7 +6481,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6368"
+          "Value": "5440"
         },
         {
           "Name": "Content-Type",
@@ -5962,11 +6489,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BGL2i+FUMD3yqLb2FTdsn3tZFYiqA2RbMlsYfRQu+hA=\""
+          "Value": "\"NT4frOlu0ACOjTq2/s9aI+F7OvsrTDdgocEVPZI9KLY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 05:03:43 GMT"
+          "Value": "Thu, 03 Jul 2025 06:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5976,13 +6503,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BGL2i+FUMD3yqLb2FTdsn3tZFYiqA2RbMlsYfRQu+hA="
+          "Value": "sha256-NT4frOlu0ACOjTq2/s9aI+F7OvsrTDdgocEVPZI9KLY="
         }
       ]
     },
     {
       "Route": "css/FeaturedProducts.css.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\1j5mbkui7q-co168i0rgi.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\1j5mbkui7q-7drht0u0ld.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5991,7 +6518,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1575"
+          "Value": "1416"
         },
         {
           "Name": "Content-Type",
@@ -5999,11 +6526,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ThESmnGt7qa7WCI2IZfi9iA8CmamACKIKWMAn0qbkUw=\""
+          "Value": "\"3hgNeFTHmUx/IsMus4l2K2B44Q02K9G3m1vcDrs+AvE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 05:03:43 GMT"
+          "Value": "Thu, 03 Jul 2025 06:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6021,7 +6548,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ThESmnGt7qa7WCI2IZfi9iA8CmamACKIKWMAn0qbkUw="
+          "Value": "sha256-3hgNeFTHmUx/IsMus4l2K2B44Q02K9G3m1vcDrs+AvE="
         }
       ]
     },
@@ -7219,12 +7746,12 @@
     },
     {
       "Route": "css/MyArchive.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\fr9sya6fxa-vr0ywn67vr.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\fr9sya6fxa-dayn2fp37g.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001183431953"
+          "Quality": "0.000816993464"
         }
       ],
       "ResponseHeaders": [
@@ -7234,15 +7761,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "844"
+          "Value": "1223"
         },
         {
           "Name": "ETag",
-          "Value": "\"dMzWrUdcmLd112CPctDGN/FLH0AtIXGKDLgq735Ah6k=\""
+          "Value": "\"FrR3MYc+LleuugmDOQDPGlUWI+fCw8jKzayxu3AU0Lg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 05:17:39 GMT"
+          "Value": "Thu, 03 Jul 2025 06:26:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7262,13 +7789,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"azQaijqIIp8O+grazubA3nLjo1zlMsE9CnfFIYLclqE=\""
+          "Value": "W/\"VTteuwkjtIIgDIs7jWn01z8A1IEnsOHV8LGIYB0y/pg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-azQaijqIIp8O+grazubA3nLjo1zlMsE9CnfFIYLclqE="
+          "Value": "sha256-VTteuwkjtIIgDIs7jWn01z8A1IEnsOHV8LGIYB0y/pg="
         }
       ]
     },
@@ -7283,7 +7810,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2994"
+          "Value": "4338"
         },
         {
           "Name": "Content-Type",
@@ -7291,11 +7818,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"azQaijqIIp8O+grazubA3nLjo1zlMsE9CnfFIYLclqE=\""
+          "Value": "\"VTteuwkjtIIgDIs7jWn01z8A1IEnsOHV8LGIYB0y/pg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 05:17:39 GMT"
+          "Value": "Thu, 03 Jul 2025 06:26:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7305,13 +7832,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-azQaijqIIp8O+grazubA3nLjo1zlMsE9CnfFIYLclqE="
+          "Value": "sha256-VTteuwkjtIIgDIs7jWn01z8A1IEnsOHV8LGIYB0y/pg="
         }
       ]
     },
     {
       "Route": "css/MyArchive.css.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\fr9sya6fxa-vr0ywn67vr.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\fr9sya6fxa-dayn2fp37g.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7320,7 +7847,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "844"
+          "Value": "1223"
         },
         {
           "Name": "Content-Type",
@@ -7328,11 +7855,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dMzWrUdcmLd112CPctDGN/FLH0AtIXGKDLgq735Ah6k=\""
+          "Value": "\"FrR3MYc+LleuugmDOQDPGlUWI+fCw8jKzayxu3AU0Lg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 05:17:39 GMT"
+          "Value": "Thu, 03 Jul 2025 06:26:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7350,18 +7877,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dMzWrUdcmLd112CPctDGN/FLH0AtIXGKDLgq735Ah6k="
+          "Value": "sha256-FrR3MYc+LleuugmDOQDPGlUWI+fCw8jKzayxu3AU0Lg="
         }
       ]
     },
     {
-      "Route": "css/MyArchive.vr0ywn67vr.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\fr9sya6fxa-vr0ywn67vr.gz",
+      "Route": "css/MyArchive.dayn2fp37g.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\fr9sya6fxa-dayn2fp37g.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001183431953"
+          "Quality": "0.000816993464"
         }
       ],
       "ResponseHeaders": [
@@ -7371,15 +7898,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "844"
+          "Value": "1223"
         },
         {
           "Name": "ETag",
-          "Value": "\"dMzWrUdcmLd112CPctDGN/FLH0AtIXGKDLgq735Ah6k=\""
+          "Value": "\"FrR3MYc+LleuugmDOQDPGlUWI+fCw8jKzayxu3AU0Lg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 05:17:39 GMT"
+          "Value": "Thu, 03 Jul 2025 06:26:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7399,13 +7926,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"azQaijqIIp8O+grazubA3nLjo1zlMsE9CnfFIYLclqE=\""
+          "Value": "W/\"VTteuwkjtIIgDIs7jWn01z8A1IEnsOHV8LGIYB0y/pg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vr0ywn67vr"
+          "Value": "dayn2fp37g"
         },
         {
           "Name": "label",
@@ -7413,12 +7940,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-azQaijqIIp8O+grazubA3nLjo1zlMsE9CnfFIYLclqE="
+          "Value": "sha256-VTteuwkjtIIgDIs7jWn01z8A1IEnsOHV8LGIYB0y/pg="
         }
       ]
     },
     {
-      "Route": "css/MyArchive.vr0ywn67vr.css",
+      "Route": "css/MyArchive.dayn2fp37g.css",
       "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\MyArchive.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -7428,7 +7955,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2994"
+          "Value": "4338"
         },
         {
           "Name": "Content-Type",
@@ -7436,11 +7963,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"azQaijqIIp8O+grazubA3nLjo1zlMsE9CnfFIYLclqE=\""
+          "Value": "\"VTteuwkjtIIgDIs7jWn01z8A1IEnsOHV8LGIYB0y/pg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 05:17:39 GMT"
+          "Value": "Thu, 03 Jul 2025 06:26:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7450,7 +7977,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vr0ywn67vr"
+          "Value": "dayn2fp37g"
         },
         {
           "Name": "label",
@@ -7458,13 +7985,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-azQaijqIIp8O+grazubA3nLjo1zlMsE9CnfFIYLclqE="
+          "Value": "sha256-VTteuwkjtIIgDIs7jWn01z8A1IEnsOHV8LGIYB0y/pg="
         }
       ]
     },
     {
-      "Route": "css/MyArchive.vr0ywn67vr.css.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\fr9sya6fxa-vr0ywn67vr.gz",
+      "Route": "css/MyArchive.dayn2fp37g.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\fr9sya6fxa-dayn2fp37g.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7473,7 +8000,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "844"
+          "Value": "1223"
         },
         {
           "Name": "Content-Type",
@@ -7481,11 +8008,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dMzWrUdcmLd112CPctDGN/FLH0AtIXGKDLgq735Ah6k=\""
+          "Value": "\"FrR3MYc+LleuugmDOQDPGlUWI+fCw8jKzayxu3AU0Lg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 05:17:39 GMT"
+          "Value": "Thu, 03 Jul 2025 06:26:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7503,7 +8030,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vr0ywn67vr"
+          "Value": "dayn2fp37g"
         },
         {
           "Name": "label",
@@ -7511,18 +8038,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dMzWrUdcmLd112CPctDGN/FLH0AtIXGKDLgq735Ah6k="
+          "Value": "sha256-FrR3MYc+LleuugmDOQDPGlUWI+fCw8jKzayxu3AU0Lg="
         }
       ]
     },
     {
-      "Route": "css/Myproducts.3swth7l7jf.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\4zhkvzlxbh-3swth7l7jf.gz",
+      "Route": "css/Myorders.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ajq9vtj25o-s3i4jcxdw6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000585137507"
+          "Quality": "0.001078748652"
         }
       ],
       "ResponseHeaders": [
@@ -7532,19 +8059,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1708"
+          "Value": "926"
         },
         {
           "Name": "ETag",
-          "Value": "\"0MyESqXDMJaZr5f+jnlXCcNirQ9wCNbph3pPKt9nKLM=\""
+          "Value": "\"4wszH1dby67eoRlrQ7WnzxE2Ke8IaRXtaKbEeF7ucrg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 04:05:13 GMT"
+          "Value": "Thu, 03 Jul 2025 05:24:24 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -7560,27 +8087,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"M4givso8HYlDt/Th2/dxmQp80QhtPtxfR2lFKmtHLWI=\""
+          "Value": "W/\"WNjjBgWfZRvUPNjKkxbBfitR7iR67P74TzcrQ4LS0DQ=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "3swth7l7jf"
-        },
-        {
-          "Name": "label",
-          "Value": "css/Myproducts.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-M4givso8HYlDt/Th2/dxmQp80QhtPtxfR2lFKmtHLWI="
+          "Value": "sha256-WNjjBgWfZRvUPNjKkxbBfitR7iR67P74TzcrQ4LS0DQ="
         }
       ]
     },
     {
-      "Route": "css/Myproducts.3swth7l7jf.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Myproducts.css",
+      "Route": "css/Myorders.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Myorders.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7589,7 +8108,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7196"
+          "Value": "3064"
         },
         {
           "Name": "Content-Type",
@@ -7597,35 +8116,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M4givso8HYlDt/Th2/dxmQp80QhtPtxfR2lFKmtHLWI=\""
+          "Value": "\"WNjjBgWfZRvUPNjKkxbBfitR7iR67P74TzcrQ4LS0DQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 04:05:13 GMT"
+          "Value": "Thu, 03 Jul 2025 05:24:24 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "3swth7l7jf"
-        },
-        {
-          "Name": "label",
-          "Value": "css/Myproducts.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-M4givso8HYlDt/Th2/dxmQp80QhtPtxfR2lFKmtHLWI="
+          "Value": "sha256-WNjjBgWfZRvUPNjKkxbBfitR7iR67P74TzcrQ4LS0DQ="
         }
       ]
     },
     {
-      "Route": "css/Myproducts.3swth7l7jf.css.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\4zhkvzlxbh-3swth7l7jf.gz",
+      "Route": "css/Myorders.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ajq9vtj25o-s3i4jcxdw6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7634,7 +8145,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1708"
+          "Value": "926"
         },
         {
           "Name": "Content-Type",
@@ -7642,15 +8153,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0MyESqXDMJaZr5f+jnlXCcNirQ9wCNbph3pPKt9nKLM=\""
+          "Value": "\"4wszH1dby67eoRlrQ7WnzxE2Ke8IaRXtaKbEeF7ucrg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 04:05:13 GMT"
+          "Value": "Thu, 03 Jul 2025 05:24:24 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -7663,27 +8174,19 @@
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "3swth7l7jf"
-        },
-        {
-          "Name": "label",
-          "Value": "css/Myproducts.css.gz"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-0MyESqXDMJaZr5f+jnlXCcNirQ9wCNbph3pPKt9nKLM="
+          "Value": "sha256-4wszH1dby67eoRlrQ7WnzxE2Ke8IaRXtaKbEeF7ucrg="
         }
       ]
     },
     {
-      "Route": "css/Myproducts.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\4zhkvzlxbh-3swth7l7jf.gz",
+      "Route": "css/Myorders.s3i4jcxdw6.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ajq9vtj25o-s3i4jcxdw6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000585137507"
+          "Quality": "0.001078748652"
         }
       ],
       "ResponseHeaders": [
@@ -7693,15 +8196,337 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1708"
+          "Value": "926"
         },
         {
           "Name": "ETag",
-          "Value": "\"0MyESqXDMJaZr5f+jnlXCcNirQ9wCNbph3pPKt9nKLM=\""
+          "Value": "\"4wszH1dby67eoRlrQ7WnzxE2Ke8IaRXtaKbEeF7ucrg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 04:05:13 GMT"
+          "Value": "Thu, 03 Jul 2025 05:24:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WNjjBgWfZRvUPNjKkxbBfitR7iR67P74TzcrQ4LS0DQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s3i4jcxdw6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Myorders.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WNjjBgWfZRvUPNjKkxbBfitR7iR67P74TzcrQ4LS0DQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/Myorders.s3i4jcxdw6.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Myorders.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WNjjBgWfZRvUPNjKkxbBfitR7iR67P74TzcrQ4LS0DQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 05:24:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s3i4jcxdw6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Myorders.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WNjjBgWfZRvUPNjKkxbBfitR7iR67P74TzcrQ4LS0DQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/Myorders.s3i4jcxdw6.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ajq9vtj25o-s3i4jcxdw6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4wszH1dby67eoRlrQ7WnzxE2Ke8IaRXtaKbEeF7ucrg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 05:24:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s3i4jcxdw6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Myorders.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4wszH1dby67eoRlrQ7WnzxE2Ke8IaRXtaKbEeF7ucrg="
+        }
+      ]
+    },
+    {
+      "Route": "css/orderlist.2d6yfy2s2d.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\om9ljvtwaa-2d6yfy2s2d.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001059322034"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "943"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5EVV7OqBxlbn4LSfcdY4hRZn0hBUPMIy2Mqbs4c7HUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 16:52:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tqs1UU/RjPNTOexupenIZk/a3ZgU7v6EiWPTw8N4GKE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2d6yfy2s2d"
+        },
+        {
+          "Name": "label",
+          "Value": "css/orderlist.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tqs1UU/RjPNTOexupenIZk/a3ZgU7v6EiWPTw8N4GKE="
+        }
+      ]
+    },
+    {
+      "Route": "css/orderlist.2d6yfy2s2d.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\orderlist.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3109"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tqs1UU/RjPNTOexupenIZk/a3ZgU7v6EiWPTw8N4GKE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 16:52:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2d6yfy2s2d"
+        },
+        {
+          "Name": "label",
+          "Value": "css/orderlist.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tqs1UU/RjPNTOexupenIZk/a3ZgU7v6EiWPTw8N4GKE="
+        }
+      ]
+    },
+    {
+      "Route": "css/orderlist.2d6yfy2s2d.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\om9ljvtwaa-2d6yfy2s2d.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "943"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5EVV7OqBxlbn4LSfcdY4hRZn0hBUPMIy2Mqbs4c7HUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 16:52:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2d6yfy2s2d"
+        },
+        {
+          "Name": "label",
+          "Value": "css/orderlist.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5EVV7OqBxlbn4LSfcdY4hRZn0hBUPMIy2Mqbs4c7HUg="
+        }
+      ]
+    },
+    {
+      "Route": "css/orderlist.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\om9ljvtwaa-2d6yfy2s2d.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001059322034"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "943"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5EVV7OqBxlbn4LSfcdY4hRZn0hBUPMIy2Mqbs4c7HUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 16:52:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7721,19 +8546,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"M4givso8HYlDt/Th2/dxmQp80QhtPtxfR2lFKmtHLWI=\""
+          "Value": "W/\"tqs1UU/RjPNTOexupenIZk/a3ZgU7v6EiWPTw8N4GKE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-M4givso8HYlDt/Th2/dxmQp80QhtPtxfR2lFKmtHLWI="
+          "Value": "sha256-tqs1UU/RjPNTOexupenIZk/a3ZgU7v6EiWPTw8N4GKE="
         }
       ]
     },
     {
-      "Route": "css/Myproducts.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Myproducts.css",
+      "Route": "css/orderlist.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\orderlist.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7742,7 +8567,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7196"
+          "Value": "3109"
         },
         {
           "Name": "Content-Type",
@@ -7750,11 +8575,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M4givso8HYlDt/Th2/dxmQp80QhtPtxfR2lFKmtHLWI=\""
+          "Value": "\"tqs1UU/RjPNTOexupenIZk/a3ZgU7v6EiWPTw8N4GKE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 04:05:13 GMT"
+          "Value": "Sat, 05 Jul 2025 16:52:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7764,13 +8589,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-M4givso8HYlDt/Th2/dxmQp80QhtPtxfR2lFKmtHLWI="
+          "Value": "sha256-tqs1UU/RjPNTOexupenIZk/a3ZgU7v6EiWPTw8N4GKE="
         }
       ]
     },
     {
-      "Route": "css/Myproducts.css.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\4zhkvzlxbh-3swth7l7jf.gz",
+      "Route": "css/orderlist.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\om9ljvtwaa-2d6yfy2s2d.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7779,7 +8604,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1708"
+          "Value": "943"
         },
         {
           "Name": "Content-Type",
@@ -7787,11 +8612,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0MyESqXDMJaZr5f+jnlXCcNirQ9wCNbph3pPKt9nKLM=\""
+          "Value": "\"5EVV7OqBxlbn4LSfcdY4hRZn0hBUPMIy2Mqbs4c7HUg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 04:05:13 GMT"
+          "Value": "Sat, 05 Jul 2025 16:52:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7809,7 +8634,603 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0MyESqXDMJaZr5f+jnlXCcNirQ9wCNbph3pPKt9nKLM="
+          "Value": "sha256-5EVV7OqBxlbn4LSfcdY4hRZn0hBUPMIy2Mqbs4c7HUg="
+        }
+      ]
+    },
+    {
+      "Route": "css/ordersuccess.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\wklabpw7xm-r7ursk8g4e.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000796812749"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1254"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tj3o6KmIfV2JfQ2rpzGTdXFc0hfOCvAMx6TpRofQRp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 11:49:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"t72e3p9ZXj9/5whioIXb1HHaWrYV0dZzVLn/qy2uUYc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t72e3p9ZXj9/5whioIXb1HHaWrYV0dZzVLn/qy2uUYc="
+        }
+      ]
+    },
+    {
+      "Route": "css/ordersuccess.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\ordersuccess.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4142"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t72e3p9ZXj9/5whioIXb1HHaWrYV0dZzVLn/qy2uUYc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 11:49:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t72e3p9ZXj9/5whioIXb1HHaWrYV0dZzVLn/qy2uUYc="
+        }
+      ]
+    },
+    {
+      "Route": "css/ordersuccess.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\wklabpw7xm-r7ursk8g4e.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tj3o6KmIfV2JfQ2rpzGTdXFc0hfOCvAMx6TpRofQRp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 11:49:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tj3o6KmIfV2JfQ2rpzGTdXFc0hfOCvAMx6TpRofQRp0="
+        }
+      ]
+    },
+    {
+      "Route": "css/ordersuccess.r7ursk8g4e.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\wklabpw7xm-r7ursk8g4e.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000796812749"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1254"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tj3o6KmIfV2JfQ2rpzGTdXFc0hfOCvAMx6TpRofQRp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 11:49:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"t72e3p9ZXj9/5whioIXb1HHaWrYV0dZzVLn/qy2uUYc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r7ursk8g4e"
+        },
+        {
+          "Name": "label",
+          "Value": "css/ordersuccess.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t72e3p9ZXj9/5whioIXb1HHaWrYV0dZzVLn/qy2uUYc="
+        }
+      ]
+    },
+    {
+      "Route": "css/ordersuccess.r7ursk8g4e.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\ordersuccess.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4142"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t72e3p9ZXj9/5whioIXb1HHaWrYV0dZzVLn/qy2uUYc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 11:49:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r7ursk8g4e"
+        },
+        {
+          "Name": "label",
+          "Value": "css/ordersuccess.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t72e3p9ZXj9/5whioIXb1HHaWrYV0dZzVLn/qy2uUYc="
+        }
+      ]
+    },
+    {
+      "Route": "css/ordersuccess.r7ursk8g4e.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\wklabpw7xm-r7ursk8g4e.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tj3o6KmIfV2JfQ2rpzGTdXFc0hfOCvAMx6TpRofQRp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 11:49:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r7ursk8g4e"
+        },
+        {
+          "Name": "label",
+          "Value": "css/ordersuccess.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tj3o6KmIfV2JfQ2rpzGTdXFc0hfOCvAMx6TpRofQRp0="
+        }
+      ]
+    },
+    {
+      "Route": "css/payment.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ur9wbcclrj-mp0a7qw815.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001371742112"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "728"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rz3sCIcOWYiK0Hye5VBtgA3COHBIXe/Vh3uOLkIZlbA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 17:35:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GjEIgay1nhcRXe7zFQ0J3rOnIPfF4XEz094vfOGmShQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GjEIgay1nhcRXe7zFQ0J3rOnIPfF4XEz094vfOGmShQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/payment.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\payment.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GjEIgay1nhcRXe7zFQ0J3rOnIPfF4XEz094vfOGmShQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 17:35:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GjEIgay1nhcRXe7zFQ0J3rOnIPfF4XEz094vfOGmShQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/payment.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ur9wbcclrj-mp0a7qw815.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "728"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rz3sCIcOWYiK0Hye5VBtgA3COHBIXe/Vh3uOLkIZlbA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 17:35:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rz3sCIcOWYiK0Hye5VBtgA3COHBIXe/Vh3uOLkIZlbA="
+        }
+      ]
+    },
+    {
+      "Route": "css/payment.mp0a7qw815.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ur9wbcclrj-mp0a7qw815.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001371742112"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "728"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rz3sCIcOWYiK0Hye5VBtgA3COHBIXe/Vh3uOLkIZlbA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 17:35:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GjEIgay1nhcRXe7zFQ0J3rOnIPfF4XEz094vfOGmShQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mp0a7qw815"
+        },
+        {
+          "Name": "label",
+          "Value": "css/payment.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GjEIgay1nhcRXe7zFQ0J3rOnIPfF4XEz094vfOGmShQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/payment.mp0a7qw815.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\payment.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GjEIgay1nhcRXe7zFQ0J3rOnIPfF4XEz094vfOGmShQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 17:35:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mp0a7qw815"
+        },
+        {
+          "Name": "label",
+          "Value": "css/payment.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GjEIgay1nhcRXe7zFQ0J3rOnIPfF4XEz094vfOGmShQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/payment.mp0a7qw815.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ur9wbcclrj-mp0a7qw815.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "728"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rz3sCIcOWYiK0Hye5VBtgA3COHBIXe/Vh3uOLkIZlbA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 17:35:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mp0a7qw815"
+        },
+        {
+          "Name": "label",
+          "Value": "css/payment.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rz3sCIcOWYiK0Hye5VBtgA3COHBIXe/Vh3uOLkIZlbA="
         }
       ]
     },
@@ -8108,6 +9529,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-Yd4ObA6z7IAVwLlkBZ3kx5jS/+uRGecQwKXjBcLiWMg="
+        }
+      ]
+    },
+    {
+      "Route": "css/productlist.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ivq1c8jlem-pt8pgvjagm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000738007380"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1354"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JN6M1S/RM08NzyOx15ULQRZH2nRGYAmTnE738rLHgzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 06:02:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"E2sl4UqhT3rZOuSqUlfbQhgw68vZM9Aw/pq7MnQEuJQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2sl4UqhT3rZOuSqUlfbQhgw68vZM9Aw/pq7MnQEuJQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/productlist.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\productlist.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5625"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2sl4UqhT3rZOuSqUlfbQhgw68vZM9Aw/pq7MnQEuJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 06:02:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2sl4UqhT3rZOuSqUlfbQhgw68vZM9Aw/pq7MnQEuJQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/productlist.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ivq1c8jlem-pt8pgvjagm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1354"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JN6M1S/RM08NzyOx15ULQRZH2nRGYAmTnE738rLHgzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 06:02:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JN6M1S/RM08NzyOx15ULQRZH2nRGYAmTnE738rLHgzc="
+        }
+      ]
+    },
+    {
+      "Route": "css/productlist.pt8pgvjagm.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ivq1c8jlem-pt8pgvjagm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000738007380"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1354"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JN6M1S/RM08NzyOx15ULQRZH2nRGYAmTnE738rLHgzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 06:02:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"E2sl4UqhT3rZOuSqUlfbQhgw68vZM9Aw/pq7MnQEuJQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pt8pgvjagm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/productlist.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2sl4UqhT3rZOuSqUlfbQhgw68vZM9Aw/pq7MnQEuJQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/productlist.pt8pgvjagm.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\productlist.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5625"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2sl4UqhT3rZOuSqUlfbQhgw68vZM9Aw/pq7MnQEuJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 06:02:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pt8pgvjagm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/productlist.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2sl4UqhT3rZOuSqUlfbQhgw68vZM9Aw/pq7MnQEuJQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/productlist.pt8pgvjagm.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ivq1c8jlem-pt8pgvjagm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1354"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JN6M1S/RM08NzyOx15ULQRZH2nRGYAmTnE738rLHgzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Jul 2025 06:02:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pt8pgvjagm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/productlist.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JN6M1S/RM08NzyOx15ULQRZH2nRGYAmTnE738rLHgzc="
         }
       ]
     },
@@ -8411,12 +10130,12 @@
     },
     {
       "Route": "css/settings.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\mv31aimvep-qb77bzzy92.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\mv31aimvep-vr5wqv0r81.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001275510204"
+          "Quality": "0.000905797101"
         }
       ],
       "ResponseHeaders": [
@@ -8426,15 +10145,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "783"
+          "Value": "1103"
         },
         {
           "Name": "ETag",
-          "Value": "\"BOXNzo46lX38ou8ESFQOdLX++jp5G7twnjHjY28y+/E=\""
+          "Value": "\"B8ZQ6fyDWwey4AfJTXyu67uF9C74+6QuN5hPXD5v17M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 05:23:43 GMT"
+          "Value": "Thu, 10 Jul 2025 04:58:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8454,13 +10173,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1ifYXfyTulFqryCb/PRf4c7OQuPOelCnU+d0ClcsBQ0=\""
+          "Value": "W/\"xSSIVP34ow/1EHpRq80O28JvlV91xkbbcNsEHeI6wV0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1ifYXfyTulFqryCb/PRf4c7OQuPOelCnU+d0ClcsBQ0="
+          "Value": "sha256-xSSIVP34ow/1EHpRq80O28JvlV91xkbbcNsEHeI6wV0="
         }
       ]
     },
@@ -8475,7 +10194,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3037"
+          "Value": "3727"
         },
         {
           "Name": "Content-Type",
@@ -8483,11 +10202,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1ifYXfyTulFqryCb/PRf4c7OQuPOelCnU+d0ClcsBQ0=\""
+          "Value": "\"xSSIVP34ow/1EHpRq80O28JvlV91xkbbcNsEHeI6wV0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 05:23:43 GMT"
+          "Value": "Thu, 10 Jul 2025 04:58:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8497,13 +10216,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1ifYXfyTulFqryCb/PRf4c7OQuPOelCnU+d0ClcsBQ0="
+          "Value": "sha256-xSSIVP34ow/1EHpRq80O28JvlV91xkbbcNsEHeI6wV0="
         }
       ]
     },
     {
       "Route": "css/settings.css.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\mv31aimvep-qb77bzzy92.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\mv31aimvep-vr5wqv0r81.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8512,7 +10231,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "783"
+          "Value": "1103"
         },
         {
           "Name": "Content-Type",
@@ -8520,11 +10239,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BOXNzo46lX38ou8ESFQOdLX++jp5G7twnjHjY28y+/E=\""
+          "Value": "\"B8ZQ6fyDWwey4AfJTXyu67uF9C74+6QuN5hPXD5v17M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 05:23:43 GMT"
+          "Value": "Thu, 10 Jul 2025 04:58:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8542,18 +10261,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BOXNzo46lX38ou8ESFQOdLX++jp5G7twnjHjY28y+/E="
+          "Value": "sha256-B8ZQ6fyDWwey4AfJTXyu67uF9C74+6QuN5hPXD5v17M="
         }
       ]
     },
     {
-      "Route": "css/settings.qb77bzzy92.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\mv31aimvep-qb77bzzy92.gz",
+      "Route": "css/settings.vr5wqv0r81.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\mv31aimvep-vr5wqv0r81.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001275510204"
+          "Quality": "0.000905797101"
         }
       ],
       "ResponseHeaders": [
@@ -8563,15 +10282,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "783"
+          "Value": "1103"
         },
         {
           "Name": "ETag",
-          "Value": "\"BOXNzo46lX38ou8ESFQOdLX++jp5G7twnjHjY28y+/E=\""
+          "Value": "\"B8ZQ6fyDWwey4AfJTXyu67uF9C74+6QuN5hPXD5v17M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 05:23:43 GMT"
+          "Value": "Thu, 10 Jul 2025 04:58:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8591,13 +10310,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1ifYXfyTulFqryCb/PRf4c7OQuPOelCnU+d0ClcsBQ0=\""
+          "Value": "W/\"xSSIVP34ow/1EHpRq80O28JvlV91xkbbcNsEHeI6wV0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qb77bzzy92"
+          "Value": "vr5wqv0r81"
         },
         {
           "Name": "label",
@@ -8605,12 +10324,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1ifYXfyTulFqryCb/PRf4c7OQuPOelCnU+d0ClcsBQ0="
+          "Value": "sha256-xSSIVP34ow/1EHpRq80O28JvlV91xkbbcNsEHeI6wV0="
         }
       ]
     },
     {
-      "Route": "css/settings.qb77bzzy92.css",
+      "Route": "css/settings.vr5wqv0r81.css",
       "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\settings.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -8620,7 +10339,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3037"
+          "Value": "3727"
         },
         {
           "Name": "Content-Type",
@@ -8628,11 +10347,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1ifYXfyTulFqryCb/PRf4c7OQuPOelCnU+d0ClcsBQ0=\""
+          "Value": "\"xSSIVP34ow/1EHpRq80O28JvlV91xkbbcNsEHeI6wV0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 05:23:43 GMT"
+          "Value": "Thu, 10 Jul 2025 04:58:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8642,7 +10361,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qb77bzzy92"
+          "Value": "vr5wqv0r81"
         },
         {
           "Name": "label",
@@ -8650,13 +10369,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1ifYXfyTulFqryCb/PRf4c7OQuPOelCnU+d0ClcsBQ0="
+          "Value": "sha256-xSSIVP34ow/1EHpRq80O28JvlV91xkbbcNsEHeI6wV0="
         }
       ]
     },
     {
-      "Route": "css/settings.qb77bzzy92.css.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\mv31aimvep-qb77bzzy92.gz",
+      "Route": "css/settings.vr5wqv0r81.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\mv31aimvep-vr5wqv0r81.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8665,7 +10384,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "783"
+          "Value": "1103"
         },
         {
           "Name": "Content-Type",
@@ -8673,11 +10392,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BOXNzo46lX38ou8ESFQOdLX++jp5G7twnjHjY28y+/E=\""
+          "Value": "\"B8ZQ6fyDWwey4AfJTXyu67uF9C74+6QuN5hPXD5v17M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 05:23:43 GMT"
+          "Value": "Thu, 10 Jul 2025 04:58:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8695,7 +10414,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qb77bzzy92"
+          "Value": "vr5wqv0r81"
         },
         {
           "Name": "label",
@@ -8703,7 +10422,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BOXNzo46lX38ou8ESFQOdLX++jp5G7twnjHjY28y+/E="
+          "Value": "sha256-B8ZQ6fyDWwey4AfJTXyu67uF9C74+6QuN5hPXD5v17M="
         }
       ]
     },
@@ -9304,13 +11023,13 @@
       ]
     },
     {
-      "Route": "css/userlist.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\0cv30t2btp-lcm3ermzzz.gz",
+      "Route": "css/userlist.8th2917hpg.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\0cv30t2btp-8th2917hpg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001200480192"
+          "Quality": "0.002049180328"
         }
       ],
       "ResponseHeaders": [
@@ -9320,19 +11039,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "832"
+          "Value": "487"
         },
         {
           "Name": "ETag",
-          "Value": "\"aPxsNoA3+pOHmhl/puRpg1oc3vzIOh9C3eKy2JFNs+U=\""
+          "Value": "\"9/afKGy6KJIbBobszyK1TpMTLFhz6t5AfFylRvXPp7g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 05:45:19 GMT"
+          "Value": "Sat, 05 Jul 2025 04:42:00 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -9348,18 +11067,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"5c3VKvNuFSAMeDautBHCyH5xv9d1pMbjvQfmoUO3B0Q=\""
+          "Value": "W/\"rMMH8VXwRfUyWi41YztjHa1KMi3eZKy5nI5HweOg54Q=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "8th2917hpg"
+        },
+        {
+          "Name": "label",
+          "Value": "css/userlist.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-5c3VKvNuFSAMeDautBHCyH5xv9d1pMbjvQfmoUO3B0Q="
+          "Value": "sha256-rMMH8VXwRfUyWi41YztjHa1KMi3eZKy5nI5HweOg54Q="
         }
       ]
     },
     {
-      "Route": "css/userlist.css",
+      "Route": "css/userlist.8th2917hpg.css",
       "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\userlist.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -9369,7 +11096,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3152"
+          "Value": "1248"
         },
         {
           "Name": "Content-Type",
@@ -9377,121 +11104,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5c3VKvNuFSAMeDautBHCyH5xv9d1pMbjvQfmoUO3B0Q=\""
+          "Value": "\"rMMH8VXwRfUyWi41YztjHa1KMi3eZKy5nI5HweOg54Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 05:45:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-5c3VKvNuFSAMeDautBHCyH5xv9d1pMbjvQfmoUO3B0Q="
-        }
-      ]
-    },
-    {
-      "Route": "css/userlist.css.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\0cv30t2btp-lcm3ermzzz.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "832"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aPxsNoA3+pOHmhl/puRpg1oc3vzIOh9C3eKy2JFNs+U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 05:45:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-aPxsNoA3+pOHmhl/puRpg1oc3vzIOh9C3eKy2JFNs+U="
-        }
-      ]
-    },
-    {
-      "Route": "css/userlist.lcm3ermzzz.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\0cv30t2btp-lcm3ermzzz.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001200480192"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "832"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aPxsNoA3+pOHmhl/puRpg1oc3vzIOh9C3eKy2JFNs+U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 05:45:19 GMT"
+          "Value": "Sat, 05 Jul 2025 04:42:00 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"5c3VKvNuFSAMeDautBHCyH5xv9d1pMbjvQfmoUO3B0Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lcm3ermzzz"
+          "Value": "8th2917hpg"
         },
         {
           "Name": "label",
@@ -9499,13 +11126,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5c3VKvNuFSAMeDautBHCyH5xv9d1pMbjvQfmoUO3B0Q="
+          "Value": "sha256-rMMH8VXwRfUyWi41YztjHa1KMi3eZKy5nI5HweOg54Q="
         }
       ]
     },
     {
-      "Route": "css/userlist.lcm3ermzzz.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\userlist.css",
+      "Route": "css/userlist.8th2917hpg.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\0cv30t2btp-8th2917hpg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9514,7 +11141,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3152"
+          "Value": "487"
         },
         {
           "Name": "Content-Type",
@@ -9522,56 +11149,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5c3VKvNuFSAMeDautBHCyH5xv9d1pMbjvQfmoUO3B0Q=\""
+          "Value": "\"9/afKGy6KJIbBobszyK1TpMTLFhz6t5AfFylRvXPp7g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 05:45:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lcm3ermzzz"
-        },
-        {
-          "Name": "label",
-          "Value": "css/userlist.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-5c3VKvNuFSAMeDautBHCyH5xv9d1pMbjvQfmoUO3B0Q="
-        }
-      ]
-    },
-    {
-      "Route": "css/userlist.lcm3ermzzz.css.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\0cv30t2btp-lcm3ermzzz.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "832"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aPxsNoA3+pOHmhl/puRpg1oc3vzIOh9C3eKy2JFNs+U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 05:45:19 GMT"
+          "Value": "Sat, 05 Jul 2025 04:42:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9589,7 +11171,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lcm3ermzzz"
+          "Value": "8th2917hpg"
         },
         {
           "Name": "label",
@@ -9597,18 +11179,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aPxsNoA3+pOHmhl/puRpg1oc3vzIOh9C3eKy2JFNs+U="
+          "Value": "sha256-9/afKGy6KJIbBobszyK1TpMTLFhz6t5AfFylRvXPp7g="
         }
       ]
     },
     {
-      "Route": "DummyProject.bundle.scp.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ejfmn1a121-vbfs02i8hp.gz",
+      "Route": "css/userlist.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\0cv30t2btp-8th2917hpg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.011235955056"
+          "Quality": "0.002049180328"
         }
       ],
       "ResponseHeaders": [
@@ -9618,15 +11200,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "88"
+          "Value": "487"
         },
         {
           "Name": "ETag",
-          "Value": "\"huOn1eVxYZV37mzAoHqrthUm/s2V7R9NIkSMKIIZv6k=\""
+          "Value": "\"9/afKGy6KJIbBobszyK1TpMTLFhz6t5AfFylRvXPp7g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:44:50 GMT"
+          "Value": "Sat, 05 Jul 2025 04:42:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9646,19 +11228,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc=\""
+          "Value": "W/\"rMMH8VXwRfUyWi41YztjHa1KMi3eZKy5nI5HweOg54Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc="
+          "Value": "sha256-rMMH8VXwRfUyWi41YztjHa1KMi3eZKy5nI5HweOg54Q="
         }
       ]
     },
     {
-      "Route": "DummyProject.bundle.scp.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DummyProject.bundle.scp.css",
+      "Route": "css/userlist.css",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\userlist.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9667,7 +11249,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "68"
+          "Value": "1248"
         },
         {
           "Name": "Content-Type",
@@ -9675,11 +11257,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc=\""
+          "Value": "\"rMMH8VXwRfUyWi41YztjHa1KMi3eZKy5nI5HweOg54Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:44:50 GMT"
+          "Value": "Sat, 05 Jul 2025 04:42:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9689,13 +11271,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc="
+          "Value": "sha256-rMMH8VXwRfUyWi41YztjHa1KMi3eZKy5nI5HweOg54Q="
         }
       ]
     },
     {
-      "Route": "DummyProject.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ejfmn1a121-vbfs02i8hp.gz",
+      "Route": "css/userlist.css.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\0cv30t2btp-8th2917hpg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9704,7 +11286,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "88"
+          "Value": "487"
         },
         {
           "Name": "Content-Type",
@@ -9712,148 +11294,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"huOn1eVxYZV37mzAoHqrthUm/s2V7R9NIkSMKIIZv6k=\""
+          "Value": "\"9/afKGy6KJIbBobszyK1TpMTLFhz6t5AfFylRvXPp7g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:44:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-huOn1eVxYZV37mzAoHqrthUm/s2V7R9NIkSMKIIZv6k="
-        }
-      ]
-    },
-    {
-      "Route": "DummyProject.styles.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\62zdaefeq0-vbfs02i8hp.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.011235955056"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "88"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"huOn1eVxYZV37mzAoHqrthUm/s2V7R9NIkSMKIIZv6k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:44:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc="
-        }
-      ]
-    },
-    {
-      "Route": "DummyProject.styles.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\scopedcss\\bundle\\DummyProject.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "68"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:44:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc="
-        }
-      ]
-    },
-    {
-      "Route": "DummyProject.styles.css.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\62zdaefeq0-vbfs02i8hp.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "88"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"huOn1eVxYZV37mzAoHqrthUm/s2V7R9NIkSMKIIZv6k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:44:50 GMT"
+          "Value": "Sat, 05 Jul 2025 04:42:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9871,329 +11316,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-huOn1eVxYZV37mzAoHqrthUm/s2V7R9NIkSMKIIZv6k="
-        }
-      ]
-    },
-    {
-      "Route": "DummyProject.vbfs02i8hp.bundle.scp.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ejfmn1a121-vbfs02i8hp.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.011235955056"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "88"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"huOn1eVxYZV37mzAoHqrthUm/s2V7R9NIkSMKIIZv6k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:44:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vbfs02i8hp"
-        },
-        {
-          "Name": "label",
-          "Value": "DummyProject.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc="
-        }
-      ]
-    },
-    {
-      "Route": "DummyProject.vbfs02i8hp.bundle.scp.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DummyProject.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "68"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:44:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vbfs02i8hp"
-        },
-        {
-          "Name": "label",
-          "Value": "DummyProject.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc="
-        }
-      ]
-    },
-    {
-      "Route": "DummyProject.vbfs02i8hp.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\ejfmn1a121-vbfs02i8hp.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "88"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"huOn1eVxYZV37mzAoHqrthUm/s2V7R9NIkSMKIIZv6k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:44:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vbfs02i8hp"
-        },
-        {
-          "Name": "label",
-          "Value": "DummyProject.bundle.scp.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-huOn1eVxYZV37mzAoHqrthUm/s2V7R9NIkSMKIIZv6k="
-        }
-      ]
-    },
-    {
-      "Route": "DummyProject.vbfs02i8hp.styles.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\62zdaefeq0-vbfs02i8hp.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.011235955056"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "88"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"huOn1eVxYZV37mzAoHqrthUm/s2V7R9NIkSMKIIZv6k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:44:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vbfs02i8hp"
-        },
-        {
-          "Name": "label",
-          "Value": "DummyProject.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc="
-        }
-      ]
-    },
-    {
-      "Route": "DummyProject.vbfs02i8hp.styles.css",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\scopedcss\\bundle\\DummyProject.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "68"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:44:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vbfs02i8hp"
-        },
-        {
-          "Name": "label",
-          "Value": "DummyProject.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZVvQlgHadm/3AGz5uz44YsBGML7wqpIpW33uM+Ho9zc="
-        }
-      ]
-    },
-    {
-      "Route": "DummyProject.vbfs02i8hp.styles.css.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\62zdaefeq0-vbfs02i8hp.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "88"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"huOn1eVxYZV37mzAoHqrthUm/s2V7R9NIkSMKIIZv6k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:44:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vbfs02i8hp"
-        },
-        {
-          "Name": "label",
-          "Value": "DummyProject.styles.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-huOn1eVxYZV37mzAoHqrthUm/s2V7R9NIkSMKIIZv6k="
+          "Value": "sha256-9/afKGy6KJIbBobszyK1TpMTLFhz6t5AfFylRvXPp7g="
         }
       ]
     },
@@ -10906,13 +12029,13 @@
       ]
     },
     {
-      "Route": "js/site.j6c6e3ocpc.js",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\6eg2n6z9v2-j6c6e3ocpc.gz",
+      "Route": "js/site.aillw9muup.js",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\6eg2n6z9v2-aillw9muup.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001331557923"
+          "Quality": "0.001329787234"
         }
       ],
       "ResponseHeaders": [
@@ -10922,15 +12045,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "750"
+          "Value": "751"
         },
         {
           "Name": "ETag",
-          "Value": "\"fly2X4X76NHe/vDKzfkkUJ/aeh82zRVS3HgAOoBYtc8=\""
+          "Value": "\"XC7Yc0p8+7v0T7J5yf3oUyVzEdMghzPp6TrnLGC5IYA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 00:57:48 GMT"
+          "Value": "Thu, 03 Jul 2025 04:43:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10950,13 +12073,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1UL33szY0+f65T5bR9UDKXAiMCP7t2H+FArdu7ycvxA=\""
+          "Value": "W/\"3tsDKNJLm+qTwLXU/hRmvm0PdkCqcYc4YDN2go/s1FA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j6c6e3ocpc"
+          "Value": "aillw9muup"
         },
         {
           "Name": "label",
@@ -10964,12 +12087,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1UL33szY0+f65T5bR9UDKXAiMCP7t2H+FArdu7ycvxA="
+          "Value": "sha256-3tsDKNJLm+qTwLXU/hRmvm0PdkCqcYc4YDN2go/s1FA="
         }
       ]
     },
     {
-      "Route": "js/site.j6c6e3ocpc.js",
+      "Route": "js/site.aillw9muup.js",
       "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -10979,7 +12102,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1924"
+          "Value": "1932"
         },
         {
           "Name": "Content-Type",
@@ -10987,11 +12110,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1UL33szY0+f65T5bR9UDKXAiMCP7t2H+FArdu7ycvxA=\""
+          "Value": "\"3tsDKNJLm+qTwLXU/hRmvm0PdkCqcYc4YDN2go/s1FA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 00:57:48 GMT"
+          "Value": "Thu, 03 Jul 2025 04:43:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11001,7 +12124,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j6c6e3ocpc"
+          "Value": "aillw9muup"
         },
         {
           "Name": "label",
@@ -11009,13 +12132,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1UL33szY0+f65T5bR9UDKXAiMCP7t2H+FArdu7ycvxA="
+          "Value": "sha256-3tsDKNJLm+qTwLXU/hRmvm0PdkCqcYc4YDN2go/s1FA="
         }
       ]
     },
     {
-      "Route": "js/site.j6c6e3ocpc.js.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\6eg2n6z9v2-j6c6e3ocpc.gz",
+      "Route": "js/site.aillw9muup.js.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\6eg2n6z9v2-aillw9muup.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11024,7 +12147,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "750"
+          "Value": "751"
         },
         {
           "Name": "Content-Type",
@@ -11032,11 +12155,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fly2X4X76NHe/vDKzfkkUJ/aeh82zRVS3HgAOoBYtc8=\""
+          "Value": "\"XC7Yc0p8+7v0T7J5yf3oUyVzEdMghzPp6TrnLGC5IYA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 00:57:48 GMT"
+          "Value": "Thu, 03 Jul 2025 04:43:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11054,7 +12177,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j6c6e3ocpc"
+          "Value": "aillw9muup"
         },
         {
           "Name": "label",
@@ -11062,18 +12185,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fly2X4X76NHe/vDKzfkkUJ/aeh82zRVS3HgAOoBYtc8="
+          "Value": "sha256-XC7Yc0p8+7v0T7J5yf3oUyVzEdMghzPp6TrnLGC5IYA="
         }
       ]
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\6eg2n6z9v2-j6c6e3ocpc.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\6eg2n6z9v2-aillw9muup.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001331557923"
+          "Quality": "0.001329787234"
         }
       ],
       "ResponseHeaders": [
@@ -11083,15 +12206,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "750"
+          "Value": "751"
         },
         {
           "Name": "ETag",
-          "Value": "\"fly2X4X76NHe/vDKzfkkUJ/aeh82zRVS3HgAOoBYtc8=\""
+          "Value": "\"XC7Yc0p8+7v0T7J5yf3oUyVzEdMghzPp6TrnLGC5IYA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 00:57:48 GMT"
+          "Value": "Thu, 03 Jul 2025 04:43:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11111,13 +12234,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1UL33szY0+f65T5bR9UDKXAiMCP7t2H+FArdu7ycvxA=\""
+          "Value": "W/\"3tsDKNJLm+qTwLXU/hRmvm0PdkCqcYc4YDN2go/s1FA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1UL33szY0+f65T5bR9UDKXAiMCP7t2H+FArdu7ycvxA="
+          "Value": "sha256-3tsDKNJLm+qTwLXU/hRmvm0PdkCqcYc4YDN2go/s1FA="
         }
       ]
     },
@@ -11132,7 +12255,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1924"
+          "Value": "1932"
         },
         {
           "Name": "Content-Type",
@@ -11140,11 +12263,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1UL33szY0+f65T5bR9UDKXAiMCP7t2H+FArdu7ycvxA=\""
+          "Value": "\"3tsDKNJLm+qTwLXU/hRmvm0PdkCqcYc4YDN2go/s1FA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 00:57:48 GMT"
+          "Value": "Thu, 03 Jul 2025 04:43:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11154,13 +12277,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1UL33szY0+f65T5bR9UDKXAiMCP7t2H+FArdu7ycvxA="
+          "Value": "sha256-3tsDKNJLm+qTwLXU/hRmvm0PdkCqcYc4YDN2go/s1FA="
         }
       ]
     },
     {
       "Route": "js/site.js.gz",
-      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\6eg2n6z9v2-j6c6e3ocpc.gz",
+      "AssetFile": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\compressed\\6eg2n6z9v2-aillw9muup.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11169,7 +12292,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "750"
+          "Value": "751"
         },
         {
           "Name": "Content-Type",
@@ -11177,11 +12300,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fly2X4X76NHe/vDKzfkkUJ/aeh82zRVS3HgAOoBYtc8=\""
+          "Value": "\"XC7Yc0p8+7v0T7J5yf3oUyVzEdMghzPp6TrnLGC5IYA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 00:57:48 GMT"
+          "Value": "Thu, 03 Jul 2025 04:43:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11199,7 +12322,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fly2X4X76NHe/vDKzfkkUJ/aeh82zRVS3HgAOoBYtc8="
+          "Value": "sha256-XC7Yc0p8+7v0T7J5yf3oUyVzEdMghzPp6TrnLGC5IYA="
         }
       ]
     },

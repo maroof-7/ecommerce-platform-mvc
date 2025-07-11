@@ -29,54 +29,10 @@ body {
     line-height: 1.6;
 }
 
-/* Customer Greeting Section */
-.Customer-greeting {
-    background-color: var(--bg-secondary);
-    padding: 3rem;
-    border-radius: 12px;
-    margin: 2rem auto;
-    max-width: 1200px;
-    box-shadow: 0 4px 20px var(--glow);
-    border: 1px solid var(--border);
-}
-
-.Customer-greeting h1 {
-    color: var(--primary);
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
-
-.Customer-greeting p {
-    color: var(--text-secondary);
-    font-size: 1.1rem;
-    margin-bottom: 1.5rem;
-}
-
-.Customer-greeting ul {
-    list-style-type: none;
-    padding-left: 1.5rem;
-    margin-bottom: 2rem;
-}
-
-.Customer-greeting ul li {
-    position: relative;
-    padding-left: 2rem;
-    margin-bottom: 0.8rem;
-    color: var(--text);
-}
-
-.Customer-greeting ul li::before {
-    content: "•";
-    color: var(--primary);
-    font-size: 1.5rem;
-    position: absolute;
-    left: 0;
-    top: -0.3rem;
-}
 
 /* Container and Navigation */
 .container {
-    background-color: var(--bg-secondary);
+    background-color: var(--bg);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 20px var(--glow);

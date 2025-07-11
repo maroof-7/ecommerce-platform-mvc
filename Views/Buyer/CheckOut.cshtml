@@ -1,15 +1,19 @@
-﻿@model DummyProject.Models.ViewModel.HybridViewModel
-
+﻿@model DummyProject.ViewModels.CheckoutViewModel
 
 @{
     ViewData["Title"] = "Checkout";
+    var addressCount = Model?.ShippingAddresses?.Count ?? 0;
 }
 
-
-<!-- External Styles -->
 <link rel="stylesheet" href="~/css/checkout.css" asp-append-version="true" />
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+@if (Model == null)
+{
+    <div class="alert alert-danger">An error occurred. Please try again.</div>
+    return;
+}
 
 <main class="checkout-container">
     <div class="checkout-header text-center">
@@ -19,60 +23,270 @@
 </main>
 
 <div class="container checkout-content">
-    <form method="post" asp-action="ProcessOrder">
-        <div class="row">
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+
+
+
+    <form method="post"   asp-controller="Buyer" asp-action="CompletePurchase" >
+        <div class="row align-items-start">
             <!-- Billing Details -->
-            <div class="col-md-6">
-                <h3><i class="fas fa-user"></i> Billing Details</h3>
+            <div class="col-md-6 d-flex flex-column justify-content-between" style="min-height: 100%;">
+                <div id="address-list">
+                    <h3><i class="fas fa-user"></i> Billing Details</h3>
+                    <div class="address-limit-info">
+                        <hr />
+                        <span>You can only add up to 3 addresses.</span>
+                    </div>
+                    @if (Model.ShippingAddresses != null && Model.ShippingAddresses.Any())
+                    {
+                        foreach (var address in Model.ShippingAddresses)
+                        {
+                            <div class="card mb-3 address-card" id="address-@address.AddressId">
+                                <div class="card-body d-flex align-items-start">
 
-                <div class="form-group mb-3">
-                    <label for="name">Full Name</label>
-                    <input type="text" class="form-control" id="name" name="FullName" asp-for="User.FullName" required>
-                </div>
+                                    <input type="radio" name="addressId" value="@address.AddressId" class="form-check-input address-radio" @(Model.SelectedAddressId == address.AddressId ? "checked" : "") />
+                                   
+                                   
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5 class="card-title">@address.FullName</h5>
+                                        <p class="card-text">
+                                            <strong>Email:</strong> @address.EmailAddress<br />
+                                            <strong>Phone:</strong> @address.Phone<br />
+                                            <strong>Address:</strong> @address.Landmark, @address.City, @address.State, @address.Zipcode, @address.Country
+                                        </p>
+                                    </div>
+                                    <div class="address-actions ms-2">
+                                        <button type="button" class="btn btn-outline-primary btn-sm me-1" data-bs-toggle="modal" data-bs-target="#editAddressModal-@address.AddressId">
+                                            <i class="fas fa-edit"></i> Edit
+                                        </button>
+                                        @if (Model.ShippingAddresses.Count > 1)
+                                        {
+                                            <a asp-controller="Buyer" asp-action="RemoveAddress" asp-route-addressId="@address.AddressId" asp-route-CartId="@Model.CartId" class="btn btn-outline-danger btn-sm"  style="display:inline;">
+                                              Remove
+                                            </a>
 
-                <div class="form-group mb-3">
-                    <label for="email">Email Address</label>
-                    <input type="email" class="form-control" id="email" name="Email" asp-for="User.Email" required>
-                </div>
+                                            @* when clicked on this button dialog box should open  *@
+                                              @* <button type="submit" class="btn btn-outline-danger btn-sm" >
+                                                    <i class="fas fa-trash"></i> Remove
+                                                </button> *@
+                                        }
+                                    </div>
+                                </div>
+                            </div>
 
-                <div class="form-group mb-3">
-                    <label for="address">Shipping Address</label>
-                    <textarea class="form-control" id="address" name="Address" asp-for="User.Address" rows="3"
-                        required></textarea>
+                            <!-- Edit Address Modal -->
+                            <div class="modal fade" id="editAddressModal-@address.AddressId" tabindex="-1" aria-labelledby="editAddressModalLabel-@address.AddressId" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content bg-dark text-light">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="editAddressModalLabel-@address.AddressId">Edit Address</h5>
+                                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <form asp-action="EditAddress" asp-route-addressId="@address.AddressId" asp-route-CartId="@Model.CartId" method="post">
+                                            <div class="modal-body">
+                                                <input type="hidden" name="AddressId" value="@address.AddressId" />
+                                                <div class="mb-3">
+                                                    <label class="form-label">Full Name</label>
+                                                    <input type="text" class="form-control" name="FullName" value="@address.FullName" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label">Email Address</label>
+                                                    <input type="email" class="form-control" name="EmailAddress" value="@address.EmailAddress" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label">Phone Number</label>
+                                                    <input type="tel" class="form-control" name="Phone" value="@address.Phone" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label">LandMark</label>
+                                                    <textarea class="form-control" name="Landmark" rows="3" required>@address.Landmark</textarea>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label">City</label>
+                                                    <input type="text" class="form-control" name="City" value="@address.City" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label">State</label>
+                                                    <input type="text" class="form-control" name="State" value="@address.State" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label">ZIP Code</label>
+                                                    <input type="text" class="form-control" name="Zipcode" value="@address.Zipcode" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label">Country</label>
+                                                    <input type="text" class="form-control" name="Country" value="@address.Country" required>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                                <button type="submit" class="btn btn-success">Save Changes</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                    <!-- Add Address Button (opens modal) -->
+                    <div class="form-group mb-3">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#addAddressModal" @(addressCount >= 3 ? "disabled" : "")>
+                            <i class="fas fa-plus"></i> Add Address
+                        </button>
+                    </div>
+
+
                 </div>
             </div>
 
             <!-- Order Summary -->
-            <div class="col-md-6">
-                <h3><i class="fas fa-shopping-cart"></i> Order Summary</h3>
-                <ul class="order-items list-unstyled">
-                    @if (Model?.CartProducts != null && Model.CartProducts.Any())
-                    {
-                            @foreach (var cartProduct in Model.CartProducts)
+            <div class="col-md-6 d-flex flex-column justify-content-between" style="min-height: 100%;">
+                <div>
+                    <h3><i class="fas fa-shopping-cart"></i> Order Summary</h3>
+                    <ul class="order-items list-unstyled">
+                        @if (Model?.CartItems != null && Model.CartItems.Any())
+                        {
+                            foreach (var item in Model.CartItems)
                             {
-                                    <li class="d-flex justify-content-between">
-                                        <span>@cartProduct?.Product?.ProductTitle</span>
-                                        <span>$@(cartProduct?.Product?.Price * cartProduct?.Quantity ?? 0)</span>
-                                    </li>
+                                <li class="d-flex align-items-center justify-content-between">
+                                    <img src="@item.ImageUrl" alt="@item.ProductName" class="checkout-product-img" />
+                                    <span>@item.ProductName <strong>(@item.Quantity)</strong></span>
+                                    <span>$@item.LineTotal</span>
+                                </li>
                             }
-                    }
-                    else
-                    {
-                            <li class="text-muted">Your cart is empty.</li>
-                    }
-                </ul>
+                        }
+                        else
+                        {
+                            <li class="text-danger">Your cart is empty. You cannot complete checkout.</li>
+                        }
+                    </ul>
 
-                <hr>
+                    <hr>
 
-                <div class="totals-row grand-total d-flex justify-content-between">
-                    <span><strong>Total</strong></span>
-                    <strong>$@(Model?.Cart?.CartValue ?? 0)</strong>
+                    <div class="totals-row grand-total d-flex justify-content-between">
+                        <span><strong>Total</strong></span>
+                        <strong>$@(Model?.TotalAmount ?? 0)</strong>
+                    </div>
+
+                    <!-- Payment Type Options -->
+                    <div class="form-group mb-4 mt-4 payment-type-group">
+                        <label class="mb-2" style="color:var(--text-secondary);font-weight:600;">Select Payment
+                            Type</label>
+                        <div class="d-flex flex-wrap gap-3">
+                            <div class="form-check payment-option">
+                                <input class="form-check-input" type="radio" asp-for="PaymentMethod" value="RazorPay" required>
+                                <label class="form-check-label">UPI</label>
+                            </div>
+                            <div class="form-check payment-option">
+                                <input class="form-check-input" type="radio" asp-for="PaymentMethod" value="RazorPay">
+                                <label class="form-check-label">Credit Card</label>
+                            </div>
+                            <div class="form-check payment-option">RazorPay
+                                <input class="form-check-input" type="radio" asp-for="PaymentMethod" value="RazorPay">
+                                <label class="form-check-label">Debit Card</label>
+                            </div>
+                            <div class="form-check payment-option">
+                                <input class="form-check-input" type="radio" asp-for="PaymentMethod" value="CashOnDelivery">
+                                <label class="form-check-label">Cash on Delivery</label>
+                            </div>
+                        </div>
+                        <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+                    </div>
+                    <!-- End Payment Type Options -->
+
                 </div>
-
-                <button type="submit" class="btn btn-success btn-lg w-100 mt-3" aria-label="Complete Purchase">
+                <button type="submit" class="btn btn-success btn-lg w-100 mt-3" >
                     <i class="fas fa-credit-card"></i> Complete Purchase
                 </button>
             </div>
         </div>
     </form>
 </div>
+
+
+
+
+
+<!-- Bootstrap Modal for Add Address -->
+<div class="modal fade" id="addAddressModal" tabindex="-1" aria-labelledby="addAddressModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content bg-dark text-light">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addAddressModalLabel">Add New Address</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+            </div>
+            <form asp-controller="Buyer" asp-action="AddAddress" asp-route-CartId="@Model.CartId" method="post">
+                <div class="modal-body">
+                    <input type="hidden" name="CartId" value="@Model.CartId" />
+                    <div class="mb-3">
+                        <label for="modalFullName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="modalFullName" name="FullName" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="modalEmail" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="modalEmail" name="EmailAddress" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="modalPhoneNumber" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="modalPhoneNumber" name="Phone" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="modalAddressLine" class="form-label">LandMark</label>
+                        <textarea class="form-control" id="modalAddressLine" name="Landmark" rows="3"
+                            required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="modalCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="modalCity" name="City" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="modalState" class="form-label">State</label>
+                        <input type="text" class="form-control" id="modalState" name="State" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="modalZipCode" class="form-label">ZIP Code</label>
+                        <input type="text" class="form-control" id="modalZipCode" name="Zipcode" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="modalCountry" class="form-label">Country</label>
+                        <input type="text" class="form-control" id="modalCountry" name="Country" required>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-success">Save Address</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).on('submit', '.remove-address-form', function (e) {
+    e.preventDefault();
+    var $form = $(this);
+    $.ajax({
+        url: $form.attr('action'),
+        type: 'POST',
+        data: $form.serialize(),
+        success: function () {
+            $form.closest('.address-card').fadeOut(300, function() { $(this).remove(); });
+        },
+        error: function () {
+            alert('Failed to remove address. Please try again.');
+        }
+    });
+});
+</script>
+}

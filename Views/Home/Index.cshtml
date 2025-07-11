@@ -53,8 +53,7 @@
                     <a asp-controller="product" asp-action="Details" asp-route-id="@product.ProductId" class="product-card">
                         <img src="@product.ProductPicURl" alt="@product.ProductTitle">
                         <h3 class="product-title">@product.ProductTitle</h3>
-                        @* <p>@product.Description</p> *@
-                        <p class="price">@product.Price.ToString("C")</p>
+                        <p class="price">@product.Price.ToString("C", new System.Globalization.CultureInfo("en-IN"))</p>
                         <i class="fa-solid fa-arrow-right"></i>
                         @* <button class="btn">Add to Cart</button> *@
                     </a>
@@ -78,7 +77,7 @@
                     <a asp-controller="product" asp-action="Details" asp-route-id="@product.ProductId" class="product-card">
                         <img src="@product.ProductPicURl" alt="@product.ProductTitle">
                         <h3 class="product-title">@product.ProductTitle</h3>
-                        <p class="price">@product.Price.ToString("C")</p>
+                        <p class="price">@product.Price.ToString("C", new System.Globalization.CultureInfo("en-IN"))</p>
                         <i class="fa-solid fa-arrow-right"></i>
                         @* <button class="btn">Add to Cart</button> *@
                     </a>

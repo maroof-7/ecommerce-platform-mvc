@@ -2,7 +2,8 @@
   ViewData["Title"] = "Cart";
 }
 
-@model DummyProject.Models.ViewModel.HybridViewModel;
+@model DummyProject.Models.ViewModel.HybridViewModel
+
 <link rel="stylesheet" href="~/css/cart.css" asp-append-version="true" />
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -25,7 +26,7 @@
 
 <div class="container">
   <div class="row mb-5">
-    <form class="col-md-12" method="post">
+    <div class="col-md-12">
       <div class="cart-table-container">
         @if (Model?.CartProducts != null && Model.CartProducts.Any())
         {
@@ -54,16 +55,27 @@
                   <td class="product-price">$ @cartProduct?.Product?.Price</td>
                   <td>
                     <div class="quantity-container">
-                      <button class="btn btn-outline-primary decrease" type="button"><i class="fas fa-minus"></i></button>
-                      <input type="text" class="quantity-amount" value="@cartProduct?.Quantity">
-                      <button class="btn btn-outline-primary increase" type="button"><i class="fas fa-plus"></i></button>
+                      <form method="post" asp-controller="Buyer" asp-action="DecreaseQuantity" class="d-inline">
+                        <input type="hidden" name="cartProductId" value="@cartProduct.CartProductId" />
+                        <button class="btn btn-outline-primary" type="submit"><i class="fas fa-minus"></i></button>
+                      </form>
+
+                      <input type="text" class="quantity-amount" value="@cartProduct.Quantity" readonly />
+
+                      <form method="post" asp-controller="Buyer" asp-action="IncreaseQuantity" class="d-inline">
+                        <input type="hidden" name="cartProductId" value="@cartProduct.CartProductId" />
+                        <button class="btn btn-outline-primary" type="submit"><i class="fas fa-plus"></i></button>
+                      </form>
                     </div>
                   </td>
                   <td class="product-total">$ @(cartProduct?.Quantity * cartProduct?.Product?.Price)</td>
                   <td class="product-actions">
-                    <button class="btn btn-danger btn-sm remove-btn">
-                      <i class="fas fa-trash-alt"></i> Remove
-                    </button>
+                    <form method="post" asp-controller="Buyer" asp-action="RemoveFromCart">
+                      <input type="hidden" name="cartProductId" value="@cartProduct.CartProductId" />
+                      <button class="btn btn-danger btn-sm" type="submit">
+                        <i class="fas fa-trash-alt"></i> Remove
+                      </button>
+                    </form>
                   </td>
                 </tr>
               }
@@ -75,13 +87,13 @@
           <div class="empty-cart">
             <i class="fas fa-shopping-cart fa-3x"></i>
             <p>@(ViewBag.cartEmpty ?? "Your cart is empty.")</p>
-            <a class="btn btn-primary" asp-controller="Home" asp-action="Index">
+            <a class="btn btn-primary" asp-controller="Home" asp-action="shop">
               <i class="fas fa-arrow-left"></i> Continue Shopping
             </a>
           </div>
         }
       </div>
-    </form>
+    </div>
   </div>
 
   <div class="row cart-footer">

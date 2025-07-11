@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DummyProject.bundle.scp.css",
-      "PackagePath": "staticwebassets\\DummyProject.vbfs02i8hp.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\20221004_010654_767_j2a9nz.jpg",
       "PackagePath": "staticwebassets\\20221004_010654_767_j2a9nz.jpg"
     },
@@ -25,6 +21,10 @@
       "PackagePath": "staticwebassets\\bg.jpg"
     },
     {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\.gitignore",
+      "PackagePath": "staticwebassets\\css\\.gitignore"
+    },
+    {
       "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\DeletedProducts.css",
       "PackagePath": "staticwebassets\\css\\DeletedProducts.css"
     },
@@ -41,8 +41,8 @@
       "PackagePath": "staticwebassets\\css\\MyArchive.css"
     },
     {
-      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Myproducts.css",
-      "PackagePath": "staticwebassets\\css\\Myproducts.css"
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Myorders.css",
+      "PackagePath": "staticwebassets\\css\\Myorders.css"
     },
     {
       "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\Register.css",
@@ -55,6 +55,10 @@
     {
       "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\cart.css",
       "PackagePath": "staticwebassets\\css\\cart.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\checkout.css",
+      "PackagePath": "staticwebassets\\css\\checkout.css"
     },
     {
       "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\createproduct.css",
@@ -81,8 +85,24 @@
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\orderlist.css",
+      "PackagePath": "staticwebassets\\css\\orderlist.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\ordersuccess.css",
+      "PackagePath": "staticwebassets\\css\\ordersuccess.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\payment.css",
+      "PackagePath": "staticwebassets\\css\\payment.css"
+    },
+    {
       "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\privacy.css",
       "PackagePath": "staticwebassets\\css\\privacy.css"
+    },
+    {
+      "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\productlist.css",
+      "PackagePath": "staticwebassets\\css\\productlist.css"
     },
     {
       "Id": "C:\\Users\\ms177\\OneDrive\\Desktop\\dotnet 2025\\DummyProject\\wwwroot\\css\\settings.css",

@@ -16,6 +16,7 @@ builder.Services.AddDbContext<SqlDbContext>(options =>
 builder.Services.AddSingleton<ITokenService, TokenService>();
 builder.Services.AddSingleton<IMailService, EmailService>();
 builder.Services.AddScoped<ICloudinaryService, CloudinaryService>();
+// builder.Services.AddScoped<IRazorpayService, RazorpayService>();
 
 // Add session support (if needed)
 builder.Services.AddSession(options =>

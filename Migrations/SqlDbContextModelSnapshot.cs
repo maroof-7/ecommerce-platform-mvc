@@ -22,23 +22,6 @@ namespace DummyProject.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Buyer", b =>
-                {
-                    b.Property<Guid>("BuyerId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Email")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("BuyerId");
-
-                    b.ToTable("Buyers");
-                });
-
             modelBuilder.Entity("DummyProject.Models.DomainModel.Address", b =>
                 {
                     b.Property<Guid>("AddressId")
@@ -48,10 +31,25 @@ namespace DummyProject.Migrations
                     b.Property<Guid>("BuyerId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Country")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("District")
+                    b.Property<DateTime?>("DateModified")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("EmailAddress")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FullName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -63,19 +61,11 @@ namespace DummyProject.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Pincode")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("State")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Street1")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Street2")
+                    b.Property<string>("Zipcode")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -112,14 +102,23 @@ namespace DummyProject.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid>("AddressId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<Guid>("BuyerId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime2");
 
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
 
                     b.Property<decimal>("OrderTotal")
                         .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("PaymentMethod")
+                        .HasColumnType("int");
 
                     b.Property<string>("Status")
                         .IsRequired()
@@ -128,14 +127,11 @@ namespace DummyProject.Migrations
                     b.Property<decimal>("TotalAmount")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<Guid?>("UserId")
-                        .HasColumnType("uniqueidentifier");
-
                     b.HasKey("OrderId");
 
-                    b.HasIndex("BuyerId");
+                    b.HasIndex("AddressId");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("BuyerId");
 
                     b.ToTable("Orders");
                 });
@@ -193,6 +189,9 @@ namespace DummyProject.Migrations
 
                     b.Property<Guid>("SellerId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("StockQuantity")
+                        .HasColumnType("int");
 
                     b.Property<string>("SubCategory")
                         .IsRequired()
@@ -325,15 +324,19 @@ namespace DummyProject.Migrations
 
             modelBuilder.Entity("DummyProject.Models.DomainModel.Order", b =>
                 {
-                    b.HasOne("Buyer", "Buyer")
+                    b.HasOne("DummyProject.Models.DomainModel.Address", "Address")
+                        .WithMany()
+                        .HasForeignKey("AddressId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DummyProject.Models.DomainModel.User", "Buyer")
                         .WithMany("Orders")
                         .HasForeignKey("BuyerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DummyProject.Models.DomainModel.User", null)
-                        .WithMany("Orders")
-                        .HasForeignKey("UserId");
+                    b.Navigation("Address");
 
                     b.Navigation("Buyer");
                 });
@@ -385,11 +388,6 @@ namespace DummyProject.Migrations
                     b.Navigation("Order");
 
                     b.Navigation("Product");
-                });
-
-            modelBuilder.Entity("Buyer", b =>
-                {
-                    b.Navigation("Orders");
                 });
 
             modelBuilder.Entity("DummyProject.Models.DomainModel.Cart", b =>
